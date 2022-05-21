@@ -12,9 +12,14 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] float m_fuerzaRodar = 6.0f;
     [SerializeField] private float tiempoEntreAtaques;
     [SerializeField] private float tiempoRodar = 3f;
+    [SerializeField] private float tiempoEscudoActivado = 5f;
+    [SerializeField] private float tiempoEscudoEnfriamiento = 15f;
+
 
     [SerializeField] private float tiempoSiguienteAtaque;
-    [SerializeField] private float tiempoRodarAux;
+    [SerializeField] private float tiempoRodarAux; 
+    [SerializeField] private float tiempoEscudoActivadoAux;
+    [SerializeField] private float tiempoEscudoEnfriamientoAux;
 
     public Transform comprobadorSuelo;
     public GameObject escudo;
@@ -31,6 +36,7 @@ public class MovimientoPersonaje : MonoBehaviour
     private bool e_espada = false;
     private bool e_aire = false;
     public bool e_cayendo = false;
+    private bool e_escudo = false;
     private bool e_suelo = true;
     private bool m_atacando = false;
     private float m_direccionMirando = 1;
@@ -76,9 +82,11 @@ public class MovimientoPersonaje : MonoBehaviour
             {
                 Ataque();
             }
-            if (Input.GetButtonDown("Fire2") && (e_suelo))
+            if (Input.GetButtonDown("Fire2") && (e_suelo) && tiempoEscudoEnfriamientoAux <= 0 && tiempoEscudoActivadoAux <=0)
             {
-                escudo.SetActive(true);
+                escudo.SetActive(true);           
+                tiempoEscudoActivadoAux = tiempoEscudoActivado;
+                e_escudo = true;
             }
             if (Input.GetKeyDown("q"))
             {
@@ -97,7 +105,16 @@ public class MovimientoPersonaje : MonoBehaviour
             {
                 aux_caida = false;
             }
-
+            if (e_escudo)
+            {
+                if(tiempoEscudoActivadoAux <= 0)
+                {
+                    escudo.GetComponent<Animator>().SetTrigger("Desactivar");
+                    tiempoEscudoEnfriamientoAux = tiempoEscudoEnfriamiento;
+                    e_escudo = false;
+                    Invoke("DesactivarEscudo", 3f);
+                }
+            }
             if (tiempoSiguienteAtaque > 0)
             {
                 tiempoSiguienteAtaque -= Time.deltaTime;
@@ -105,6 +122,14 @@ public class MovimientoPersonaje : MonoBehaviour
             if (tiempoRodarAux > 0)
             {
                 tiempoRodarAux -= Time.deltaTime;
+            }
+            if(tiempoEscudoActivadoAux> 0)
+            {
+                tiempoEscudoActivadoAux -= Time.deltaTime;
+            }
+            if(tiempoEscudoEnfriamientoAux > 0)
+            {
+                tiempoEscudoEnfriamientoAux -= Time.deltaTime;
             }
 
         }
@@ -223,5 +248,10 @@ public class MovimientoPersonaje : MonoBehaviour
         m_animator.SetTrigger("Rodar");
         tiempoRodarAux = tiempoRodar;
         m_body2d.velocity = new Vector2(m_direccionMirando * m_fuerzaRodar, m_body2d.velocity.y);
+    }
+
+    public void DesactivarEscudo()
+    {
+        escudo.SetActive(false);
     }
 }

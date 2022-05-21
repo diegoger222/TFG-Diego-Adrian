@@ -3113,7 +3113,13 @@ MonoBehaviour:
   m_fuerzaSalto: 7.5
   m_fuerzaRodar: 6
   tiempoEntreAtaques: 2
+  tiempoRodar: 3
+  tiempoEscudoActivado: 3
+  tiempoEscudoEnfriamiento: 10
   tiempoSiguienteAtaque: 2
+  tiempoRodarAux: 0
+  tiempoEscudoActivadoAux: 0
+  tiempoEscudoEnfriamientoAux: 0
   comprobadorSuelo: {fileID: 1488374963}
   escudo: {fileID: 426008473}
   mascaraSuelo:
