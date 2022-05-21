@@ -76,7 +76,7 @@ public class MovimientoPersonaje : MonoBehaviour
             {
                 Ataque();
             }
-            if (Input.GetButtonDown("Fire3") && (!e_suelo))
+            if (Input.GetButtonDown("Fire2") && (e_suelo))
             {
                 escudo.SetActive(true);
             }
