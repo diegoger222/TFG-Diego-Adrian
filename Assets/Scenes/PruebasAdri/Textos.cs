@@ -5,6 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class Textos
 {
-    [TextArea(1, 5)]
+    [TextArea(1, 10)]
     public string[] arrayTextos;
 }
