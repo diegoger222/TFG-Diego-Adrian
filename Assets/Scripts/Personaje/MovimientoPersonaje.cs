@@ -28,6 +28,7 @@ public class MovimientoPersonaje : MonoBehaviour
     private Animator escudo_animator;
     private Rigidbody2D m_body2d;
     private BoxCollider2D m_collider;
+    private bool e_dialogo = false;
 
     public LayerMask mascaraSuelo;
 
@@ -60,7 +61,7 @@ public class MovimientoPersonaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (e_vivo)
+        if (e_vivo && !e_dialogo)
         {
             inputX = Input.GetAxis("Horizontal");
           
@@ -253,5 +254,10 @@ public class MovimientoPersonaje : MonoBehaviour
     public void DesactivarEscudo()
     {
         escudo.SetActive(false);
+    }
+
+    public void EstadoDialogo(bool a)
+    {
+        e_dialogo = a;
     }
 }
