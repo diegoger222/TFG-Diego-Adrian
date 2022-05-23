@@ -19,6 +19,7 @@ public class InicioJugador : MonoBehaviour
             if (puntosAsociados[i] == salidaJugadorAnterior)
             {
                 Instantiate(ControladorPersonaje.Instance.gameObject, puntosAparicion[i].transform.position, Quaternion.identity);
+                ControladorPersonaje.Instance.gameObject.transform.position = puntosAparicion[i].transform.position;
             }
         }
        
