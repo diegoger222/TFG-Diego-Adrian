@@ -10,18 +10,22 @@ public class ControlDialogos : MonoBehaviour
     private Queue<string> colaDialogos;
     private Sprite prota;
     private Sprite personajeInteractuable;
-    private bool animacion;
+    private bool animacion = true;
     Textos dialogo;
     [SerializeField] Image imagenCara;
     [SerializeField] TextMeshProUGUI textoPantalla;
+    private GameObject personaje;
 
     public void Start()
     {
+        textoPantalla.text = "";
         anim = this.GetComponent<Animator>();
         colaDialogos = new Queue<string>();
+        personaje = GameObject.FindGameObjectWithTag("Player");
     }
     public void ActivarDialogo (Textos dialogo, Sprite imagenCara, Sprite prota)
     {
+        textoPantalla.text = "";
         this.imagenCara.sprite = imagenCara;
         this.personajeInteractuable = imagenCara;
         this.prota = prota;
@@ -32,8 +36,9 @@ public class ControlDialogos : MonoBehaviour
 
     public void ActivaFrase()
     {
-        animacion = false;
         colaDialogos.Clear();
+        textoPantalla.text = "";
+        animacion = false;
         foreach (string frase in dialogo.arrayTextos)
         {
             colaDialogos.Enqueue(frase);
@@ -44,6 +49,8 @@ public class ControlDialogos : MonoBehaviour
 
     public void SiguienteFrase()
     {
+        StopAllCoroutines();
+        textoPantalla.text = "";
         if (colaDialogos.Count == 0)
         {
             CerrarDialogo();
@@ -62,7 +69,9 @@ public class ControlDialogos : MonoBehaviour
     }
     public void CerrarDialogo()
     {
+        textoPantalla.text = "";
         anim.SetBool("Dialogo", false);
+        personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
     }
 
     IEnumerator MostrarCaracteres (string fraseAmostrar)
@@ -80,8 +89,6 @@ public class ControlDialogos : MonoBehaviour
         {
             if (Input.GetKeyDown("r"))
             {
-                StopAllCoroutines();
-                textoPantalla.text = "";
                 SiguienteFrase();
             }
         }
