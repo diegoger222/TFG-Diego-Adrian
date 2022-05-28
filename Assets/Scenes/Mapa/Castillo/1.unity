@@ -225,7 +225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953391967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 734185362}
@@ -2061,6 +2061,36 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &979844752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979844753}
+  m_Layer: 0
+  m_Name: EntradaPrincipal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979844753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979844752}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.02, y: -4.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1656214862}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1163252629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,8 +2445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbdb4ccfc319eb049ad540ef97cbbe23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaIR: Saco
-  nombreSalida: PN
+  escenaIR: 2
+  nombreSalida: 1e
 --- !u!1 &1656214861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,6 +2476,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 781928600}
+  - {fileID: 979844753}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2464,7 +2495,9 @@ MonoBehaviour:
   salidaJugadorAnterior: 
   puntosAparicion:
   - {fileID: 781928599}
+  - {fileID: 979844752}
   puntosAsociados:
+  - 2w1
   - 1a
 --- !u!1001 &1816078174
 PrefabInstance:

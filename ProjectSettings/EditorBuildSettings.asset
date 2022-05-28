@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa/Castillo/1.unity
     guid: 89f743b67e2d04b4394202fcb3999912
   - enabled: 1
+    path: Assets/Scenes/Mapa/Castillo/2.unity
+    guid: 372eeb29e88a1134ea4a42913688641a
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castillo/3.unity
+    guid: f1c19165b47af484f91c78c4526e77f7
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castillo/4.unity
+    guid: a74dbb29c57db794e9ded03176ee4965
+  - enabled: 1
+    path: Assets/Scenes/Mapa/Castillo/5.unity
+    guid: 48a881b72e26a5e4a88a33501a76ae53
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
