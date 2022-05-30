@@ -43,10 +43,12 @@ public class DanyoIU : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Arma"))
+        if (collision.gameObject.tag == "Arma")
         {
             MostrarDanyo(20);
         }
     }
-    
+
+
+
 }
