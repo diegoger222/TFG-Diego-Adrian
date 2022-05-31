@@ -23,6 +23,7 @@ public class PersonajeInteractuable : MonoBehaviour
         if (interactuar && Input.GetKeyDown("r"))
         {
             personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(true);
+            objetivos = objetivos % dialogos.Length;
             FindObjectOfType<ControlDialogos>().ActivarDialogo(dialogos[objetivos], imagenCara, prota);
             interactuar = false;
         }

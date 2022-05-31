@@ -7,4 +7,5 @@ public class Textos
 {
     [TextArea(1, 10)]
     public string[] arrayTextos;
+    public bool monologo;
 }

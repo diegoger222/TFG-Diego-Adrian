@@ -56,13 +56,16 @@ public class ControlDialogos : MonoBehaviour
             CerrarDialogo();
             return;
         }
-        if (imagenCara.sprite.Equals(prota))
+        if (!dialogo.monologo)
         {
-            imagenCara.sprite = personajeInteractuable;
-        }
-        else
-        {
-            imagenCara.sprite = prota;
+            if (imagenCara.sprite.Equals(prota))
+            {
+                imagenCara.sprite = personajeInteractuable;
+            }
+            else
+            {
+                imagenCara.sprite = prota;
+            }
         }
         string fraseActual = colaDialogos.Dequeue();
         StartCoroutine(MostrarCaracteres(fraseActual));

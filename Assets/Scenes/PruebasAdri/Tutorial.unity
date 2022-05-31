@@ -705,7 +705,7 @@ MonoBehaviour:
   m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 32
+  m_fontSizeMin: 16
   m_fontSizeMax: 32
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -1518,12 +1518,14 @@ MonoBehaviour:
     - "Disculpa, pero\u2026 \xBFNo podr\xEDas d\xE1rmela en la mano en vez de tirarla?
       Y\u2026 \xBFQue se supone que es una \u201Ctecla F\u201D?."
     - "T\xFA recoge la espada del suelo, tenemos mucho por hacer."
+    monologo: 0
   - arrayTextos:
     - "\xA1Muy bien! Ahora ya sabes recoger objetos del suelo. A continuaci\xF3n
       presiona la \u201Ctecla E\u201D para sacar la espada de su vaina."
     - "\xBFY que se supone que es una \u201Ctecla E\u201D?"
     - "\xA1Tu saca la maldita espada de la vaina y no me hagas perder el tiempo!"
     - "Vale, Vale, ya voy\u2026"
+    monologo: 0
   - arrayTextos:
     - "\xA1Muy bien! Ahora que has sacado la espada de la vaina podr\xE1s atacar
       con ella, pero antes tendr\xE1s que saber c\xF3mo moverte para acercarte al
@@ -1536,6 +1538,7 @@ MonoBehaviour:
       novato sabelotodo me diga como tengo que entrenar a los futuros h\xE9roes del
       reino. \xA1Ya lo que me faltaba! Si tan listo te crees toma este Manual de
       tutorial y ah\xED tienes al mu\xF1eco de entrenamiento."
+    monologo: 0
   objetivos: 0
   imagenCara: {fileID: 21300000, guid: 654117405a9f7e34b9f0181134eb6fbc, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
