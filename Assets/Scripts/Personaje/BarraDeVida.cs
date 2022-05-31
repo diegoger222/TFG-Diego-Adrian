@@ -51,6 +51,7 @@ public class BarraDeVida : MonoBehaviour
         }
         */
         //Curarse "frasco estus" (mando)
+        /*
         if (Input.GetButtonDown("Curarse"))
         {
             if (n_poti > 0)
@@ -76,11 +77,11 @@ public class BarraDeVida : MonoBehaviour
     private void Start()
     {
         m_animator = GetComponent<Animator>();
-        n_poti = 4;
-        m_poti = 4;
+       // n_poti = 4;
+       // m_poti = 4;
         ndefensa = 0;
-        text_poti.text = n_poti.ToString();
-        ActualizarImagenPoti();
+       // text_poti.text = n_poti.ToString();
+     //   ActualizarImagenPoti();
     }
 
     public void RestarVida(float cantidad)
@@ -92,14 +93,14 @@ public class BarraDeVida : MonoBehaviour
 
             vidaActual -= cantidad;
             // StartCoroutine(FrenarNasus());
-            m_animator.SetTrigger("Hurt");
+          //  m_animator.SetTrigger("Hurt");
             if (vidaActual  <= 0)
             {
                 //sonidoJugador.StopPlayAllSounds();
                // m_animator.SetBool("noBlood", m_noBlood);
                // m_animator.SetTrigger("Death");
              //   this.GetComponent<HeroKnight_Modi>().MuerteP(false);
-                Invoke("Muerte", 2f);
+             //   Invoke("Muerte", 2f);
                 
               
                 Debug.Log("Has muerto");
