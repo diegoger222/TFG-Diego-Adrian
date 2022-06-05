@@ -33,7 +33,7 @@ public class Estadisticas : MonoBehaviour
     public GameObject botonMasSuerte;
     public Text textSuerte;
 
-
+    public GameObject iUstats;
 
 
     private float defensaFisicaBase = 0;
@@ -45,13 +45,13 @@ public class Estadisticas : MonoBehaviour
     private float suerteBase = 0;
 
 
-    private float defensaFisicaVar;
-    private float defensaMagicaVar;
-    private float danyoFisicoVar;
-    private float danyoMagicoVar;
-    private float manaVar;
-    private float vitalidadVar;
-    private float suerteVar;
+    private float defensaFisicaVar =0;
+    private float defensaMagicaVar = 0;
+    private float danyoFisicoVar = 0;
+    private float danyoMagicoVar = 0;
+    private float manaVar = 0;
+    private float vitalidadVar = 0;
+    private float suerteVar = 0;
 
     private float defensaFisicaTotal;
     private float defensaMagicaTotal;
@@ -61,13 +61,13 @@ public class Estadisticas : MonoBehaviour
     private float vitalidadTotal;
     private float suerteTotal;
 
-    private float p_defensaFisica;
-    private float p_defensaMagica;
-    private float p_danyoFisico;
-    private float p_danyoMagico;
-    private float p_mana;
-    private float p_vitalidad;
-    private float p_suerte;
+    private float p_defensaFisica = 0;
+    private float p_defensaMagica = 0;
+    private float p_danyoFisico = 0;
+    private float p_danyoMagico = 0;
+    private float p_mana = 0;
+    private float p_vitalidad = 0;
+    private float p_suerte = 0;
 
     private float nivel;
     private float puntosUsados;
@@ -82,7 +82,10 @@ public class Estadisticas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (iUstats.activeSelf)
+        { 
         
+        }
     }
 
 
@@ -299,5 +302,15 @@ public class Estadisticas : MonoBehaviour
         manaTotal           = manaBase  + manaVar + p_mana*120;
         vitalidadTotal      = vitalidadBase + vitalidadVar +p_vitalidad * 10;
         suerteTotal     = suerteBase +suerteVar + p_suerte;
+    }
+
+    //Controlador de mostrar y ocultar estadisticas
+    public void ActivarStats()
+    {
+        if (Input.GetButtonDown("MenuHabilidades"))
+            if (iUstats.activeSelf)
+                iUstats.SetActive(false);
+            else
+                iUstats.SetActive(true);
     }
 }
