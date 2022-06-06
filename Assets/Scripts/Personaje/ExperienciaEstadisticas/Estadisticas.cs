@@ -83,12 +83,15 @@ public class Estadisticas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        if (iUstats.activeSelf)
-        { 
         
+        if (iUstats.activeSelf)
+        {
+            if (subirEstadisticas.activeSelf)
+            {
+                MostrarBotones();
+            }
         }
-        */
+        
     }
 
 
