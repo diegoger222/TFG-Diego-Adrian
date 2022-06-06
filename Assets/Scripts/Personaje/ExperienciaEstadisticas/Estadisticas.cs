@@ -35,6 +35,7 @@ public class Estadisticas : MonoBehaviour
 
     public GameObject iUstats;
     public GameObject subirEstadisticas;
+    public GameObject inventarioAct;
 
     private float defensaFisicaBase = 0;
     private float defensaMagicaBase = 0;
@@ -325,6 +326,18 @@ public class Estadisticas : MonoBehaviour
         else
         {
             subirEstadisticas.SetActive(true);
+        }
+    }
+
+    public void ActivarInventario()
+    {
+        if (inventarioAct.activeSelf)
+        {
+            inventarioAct.SetActive(false);
+        }
+        else
+        {
+            inventarioAct.SetActive(true);
         }
     }
 }
