@@ -73,6 +73,7 @@ public class ManualAventurero : MonoBehaviour
         contador = 0;
         textoDcho.text = "";
         textoIzq.text = "";
+        anim.SetTrigger("Exit");
         personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
     }
 }
