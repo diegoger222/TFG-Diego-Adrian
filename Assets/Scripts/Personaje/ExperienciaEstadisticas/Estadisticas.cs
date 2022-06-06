@@ -34,7 +34,7 @@ public class Estadisticas : MonoBehaviour
     public Text textSuerte;
 
     public GameObject iUstats;
-
+    public GameObject subirEstadisticas;
 
     private float defensaFisicaBase = 0;
     private float defensaMagicaBase = 0;
@@ -82,10 +82,12 @@ public class Estadisticas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (iUstats.activeSelf)
         { 
         
         }
+        */
     }
 
 
@@ -312,5 +314,17 @@ public class Estadisticas : MonoBehaviour
                 iUstats.SetActive(false);
             else
                 iUstats.SetActive(true);
+    }
+
+    public void ActivarSubida()
+    {
+        if (subirEstadisticas.activeSelf)
+        {
+            subirEstadisticas.SetActive(false);
+        }
+        else
+        {
+            subirEstadisticas.SetActive(true);
+        }
     }
 }

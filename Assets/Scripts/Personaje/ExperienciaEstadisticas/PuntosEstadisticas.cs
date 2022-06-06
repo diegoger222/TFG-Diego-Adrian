@@ -25,6 +25,7 @@ public class PuntosEstadisticas : MonoBehaviour
     public GameObject player;
     public GameObject iUstats;
     public GameObject arma;
+    public GameObject subirEstadisticas;
 
     public Text textVitalidad;
     public Text textAguante;
@@ -228,5 +229,7 @@ public class PuntosEstadisticas : MonoBehaviour
             else
                 iUstats.SetActive(true);
     }
+
+
     
 }
