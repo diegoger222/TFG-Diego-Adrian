@@ -3547,25 +3547,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botonMenosDefensaFisica: {fileID: 316455137}
   botonMasDefensaFisica: {fileID: 450198201}
-  textDefensaFisica: {fileID: 0}
+  textDefensaFisica: {fileID: 1486786421}
   botonMenosDefensaMagica: {fileID: 621237649}
   botonMasDefensaMagica: {fileID: 1188536696}
-  textDefensaMagica: {fileID: 0}
+  textDefensaMagica: {fileID: 1445015369}
   botonMenosDanyoFisico: {fileID: 1779958317}
   botonMasDanyoFisico: {fileID: 266573513}
-  textDanyoFisico: {fileID: 0}
+  textDanyoFisico: {fileID: 1242792502}
   botonMenosDanyoMagico: {fileID: 755676016}
   botonMasDanyoMagico: {fileID: 1211890407}
-  textDanyoMagico: {fileID: 0}
+  textDanyoMagico: {fileID: 1674197304}
   botonMenosMana: {fileID: 284659769}
   botonMasMana: {fileID: 1987357792}
-  textMana: {fileID: 0}
+  textMana: {fileID: 2004517727}
   botonMenosVitalidad: {fileID: 488059664}
   botonMasVitalidad: {fileID: 396326921}
-  textVitalidad: {fileID: 0}
+  textVitalidad: {fileID: 302031044}
   botonMenosSuerte: {fileID: 426422399}
   botonMasSuerte: {fileID: 1814299109}
-  textSuerte: {fileID: 0}
+  textSuerte: {fileID: 127761707}
   iUstats: {fileID: 809337288}
   subirEstadisticas: {fileID: 749199948}
   inventarioAct: {fileID: 822706369}
