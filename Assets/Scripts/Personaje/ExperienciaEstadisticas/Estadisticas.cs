@@ -86,6 +86,7 @@ public class Estadisticas : MonoBehaviour
         
         if (iUstats.activeSelf)
         {
+            ActualizarEstadisticas();
             if (subirEstadisticas.activeSelf)
             {
                 MostrarBotones();
@@ -308,6 +309,10 @@ public class Estadisticas : MonoBehaviour
         manaTotal           = manaBase  + manaVar + p_mana*120;
         vitalidadTotal      = vitalidadBase + vitalidadVar +p_vitalidad * 10;
         suerteTotal     = suerteBase +suerteVar + p_suerte;
+        if (iUstats.activeSelf)
+        {
+            ActualizarEstadisticasTexto();
+        }
     }
 
     //Controlador de mostrar y ocultar estadisticas
@@ -342,5 +347,16 @@ public class Estadisticas : MonoBehaviour
         {
             inventarioAct.SetActive(true);
         }
+    }
+
+    private void ActualizarEstadisticasTexto()
+    {
+        textDanyoFisico.text = "Fuerza:   " + danyoFisicoTotal.ToString();
+        textDanyoMagico.text = "Inteligencía:   " + danyoMagicoTotal.ToString();
+        textDefensaFisica.text = "Defensa Fisica:   " + defensaFisicaTotal.ToString();
+        textDefensaMagica.text = "Defensa Magica:   " + defensaMagicaTotal.ToString();
+        textSuerte.text = "Suerte:   " + suerteTotal.ToString();
+        textMana.text = "Mana:   "+ manaTotal.ToString();
+        textVitalidad.text = "Vitalidad:   "+vitalidadTotal.ToString();
     }
 }
