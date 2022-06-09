@@ -20,7 +20,8 @@ public class Experiencia : MonoBehaviour
     private float exp_acumul; //experiencia acomulada
     private int puntos_skills;
     private float exp_perdi; //experiencia perdida al morir
-    private GameObject skillpoints;
+    public GameObject menuEstadisticas;
+    //private GameObject skillpoints;
 
     private float experienciaNecesaria;
     void Start()
@@ -32,17 +33,23 @@ public class Experiencia : MonoBehaviour
         exp_acumul = 0;
         puntos_skills = 0; 
         experienciaNecesaria = 125;
-        textoValorBarraExperiencia.text = "" + exp_acumul.ToString() + " / " + experienciaNecesaria.ToString() + " XP";
+        if (menuEstadisticas.activeSelf)
+        { 
+        
+            textoValorBarraExperiencia.text = "" + exp_acumul.ToString() + " / " + experienciaNecesaria.ToString() + " XP";
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        text_exp.text = exp_acumul.ToString();
-        text_nivel.text = act_nivel.ToString();
-
-        barra_exp.fillAmount = exp_acumul / experienciaNecesaria;
-        skillpoints = GameObject.FindGameObjectWithTag("Statsm");
+        // text_exp.text = exp_acumul.ToString();
+        //   text_nivel.text = act_nivel.ToString();
+        if (menuEstadisticas.activeSelf)
+        {
+            barra_exp.fillAmount = exp_acumul / experienciaNecesaria;
+        }
+       // skillpoints = GameObject.FindGameObjectWithTag("Statsm");
     }
 
     public void ExperienciaPermanente()
@@ -56,8 +63,8 @@ public class Experiencia : MonoBehaviour
            float aux_exp = exp_guar - experienciaNecesaria;
             act_nivel += 1; //subir nivel
             puntos_skills += 1; // un punto mas 
-            skillpoints.GetComponent<PuntosEstadisticas>().SubirPuntos();
-            skillpoints.GetComponent<PuntosEstadisticas>().Nivel(act_nivel);
+            this.GetComponent<Estadisticas>().SubirPuntos();
+            this.GetComponent<Estadisticas>().Nivel(act_nivel);
 
             exp_acumul = aux_exp;
             experienciaNecesaria = exp_nivel + var_nivel * (act_nivel - 1);

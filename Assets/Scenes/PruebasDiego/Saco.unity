@@ -3869,6 +3869,23 @@ MonoBehaviour:
   iUstats: {fileID: 809337288}
   subirEstadisticas: {fileID: 749199948}
   inventarioAct: {fileID: 822706369}
+--- !u!114 &305244506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305244496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93987c102033f5d4f8881fe4a0a2b44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text_nivel: {fileID: 0}
+  text_exp: {fileID: 0}
+  barra_exp: {fileID: 947367981}
+  textoValorBarraExperiencia: {fileID: 1041926775}
+  menuEstadisticas: {fileID: 809337288}
 --- !u!1 &314333508
 GameObject:
   m_ObjectHideFlags: 0
