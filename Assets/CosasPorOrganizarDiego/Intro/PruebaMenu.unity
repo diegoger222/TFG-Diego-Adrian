@@ -231,6 +231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1963585550815299457, guid: 73edcff7ed4a30c4aa5cf445b1376c9d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 647e0a53a8c1fab4d87b18d555545d19, type: 2}
     - target: {fileID: 1963585550815299487, guid: 73edcff7ed4a30c4aa5cf445b1376c9d, type: 3}
       propertyPath: m_Name
       value: Nieve
