@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
-public class Slot : MonoBehaviour
+public class Slot : MonoBehaviour, IPointerClickHandler
 {
     // Start is called before the first frame update
     // public Item item = new Item();
@@ -74,17 +74,31 @@ public class Slot : MonoBehaviour
 
 
     //Eventos 
-    public void OnPointerClick()
+
+    public void OnPointerClick(PointerEventData eventData)
     {
+
+     
         if (item != null)
         {
-           
-                if (item.data.Id ==1)
+            if (eventData.button == PointerEventData.InputButton.Left)
+            {
+                if (item.data.Id == 1)
                 {
                     Debug.Log("POPOOO");
                 }
+            }
 
-            
+            if (eventData.button == PointerEventData.InputButton.Right)
+            {
+                if (item.data.Id == 1)
+                {
+                    Debug.Log("hehee");
+                }
+            }
+
+
+
         }
 
     }
@@ -100,6 +114,8 @@ public class Slot : MonoBehaviour
         eventTrigger.callback.AddListener(action);
         trigger.triggers.Add(eventTrigger);
     }
+
+   
 
     
 
