@@ -64,6 +64,7 @@ public class Inventory : MonoBehaviour
             if (slotauxStack)
             {
                 slotauxStack.GetComponent<Slot>().AnyadirObjeto(_itemObject);
+              
                 return true;
             }
             else
@@ -72,6 +73,7 @@ public class Inventory : MonoBehaviour
                 if (slotAux)
                 {
                     slotAux.GetComponent<Slot>().AnyadirObjeto(_itemObject);
+                    Debug.Log("HOLI");
                     return true;
                 }
             }

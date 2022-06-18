@@ -45,7 +45,9 @@ public class Slot : MonoBehaviour, IPointerClickHandler
 
     public void AnyadirObjeto(ItemObject _item)
     {
-        if (item.data.Id >=0) 
+
+        //item.data.Id >=0
+        if (item !=null) 
         {
             cantidad++;
         }

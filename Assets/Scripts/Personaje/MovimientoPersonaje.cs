@@ -260,4 +260,6 @@ public class MovimientoPersonaje : MonoBehaviour
     {
         e_dialogo = a;
     }
+
+    
 }
