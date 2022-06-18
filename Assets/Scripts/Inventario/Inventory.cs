@@ -29,7 +29,64 @@ public class Inventory : MonoBehaviour
         }
     }
     */
+    public GameObject SlotLibre()
+    {
 
+        for(int i = 0; i < slots.Length; i++)
+        {
+            if (slots[i].GetComponent<Slot>().item == null)
+            {
+                return slots[i];
+            }
+        }
+        return null;
+    }
+
+    public GameObject SlotInventario(Item _item)
+    {
+
+        for(int i = 0; i < slots.Length; i++)
+        {
+            if(slots[i].GetComponent<Slot>().itemO.Id == _item.Id)
+            {
+                return slots[i];
+            }
+        }
+        return null;
+    }
+
+
+    public bool AnyadirItem(ItemObject _itemObject) 
+    {
+        if (_itemObject.stackable)
+        {
+            GameObject slotauxStack = SlotInventario(_itemObject.data);
+            if (slotauxStack)
+            {
+                slotauxStack.GetComponent<Slot>().AnyadirObjeto(_itemObject);
+                return true;
+            }
+            else
+            {
+                GameObject slotAux = SlotLibre();
+                if (slotAux)
+                {
+                    slotAux.GetComponent<Slot>().AnyadirObjeto(_itemObject);
+                    return true;
+                }
+            }
+        }
+        else
+        {
+            GameObject slotaux = SlotLibre();
+            if (slotaux)
+            {
+                slotaux.GetComponent<Slot>().AnyadirObjeto(_itemObject);
+                return true;
+            }
+        }
+        return false;
+    }
 }
 
 
