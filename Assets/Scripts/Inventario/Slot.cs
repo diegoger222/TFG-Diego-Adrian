@@ -96,9 +96,15 @@ public class Slot : MonoBehaviour, IPointerClickHandler
 
             if (eventData.button == PointerEventData.InputButton.Right)
             {
+                /*
                 if (item.data.Id == 1)
                 {
                     Debug.Log("hehee");
+                }
+                */
+                if(item.type.ToString() == "Arma")
+                {
+                    GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().ActualizarInformacion(item);
                 }
             }
 

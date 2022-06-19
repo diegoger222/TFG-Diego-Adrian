@@ -8,6 +8,7 @@ TagManager:
   - HudHabilidades
   - Item
   - Inventario
+  - InformacionE
   layers:
   - Default
   - TransparentFX

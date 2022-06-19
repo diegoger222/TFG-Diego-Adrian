@@ -2220,9 +2220,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142733588}
+  - component: {fileID: 142733589}
   m_Layer: 5
   m_Name: InformacionItem
-  m_TagString: Untagged
+  m_TagString: InformacionE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2249,6 +2250,31 @@ RectTransform:
   m_AnchoredPosition: {x: -399.2, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &142733589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142733587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5d7e305f6bb964da4fd1fb501e93bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuerza: {fileID: -8058525393328776345, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  inteligencia: {fileID: 3638856860762626722, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  defensaFisica: {fileID: -1124599466676070209, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  defensaMagica: {fileID: 4862466354261714277, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  suerte: {fileID: -6852179841028653729, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  mana: {fileID: -5428332889500832007, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  vida: {fileID: 6297273449854098720, guid: bf00539a28afb664da5593bb98391110, type: 3}
+  estadisticas:
+  - {fileID: 1619750603}
+  - {fileID: 1299467565}
+  - {fileID: 1419579514}
+  imagen: {fileID: 224918961}
+  textos: {fileID: 1799124294}
 --- !u!1 &143955398
 GameObject:
   m_ObjectHideFlags: 0
