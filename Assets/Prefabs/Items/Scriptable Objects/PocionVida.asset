@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 21300000, guid: 87c6b600baaee0d4f87216d24f6f2c14, type: 3}
   stackable: 1
   type: 1
-  description: 
+  description: Pocion que creo popu para suicidarse pero termino haciendo el efecto
+    contrario
   data:
     Name: Pocion de Popu
     Id: 1

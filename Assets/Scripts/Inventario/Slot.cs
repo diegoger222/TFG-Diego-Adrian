@@ -85,10 +85,13 @@ public class Slot : MonoBehaviour, IPointerClickHandler
         {
             if (eventData.button == PointerEventData.InputButton.Left)
             {
+                UsarItem();
+                /*
                 if (item.data.Id == 1)
                 {
                     Debug.Log("POPOOO");
                 }
+                */
             }
 
             if (eventData.button == PointerEventData.InputButton.Right)
@@ -118,7 +121,29 @@ public class Slot : MonoBehaviour, IPointerClickHandler
     }
 
    
-
+    public void UsarItem() 
+    {
+        switch (item.data.Id)
+        {
+            case 1:
+                if((cantidad - 1) <=0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().RestarVida(-30);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().RestarVida(-30);
+                }
+                break;
+            case 2:
+                break;
+            default:
+                break;
+        }
+    
+    }
     
 
 }
