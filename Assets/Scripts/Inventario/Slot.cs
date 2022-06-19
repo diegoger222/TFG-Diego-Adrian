@@ -113,6 +113,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
                 if(item.type.ToString() == "Arma")
                 {
                     informacion = true;
+                    GameObject.FindGameObjectWithTag("InformacionE").transform.position = new Vector2(this.transform.position.x + 300, 600);
                     GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().ActualizarInformacion(item);
                 }
             }
