@@ -6,14 +6,14 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
-public class Slot : MonoBehaviour, IPointerClickHandler
+public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
 {
     // Start is called before the first frame update
     // public Item item = new Item();
     public ItemObject item;
     public Item itemO = new Item();
     public int cantidad = 0;
-   
+    private bool informacion = false;
     
     public void Start()
     {
@@ -76,7 +76,15 @@ public class Slot : MonoBehaviour, IPointerClickHandler
 
 
     //Eventos 
-
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Debug.Log("Hola");
+        if (informacion)
+        {
+            GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().Desactivar();
+            informacion = false;
+        }
+    }
     public void OnPointerClick(PointerEventData eventData)
     {
 
@@ -104,6 +112,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler
                 */
                 if(item.type.ToString() == "Arma")
                 {
+                    informacion = true;
                     GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().ActualizarInformacion(item);
                 }
             }

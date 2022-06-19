@@ -18,6 +18,7 @@ public class InformacionInvetario : MonoBehaviour
     public GameObject[] estadisticas;
     public GameObject imagen;
     public GameObject textos;
+    public GameObject interfazInf;
     void Start()
     {
         
@@ -32,7 +33,7 @@ public class InformacionInvetario : MonoBehaviour
 
     public void ActualizarInformacion(ItemObject _item)
     {
-
+        interfazInf.SetActive(true);
 
         for(int i = 0; i <= 2; i++)
         {
@@ -109,6 +110,11 @@ public class InformacionInvetario : MonoBehaviour
             _gameObject.transform.GetChild(1).GetComponent<Text>().text = "";
         }
 
+    }
+
+    public void Desactivar()
+    {
+        interfazInf.SetActive(false);
     }
 /*
     Fuerza,
