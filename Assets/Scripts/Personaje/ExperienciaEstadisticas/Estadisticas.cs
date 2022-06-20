@@ -359,4 +359,89 @@ public class Estadisticas : MonoBehaviour
         textMana.text = "Mana:   "+ manaTotal.ToString();
         textVitalidad.text = "Vitalidad:   "+vitalidadTotal.ToString();
     }
+
+    public void SumarEstadisticas(ItemBuff _buff)
+    {
+
+        //GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (_buff == null)
+        {
+
+        }
+        else if (_buff.attribute.ToString() == "Fuerza")
+        {
+            danyoFisicoVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Inteligencia")
+        {
+            danyoMagicoVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "DefensaMagica")
+        {
+            defensaMagicaVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "DefensaFisica")
+        {
+            defensaFisicaVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Suerte")
+        {
+            suerteVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Mana")
+        {
+            manaVar += _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Vida")
+        {
+            vitalidadVar += _buff.value;
+        }
+        else
+        {
+
+        }
+
+    }
+    public void RestarEstadisticas(ItemBuff _buff)
+    {
+
+        //GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (_buff == null)
+        {
+
+        }
+        else if (_buff.attribute.ToString() == "Fuerza")
+        {
+            danyoFisicoVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Inteligencia")
+        {
+            danyoMagicoVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "DefensaMagica")
+        {
+            defensaMagicaVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "DefensaFisica")
+        {
+            defensaFisicaVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Suerte")
+        {
+            suerteVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Mana")
+        {
+            manaVar -= _buff.value;
+        }
+        else if (_buff.attribute.ToString() == "Vida")
+        {
+            vitalidadVar -= _buff.value;
+        }
+        else
+        {
+
+        }
+
+    }
 }

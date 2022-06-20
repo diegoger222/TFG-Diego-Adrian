@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
 
     public GameObject[] slots;
+    public GameObject[] slotsEstadisticas;
     
     //public Dictionary<GameObject, InventorySlot> slotsEnInterfaz = new Dictionary<GameObject, InventorySlot>();
     // Start is called before the first frame update
@@ -86,6 +87,36 @@ public class Inventory : MonoBehaviour
                 slotaux.GetComponent<Slot>().AnyadirObjeto(_itemObject);
                 return true;
             }
+        }
+        return false;
+    }
+
+
+    //inventario Equipo
+    public GameObject SlotLibreEstadisticas(ItemType _type)
+    {
+
+        for (int i = 0; i < slotsEstadisticas.Length; i++)
+        {
+            if (slotsEstadisticas[i].GetComponent<SlotEquipo>().item == null)
+            {
+                if(_type.ToString() == slotsEstadisticas[i].GetComponent<SlotEquipo>().type.ToString())
+                {
+                    return slotsEstadisticas[i];
+                }
+                
+            }
+        }
+        return null;
+    }
+
+    public bool AnyadirEquipo(ItemObject _itemObject)
+    {
+        GameObject slotEq = SlotLibreEstadisticas(_itemObject.type);
+        if (slotEq)
+        {
+            slotEq.GetComponent<SlotEquipo>().AnyadirObjeto(_itemObject);
+            return true;
         }
         return false;
     }
