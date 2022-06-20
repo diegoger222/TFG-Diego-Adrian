@@ -137,12 +137,10 @@ public class SlotEquipo : MonoBehaviour, IPointerClickHandler, IPointerExitHandl
                     Debug.Log("hehee");
                 }
                 */
-                if (item.type.ToString() == "Arma")
-                {
-                    informacion = true;
+                  informacion = true;
                     GameObject.FindGameObjectWithTag("InformacionE").transform.position = new Vector2(this.transform.position.x + 300, 600);
                     GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().ActualizarInformacion(item);
-                }
+                
             }
 
 
