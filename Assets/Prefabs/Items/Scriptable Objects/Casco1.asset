@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
+  m_Name: Casco1
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: 2686e0b846e33ee48921b76047d86d39, type: 3}
+  stackable: 0
+  type: 3
+  description: Cascos que se utilizaban en la altiguedad para ver a Rubius
+  data:
+    Name: Casco del otako
+    Id: 11
+    buffs:
+    - attribute: 1
+      value: 30
+      min: 52
+      max: 450
+    - attribute: 4
+      value: 60
+      min: 52
+      max: 450
+    - attribute: 6
+      value: 50
+      min: 52
+      max: 450

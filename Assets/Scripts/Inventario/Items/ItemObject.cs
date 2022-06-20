@@ -9,6 +9,14 @@ public enum ItemType
     Comida,
     Pocion,
     Arma,
+    Casco,
+    Pechera,
+    Pantalones,
+    Zapatos,
+    Anillo,
+    Collar,
+    Escudo,
+    Patata
 
 }
 

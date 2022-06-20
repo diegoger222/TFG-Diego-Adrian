@@ -94,7 +94,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
             if (eventData.button == PointerEventData.InputButton.Left)
             {
 
-                if(item.type.ToString() == "Arma")
+                if(item.type.ToString() == "Arma" || item.type.ToString() == "Casco" || item.type.ToString() == "Pechera" || item.type.ToString() == "Pantalones" || item.type.ToString() == "Zapatos" || item.type.ToString() == "Anillo" || item.type.ToString() == "Collar" || item.type.ToString() == "Escudo" || item.type.ToString() == "Patata")
                 {
                    bool a =  GameObject.FindGameObjectWithTag("Inventario").GetComponent<Inventory>().AnyadirEquipo(item);
                     if (a)
@@ -123,12 +123,12 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
                     Debug.Log("hehee");
                 }
                 */
-                if(item.type.ToString() == "Arma")
-                {
+               // if(item.type.ToString() == "Arma")
+                //{
                     informacion = true;
                     GameObject.FindGameObjectWithTag("InformacionE").transform.position = new Vector2(this.transform.position.x + 300, 600);
                     GameObject.FindGameObjectWithTag("InformacionE").GetComponent<InformacionInvetario>().ActualizarInformacion(item);
-                }
+               // }
             }
 
 

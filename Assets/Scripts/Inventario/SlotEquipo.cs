@@ -20,6 +20,12 @@ public class SlotEquipo : MonoBehaviour, IPointerClickHandler, IPointerExitHandl
     {
         Arma,
         Casco,
+        Pechera,
+        Pantalones,
+        Zapatos,
+        Anillo,
+        Collar,
+        Escudo,
         Patata
     }
 
