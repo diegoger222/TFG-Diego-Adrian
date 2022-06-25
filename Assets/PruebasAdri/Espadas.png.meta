@@ -25,7 +25,7 @@ TextureImporter:
     second: "Espada M\xEDticamente Legendaria"
   - first:
       213: -6185063432896164276
-    second: "Espad\xF3n Oscuro"
+    second: "Espad\xF3n Maldito"
   - first:
       213: 1622477794120481471
     second: Espada Agua
@@ -34,7 +34,7 @@ TextureImporter:
     second: Espadas_9
   - first:
       213: -1760023215011862745
-    second: Espadas_10
+    second: "Espada M\xEDtica"
   - first:
       213: 8994192933760089225
     second: Espadas_11
@@ -49,28 +49,28 @@ TextureImporter:
     second: Espada Pluma
   - first:
       213: 5700752533809735777
-    second: Espada Oscura
+    second: Espada Maldita
   - first:
       213: -4498249567587498300
-    second: Espadas_16
+    second: Espada Roca
   - first:
       213: 999200732813057580
     second: Espadas_17
   - first:
       213: 3941353571591471554
-    second: Espada Defensiva
+    second: "Espad\xF3n Defensivo"
   - first:
       213: 4369899152829973800
     second: Espadas_19
   - first:
       213: -7796541356414848147
-    second: Espadas Veneno 2
+    second: Espada Veneno
   - first:
       213: 6442022726365805207
     second: Espadas_21
   - first:
       213: 8029983371845996262
-    second: Espadas_22
+    second: Espada Pirata
   - first:
       213: -7850468515191354315
     second: Espadas_23
@@ -85,7 +85,7 @@ TextureImporter:
     second: Katana
   - first:
       213: -8049081265270615858
-    second: Espadas_27
+    second: "Espada H\xE9roe"
   - first:
       213: 2684219199339677125
     second: Espadas_28
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espada Veneno
+      name: Espada Veneno 2
       rect:
         serializedVersion: 2
         x: 64
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Espad\xF3n Oscuro"
+      name: "Espad\xF3n Maldito"
       rect:
         serializedVersion: 2
         x: 32
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas_10
+      name: "Espada M\xEDtica"
       rect:
         serializedVersion: 2
         x: 128
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espada Oscura
+      name: Espada Maldita
       rect:
         serializedVersion: 2
         x: 96
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas_16
+      name: Espada Roca
       rect:
         serializedVersion: 2
         x: 128
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espada Defensiva
+      name: "Espad\xF3n Defensivo"
       rect:
         serializedVersion: 2
         x: 0
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas Veneno 2
+      name: Espada Veneno
       rect:
         serializedVersion: 2
         x: 64
@@ -643,7 +643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas_22
+      name: Espada Pirata
       rect:
         serializedVersion: 2
         x: 128
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas_27
+      name: "Espada H\xE9roe"
       rect:
         serializedVersion: 2
         x: 96

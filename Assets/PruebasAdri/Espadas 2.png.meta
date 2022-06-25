@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8473241989307565735
-    second: Espadas Oscura 2
+    second: Espada Oscura 2
   - first:
       213: 2933853297612255782
     second: Espada Luz
@@ -13,10 +13,10 @@ TextureImporter:
     second: Espada Insecto
   - first:
       213: -1496348385360904888
-    second: "Espadas M\xE1gica"
+    second: "Espada M\xE1gica"
   - first:
       213: 6413760932411231025
-    second: Espadas 2_4
+    second: Espada Meteorito
   - first:
       213: 6616815314906139334
     second: Espadas 2_5
@@ -34,7 +34,7 @@ TextureImporter:
     second: Espadas 2_9
   - first:
       213: 4066070757198561617
-    second: Espadas Solar
+    second: Espada Solar
   - first:
       213: 3338635264187004462
     second: Espadas 2_11
@@ -52,22 +52,22 @@ TextureImporter:
     second: Espadas 2_15
   - first:
       213: -558778317044800288
-    second: Espadas 2_16
+    second: Espada Tierra
   - first:
       213: 7521072547943223153
     second: Espadas 2_17
   - first:
       213: -4078630758227556050
-    second: Espadas Musical
+    second: "Espad\xF3n Musical"
   - first:
       213: 7547004809323967181
-    second: Espadas 2_19
+    second: Espada Legendaria
   - first:
       213: 4476012942999563137
     second: Espadas 2_20
   - first:
       213: 1536213520219517449
-    second: Espadas Sangrienta
+    second: "Espad\xF3n Sangriento"
   - first:
       213: -8038236290623005331
     second: Espadas 2_22
@@ -82,10 +82,10 @@ TextureImporter:
     second: Espadas 2_25
   - first:
       213: 3860325305166147769
-    second: "Espadas Gal\xE1ctica"
+    second: "Espad\xF3n Gal\xE1ctico"
   - first:
       213: 9206175854374595663
-    second: Espadas 2_27
+    second: Motosierra
   - first:
       213: -4279509421303076198
     second: Espada Viento
@@ -181,7 +181,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Espadas Oscura 2
+      name: Espada Oscura 2
       rect:
         serializedVersion: 2
         x: 0
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Espadas M\xE1gica"
+      name: "Espada M\xE1gica"
       rect:
         serializedVersion: 2
         x: 96
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas 2_4
+      name: Espada Meteorito
       rect:
         serializedVersion: 2
         x: 128
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas Solar
+      name: Espada Solar
       rect:
         serializedVersion: 2
         x: 128
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas 2_16
+      name: Espada Tierra
       rect:
         serializedVersion: 2
         x: 128
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas Musical
+      name: "Espad\xF3n Musical"
       rect:
         serializedVersion: 2
         x: 0
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas 2_19
+      name: Espada Legendaria
       rect:
         serializedVersion: 2
         x: 32
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas Sangrienta
+      name: "Espad\xF3n Sangriento"
       rect:
         serializedVersion: 2
         x: 96
@@ -727,7 +727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Espadas Gal\xE1ctica"
+      name: "Espad\xF3n Gal\xE1ctico"
       rect:
         serializedVersion: 2
         x: 64
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Espadas 2_27
+      name: Motosierra
       rect:
         serializedVersion: 2
         x: 96
