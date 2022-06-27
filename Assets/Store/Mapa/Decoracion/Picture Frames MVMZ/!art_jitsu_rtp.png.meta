@@ -1,7 +1,235 @@
 fileFormatVersion: 2
 guid: b442ad6357b30a748b1a5c27317fc698
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2043705490121325186
+    second: '!art_jitsu_rtp_0'
+  - first:
+      213: 3405027795933545798
+    second: '!art_jitsu_rtp_1'
+  - first:
+      213: -3015403532333240436
+    second: '!art_jitsu_rtp_2'
+  - first:
+      213: -5533191307116258907
+    second: '!art_jitsu_rtp_3'
+  - first:
+      213: 6186867729254721685
+    second: '!art_jitsu_rtp_4'
+  - first:
+      213: -2695804025800765217
+    second: '!art_jitsu_rtp_5'
+  - first:
+      213: 6464474056622746618
+    second: '!art_jitsu_rtp_6'
+  - first:
+      213: 5943956335492041453
+    second: '!art_jitsu_rtp_7'
+  - first:
+      213: -5827377858294667447
+    second: '!art_jitsu_rtp_8'
+  - first:
+      213: 3180185816442741345
+    second: '!art_jitsu_rtp_9'
+  - first:
+      213: 4333059894197026212
+    second: '!art_jitsu_rtp_10'
+  - first:
+      213: 4174144634193633630
+    second: '!art_jitsu_rtp_11'
+  - first:
+      213: 5938790990608886133
+    second: '!art_jitsu_rtp_12'
+  - first:
+      213: -5689983743960755334
+    second: '!art_jitsu_rtp_13'
+  - first:
+      213: -530934555181226715
+    second: '!art_jitsu_rtp_14'
+  - first:
+      213: 4280981072222699821
+    second: '!art_jitsu_rtp_15'
+  - first:
+      213: 4167487082284914150
+    second: '!art_jitsu_rtp_16'
+  - first:
+      213: 6424516494034295388
+    second: '!art_jitsu_rtp_17'
+  - first:
+      213: -1773665638005497199
+    second: '!art_jitsu_rtp_18'
+  - first:
+      213: -10213340880756866
+    second: '!art_jitsu_rtp_19'
+  - first:
+      213: -3130379700528922469
+    second: '!art_jitsu_rtp_20'
+  - first:
+      213: 5052956001950944342
+    second: '!art_jitsu_rtp_21'
+  - first:
+      213: 8371471132603365967
+    second: '!art_jitsu_rtp_22'
+  - first:
+      213: -7187359987428623674
+    second: '!art_jitsu_rtp_23'
+  - first:
+      213: 2000847916622268933
+    second: '!art_jitsu_rtp_24'
+  - first:
+      213: -2010274206223415650
+    second: '!art_jitsu_rtp_25'
+  - first:
+      213: 2727805179846643942
+    second: '!art_jitsu_rtp_26'
+  - first:
+      213: 2190745713749048586
+    second: '!art_jitsu_rtp_27'
+  - first:
+      213: 127979125770350117
+    second: '!art_jitsu_rtp_28'
+  - first:
+      213: 3300878552538164437
+    second: '!art_jitsu_rtp_29'
+  - first:
+      213: 8042928081682292215
+    second: '!art_jitsu_rtp_30'
+  - first:
+      213: -5185452101735330966
+    second: '!art_jitsu_rtp_31'
+  - first:
+      213: 6720611794931927933
+    second: '!art_jitsu_rtp_32'
+  - first:
+      213: 8104608057983350445
+    second: '!art_jitsu_rtp_33'
+  - first:
+      213: 6911141563800409137
+    second: '!art_jitsu_rtp_34'
+  - first:
+      213: -5842606501297345402
+    second: '!art_jitsu_rtp_35'
+  - first:
+      213: -1129957159316091410
+    second: '!art_jitsu_rtp_36'
+  - first:
+      213: -4449236675866508377
+    second: '!art_jitsu_rtp_37'
+  - first:
+      213: 1632195869031188166
+    second: '!art_jitsu_rtp_38'
+  - first:
+      213: 2318259490150257316
+    second: '!art_jitsu_rtp_39'
+  - first:
+      213: 1605185326001142931
+    second: '!art_jitsu_rtp_40'
+  - first:
+      213: 307800653074334723
+    second: '!art_jitsu_rtp_41'
+  - first:
+      213: 4192225132288439448
+    second: '!art_jitsu_rtp_42'
+  - first:
+      213: -8653537899581599200
+    second: '!art_jitsu_rtp_43'
+  - first:
+      213: -2461022063389593340
+    second: '!art_jitsu_rtp_44'
+  - first:
+      213: 3057278566163223878
+    second: '!art_jitsu_rtp_45'
+  - first:
+      213: -6707241045275230600
+    second: '!art_jitsu_rtp_46'
+  - first:
+      213: -3648573717093924325
+    second: '!art_jitsu_rtp_47'
+  - first:
+      213: 3430134952760696108
+    second: '!art_jitsu_rtp_48'
+  - first:
+      213: -5991119090188213567
+    second: '!art_jitsu_rtp_49'
+  - first:
+      213: -3348853388276689985
+    second: '!art_jitsu_rtp_50'
+  - first:
+      213: 7906862123546523098
+    second: '!art_jitsu_rtp_51'
+  - first:
+      213: 8400144874962784265
+    second: '!art_jitsu_rtp_52'
+  - first:
+      213: 5300159990751006282
+    second: '!art_jitsu_rtp_53'
+  - first:
+      213: -1879272637111005888
+    second: '!art_jitsu_rtp_54'
+  - first:
+      213: -8977384116421618334
+    second: '!art_jitsu_rtp_55'
+  - first:
+      213: -4932445201361619061
+    second: '!art_jitsu_rtp_56'
+  - first:
+      213: -3338573965700853029
+    second: '!art_jitsu_rtp_57'
+  - first:
+      213: 3194410791412604318
+    second: '!art_jitsu_rtp_58'
+  - first:
+      213: -5123505706716251378
+    second: '!art_jitsu_rtp_59'
+  - first:
+      213: -1506114862141426664
+    second: '!art_jitsu_rtp_60'
+  - first:
+      213: 8813579120995080731
+    second: '!art_jitsu_rtp_61'
+  - first:
+      213: 2746136945761385859
+    second: '!art_jitsu_rtp_62'
+  - first:
+      213: -4782803608906801144
+    second: '!art_jitsu_rtp_63'
+  - first:
+      213: 456814270694672283
+    second: '!art_jitsu_rtp_64'
+  - first:
+      213: -8546925474490505605
+    second: '!art_jitsu_rtp_65'
+  - first:
+      213: -1715187538771156459
+    second: '!art_jitsu_rtp_66'
+  - first:
+      213: 6966198317476474706
+    second: '!art_jitsu_rtp_67'
+  - first:
+      213: 5758298504570079841
+    second: '!art_jitsu_rtp_68'
+  - first:
+      213: 6392508826857460338
+    second: '!art_jitsu_rtp_69'
+  - first:
+      213: 9135912265233319421
+    second: '!art_jitsu_rtp_70'
+  - first:
+      213: 5246694506699841921
+    second: '!art_jitsu_rtp_71'
+  - first:
+      213: -6960294479412883177
+    second: '!art_jitsu_rtp_72'
+  - first:
+      213: -5801302250215160397
+    second: '!art_jitsu_rtp_73'
+  - first:
+      213: -5121547134803504517
+    second: '!art_jitsu_rtp_74'
+  - first:
+      213: -3907216426031369320
+    second: '!art_jitsu_rtp_75'
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +260,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +269,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +303,1617 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_0'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 337
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e758dcb4fac43a3e0800000000000000
+      internalID: -2043705490121325186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_1'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 337
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64543f26db6114f20800000000000000
+      internalID: 3405027795933545798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_2'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 290
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa1d0b6722726d0800000000000000
+      internalID: -3015403532333240436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_3'
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 290
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a95e0182d72633b0800000000000000
+      internalID: -5533191307116258907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_4'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 338
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5982e8a9b6b2cd550800000000000000
+      internalID: 6186867729254721685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_5'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 338
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0d3128584969ad0800000000000000
+      internalID: -2695804025800765217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_6'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 342
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2abc77ec66b950800000000000000
+      internalID: 6464474056622746618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_7'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 338
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea8f617bcc2d7250800000000000000
+      internalID: 5943956335492041453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_8'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 338
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947ae5076bef02fa0800000000000000
+      internalID: -5827377858294667447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_9'
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1622ec4962a422c20800000000000000
+      internalID: 3180185816442741345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_10'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 290
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adfa18240f122c30800000000000000
+      internalID: 4333059894197026212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_11'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 290
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e632ed6a8de930800000000000000
+      internalID: 4174144634193633630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_12'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 294
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579688ed0f2da6250800000000000000
+      internalID: 5938790990608886133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_13'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 290
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73d8738eed1901b0800000000000000
+      internalID: -5689983743960755334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_14'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 290
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5256177c5ddb1a8f0800000000000000
+      internalID: -530934555181226715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_15'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 242
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2141048a99196b30800000000000000
+      internalID: 4280981072222699821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_16'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e51f99cb63e5d930800000000000000
+      internalID: 4167487082284914150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_17'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a5d8876b7782950800000000000000
+      internalID: 6424516494034295388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_18'
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 193
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192ad50ef7ca267e0800000000000000
+      internalID: -1773665638005497199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_19'
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 241
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f15d44507bbdff0800000000000000
+      internalID: -10213340880756866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_20'
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 241
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9041e17f38ae84d0800000000000000
+      internalID: -3130379700528922469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_21'
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 245
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cc6f946b4bf1640800000000000000
+      internalID: 5052956001950944342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_22'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 242
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ab24224a07d2470800000000000000
+      internalID: 8371471132603365967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_23'
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 241
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caf574fb2e514c90800000000000000
+      internalID: -7187359987428623674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_24'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 191
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac9d7449074cb10800000000000000
+      internalID: 2000847916622268933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_25'
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 193
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e964ce4a2421a14e0800000000000000
+      internalID: -2010274206223415650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_26'
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 193
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0da39cb5c1bd520800000000000000
+      internalID: 2727805179846643942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_27'
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 197
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db83d9e97176e10800000000000000
+      internalID: 2190745713749048586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_28'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 194
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ee43a365ca6c100800000000000000
+      internalID: 127979125770350117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_29'
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 193
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2eb20e831fcd20800000000000000
+      internalID: 3300878552538164437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_30'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fddfae1a783e9f60800000000000000
+      internalID: 8042928081682292215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_31'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b434489c29908b0800000000000000
+      internalID: -5185452101735330966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_32'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc736f1d8644d50800000000000000
+      internalID: 6720611794931927933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_33'
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 146
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bdd3b61a597070800000000000000
+      internalID: 8104608057983350445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_34'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 98
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d2cea2ae49ef50800000000000000
+      internalID: 6911141563800409137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_35'
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 98
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca8cfa754eaeea0800000000000000
+      internalID: -5842606501297345402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_36'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 146
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed0e8b43f59150f0800000000000000
+      internalID: -1129957159316091410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_37'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 146
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3465df0d22142c0800000000000000
+      internalID: -4449236675866508377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_38'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 150
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6c671ce79b6a610800000000000000
+      internalID: 1632195869031188166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_39'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 146
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2959f39bc1c2020800000000000000
+      internalID: 2318259490150257316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_40'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 146
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cb7f2ac83c64610800000000000000
+      internalID: 1605185326001142931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_41'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304012c2017854400800000000000000
+      internalID: 307800653074334723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_42'
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 97
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8947484eb86cd2a30800000000000000
+      internalID: 4192225132288439448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_43'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0221f05f02578e780800000000000000
+      internalID: -8653537899581599200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_44'
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 98
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401b34fe871b8ddd0800000000000000
+      internalID: -2461022063389593340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_45'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645139368a2ad6a20800000000000000
+      internalID: 3057278566163223878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_46'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 98
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e33794ec71be2a0800000000000000
+      internalID: -6707241045275230600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_47'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 102
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b124ac70989ad5dc0800000000000000
+      internalID: -3648573717093924325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_48'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 98
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dd3fed0994a9f20800000000000000
+      internalID: 3430134952760696108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_49'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 98
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c225460ee44bdca0800000000000000
+      internalID: -5991119090188213567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_50'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb397ea169b7681d0800000000000000
+      internalID: -3348853388276689985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_51'
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad53bf18531dabd60800000000000000
+      internalID: 7906862123546523098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_52'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90099f5024f439470800000000000000
+      internalID: 8400144874962784265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_53'
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 49
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e837d1e63fd8940800000000000000
+      internalID: 5300159990751006282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_54'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d03ec4e7b7be5e0800000000000000
+      internalID: -1879272637111005888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_55'
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2659478d5bce96380800000000000000
+      internalID: -8977384116421618334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_56'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 48
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87b2caf83f6c8bb0800000000000000
+      internalID: -4932445201361619061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_57'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 48
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2980eaaa00ba1d0800000000000000
+      internalID: -3338573965700853029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_58'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 49
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d92d8a0b3d45c20800000000000000
+      internalID: 3194410791412604318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_59'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 49
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bbd7a84b6a5e8b0800000000000000
+      internalID: -5123505706716251378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_60'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 48
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814bf1b3384391be0800000000000000
+      internalID: -1506114862141426664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_61'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a16b2a38f105a70800000000000000
+      internalID: 8813579120995080731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_62'
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dfea4a00d3c1620800000000000000
+      internalID: 2746136945761385859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_63'
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80067a4457110adb0800000000000000
+      internalID: -4782803608906801144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_64'
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97c51da82ee65600800000000000000
+      internalID: 456814270694672283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_65'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76a1438098336980800000000000000
+      internalID: -8546925474490505605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_66'
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5126e5c550e6238e0800000000000000
+      internalID: -1715187538771156459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_67'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25feb141678eca060800000000000000
+      internalID: 6966198317476474706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_68'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a009b2bf599ef40800000000000000
+      internalID: 5758298504570079841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_69'
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725368b8e0c6b850800000000000000
+      internalID: 6392508826857460338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_70'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5cd541dc749ce70800000000000000
+      internalID: 9135912265233319421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_71'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 286
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18166dc0bd000d840800000000000000
+      internalID: 5246694506699841921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_72'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7119b765c01186f90800000000000000
+      internalID: -6960294479412883177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_73'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5404d0752ad7fa0800000000000000
+      internalID: -5801302250215160397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_74'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b721e99140c9ce8b0800000000000000
+      internalID: -5121547134803504517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!art_jitsu_rtp_75'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89334d1ac57c6c9c0800000000000000
+      internalID: -3907216426031369320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
