@@ -5,19 +5,23 @@ using UnityEngine;
 public class MenuPrincipal : MonoBehaviour
 {
     public Animator anim;
+    public AudioSource audio;
 
     public void Start()
     {
         anim = this.GetComponent<Animator>();
+        audio = this.GetComponent<AudioSource>();
     }
     public void IniciarJuego()
     {
         anim.SetTrigger("FadeOut");
+        audio.Stop();
     }
 
     public void CerrarJuego()
     {
         anim.SetTrigger("FadeOut");
+        audio.Stop();
         StartCoroutine(cerrar());
     }
 
