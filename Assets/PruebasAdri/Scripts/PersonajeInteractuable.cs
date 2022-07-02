@@ -30,12 +30,18 @@ public class PersonajeInteractuable : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        bocadillo.SetActive(true);
-        interactuar = true;
+        if (collision.tag == "Player")
+        {
+            bocadillo.SetActive(true);
+            interactuar = true;
+        }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
-        bocadillo.SetActive(false);
-        interactuar = false;
+        if (collision.tag == "Player")
+        {
+            bocadillo.SetActive(false);
+            interactuar = false;
+        }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Item
   - Inventario
   - InformacionE
+  - EfectoArma
   layers:
   - Default
   - TransparentFX
