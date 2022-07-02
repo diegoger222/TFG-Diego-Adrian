@@ -147,11 +147,13 @@ public class MovimientoPersonaje : MonoBehaviour
     {
         if(inputX > 0 && !m_atacando)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        //    GetComponent<SpriteRenderer>().flipX = false;
             m_direccionMirando = 1;
         }else if(inputX < 0 && !m_atacando)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            transform.rotation = Quaternion.Euler(0, -180, 0);
+           // GetComponent<SpriteRenderer>().flipX = true;
             m_direccionMirando = -1;
         }
     }
