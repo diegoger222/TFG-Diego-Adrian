@@ -12,6 +12,7 @@ public class ManualAventurero : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoDcho;
     public int contador;
     private GameObject personaje;
+    private bool open;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,7 @@ public class ManualAventurero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (open && Input.GetKeyDown(KeyCode.Escape))
         {
             CerrarManual();
         }
@@ -36,6 +37,7 @@ public class ManualAventurero : MonoBehaviour
         contador = 0;
         textoIzq.text = textIzq.arrayTextos[contador];
         textoDcho.text = textDcho.arrayTextos[contador];
+        open = true;
         anim.SetTrigger("Open");
     } 
 
@@ -74,6 +76,7 @@ public class ManualAventurero : MonoBehaviour
         textoDcho.text = "";
         textoIzq.text = "";
         anim.SetTrigger("Exit");
+        open = false;
         personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
     }
 }
