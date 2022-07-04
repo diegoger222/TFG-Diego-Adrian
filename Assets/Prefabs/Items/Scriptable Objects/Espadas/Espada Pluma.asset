@@ -15,8 +15,12 @@ MonoBehaviour:
   uiDisplay: {fileID: 899400487606427601, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "\xA1Ag\xEDtala! A ver que pasa"
+  description: "Es una espada con forma de pluma \xA1Ag\xEDtala! A ver que pasa..."
   data:
     Name: Espada Pluma
-    Id: 107
-    buffs: []
+    Id: 124
+    buffs:
+    - attribute: 0
+      value: 0
+      min: 0
+      max: 0

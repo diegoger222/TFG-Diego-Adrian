@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
   m_Name: Espada de Roca
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 0}
+  uiDisplay: {fileID: -4498249567587498300, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
-  type: 0
-  description: 
+  type: 2
+  description: Es una espada que posee la habilidad de lanzar fragmentos de roca
   data:
-    Name: 
-    Id: -1
+    Name: Espada Roca
+    Id: 107
     buffs: []

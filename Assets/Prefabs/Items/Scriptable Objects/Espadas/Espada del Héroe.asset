@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
   m_Name: "Espada del H\xE9roe"
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 0}
+  uiDisplay: {fileID: -8049081265270615858, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
-  type: 0
-  description: 
+  type: 2
+  description: "Es la espada que perteneci\xF3 al anterior h\xE9roe, ahora que est\xE1
+    muerto no creo que le importe que la uses t\xFA \xBFverdad?"
   data:
-    Name: 
-    Id: -1
-    buffs: []
+    Name: Espada Heroe
+    Id: 112
+    buffs:
+    - attribute: 4
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0

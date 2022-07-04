@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: 1622477794120481471, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: Es una espada, que lanza agua
+  description: Es una espada que posee la habilidad de lanzar proyectiles de agua
   data:
     Name: Espada Agua
     Id: 101

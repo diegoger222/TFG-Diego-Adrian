@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 4301471669811076800, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: Es una espada, que lanza un fragmento de hielo
+  description: Es una espada que posee la habilidad de lanzar fragmentos de hielo
   data:
     Name: Espada Hielo
-    Id: 102
+    Id: 103
     buffs: []

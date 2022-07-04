@@ -15,8 +15,13 @@ MonoBehaviour:
   uiDisplay: {fileID: 2742730759100088344, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: Espada japonesa con la habilidad de cortar a los enemigos rapidamente
+  description: "Es una espada japonesa que posee la capacidad de cortar r\xE1pidamente
+    a los enemigos"
   data:
     Name: Katana
-    Id: -1
-    buffs: []
+    Id: 134
+    buffs:
+    - attribute: 4
+      value: 0
+      min: 0
+      max: 0

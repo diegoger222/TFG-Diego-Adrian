@@ -14,9 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 5700752533809735777, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
-  type: 0
-  description: 'Espada oscura que alberga almas en su interior. Puede '
+  type: 2
+  description: 'Es una espada que alberga almas en su interior. Posee la habilidad
+    de lanzar esas almas para maldecir a los enemigos '
   data:
-    Name: Espada Oscura
-    Id: 110
-    buffs: []
+    Name: Espada Maldita
+    Id: 116
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0

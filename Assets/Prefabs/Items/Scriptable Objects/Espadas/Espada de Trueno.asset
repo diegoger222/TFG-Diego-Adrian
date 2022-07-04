@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 1394891510150219003, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: Espada con la capacidad de invocar truenos
+  description: Es una espada que posee la habilidad de invocar truenos
   data:
     Name: Espada Trueno
-    Id: 114
+    Id: 109
     buffs: []

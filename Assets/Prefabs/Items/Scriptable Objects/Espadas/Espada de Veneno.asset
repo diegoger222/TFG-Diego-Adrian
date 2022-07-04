@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 3178930324973733698, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: 
+  description: Es una espada que posee la habilidad de lanzar bolas de veneno
   data:
-    Name: Espada Venenosa
-    Id: 108
+    Name: Espada Veneno
+    Id: 110
     buffs: []

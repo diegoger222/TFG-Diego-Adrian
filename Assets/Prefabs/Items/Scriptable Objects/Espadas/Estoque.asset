@@ -15,8 +15,17 @@ MonoBehaviour:
   uiDisplay: {fileID: -280539900564996554, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: Estoque
+  description: "Es un estoque que posee la capacidad de cortar r\xE1pidamente a los
+    enemigos"
   data:
-    Name: 
-    Id: -1
-    buffs: []
+    Name: Estoque
+    Id: 133
+    buffs:
+    - attribute: 0
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 4
+      value: 0
+      min: 0
+      max: 0

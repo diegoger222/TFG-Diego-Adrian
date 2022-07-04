@@ -15,8 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: 1802782928956008399, guid: 4d3afd1d8eb5a8a45a8ae2dab3927d62, type: 3}
   stackable: 0
   type: 2
-  description: Espada de madera que lanza troncos de madera
+  description: Es una espada de madera que posee la habilidad de lanzar troncos de
+    madera
   data:
     Name: Espada Madera
-    Id: 108
+    Id: 105
     buffs: []

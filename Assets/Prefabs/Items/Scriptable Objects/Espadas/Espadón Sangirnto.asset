@@ -12,11 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
   m_Name: "Espad\xF3n Sangirnto"
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 0}
+  uiDisplay: {fileID: 1536213520219517449, guid: 4d3afd1d8eb5a8a45a8ae2dab3927d62, type: 3}
   stackable: 0
-  type: 0
-  description: 
+  type: 2
+  description: "Es un espad\xF3n que posee una gran sed de sangre"
   data:
-    Name: 
-    Id: -1
-    buffs: []
+    Name: Espadon Sangriento
+    Id: 131
+    buffs:
+    - attribute: 0
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0

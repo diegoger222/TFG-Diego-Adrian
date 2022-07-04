@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8473241989307565735
-    second: Espada Oscura 2
+    second: Espada Oscura
   - first:
       213: 2933853297612255782
     second: Espada Luz
@@ -181,7 +181,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Espada Oscura 2
+      name: Espada Oscura
       rect:
         serializedVersion: 2
         x: 0

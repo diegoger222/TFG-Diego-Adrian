@@ -15,9 +15,13 @@ MonoBehaviour:
   uiDisplay: {fileID: -4540813196278680061, guid: 4d3afd1d8eb5a8a45a8ae2dab3927d62, type: 3}
   stackable: 0
   type: 2
-  description: No confundir con un pez espada, esto es una espada pez. Puede invocar
-    una espina de agua
+  description: No confundir con un pez espada, esto es una espada pez. Es una espada
+    que posee la habilidad de invocar espinas de agua
   data:
-    Name: 
-    Id: -1
-    buffs: []
+    Name: Espada Pez
+    Id: 122
+    buffs:
+    - attribute: 0
+      value: 0
+      min: 0
+      max: 0

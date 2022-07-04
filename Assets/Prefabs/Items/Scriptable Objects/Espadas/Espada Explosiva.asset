@@ -16,9 +16,17 @@ MonoBehaviour:
   stackable: 0
   type: 2
   description: "\xA1Una fuerza destructiva sin igual! \xA1Env\xEDa toda la creaci\xF3n
-    a su origen! \xA1Sal de tu abismo! \xA1La humanidad no conoce otra t\xE9cnica
-    ofensiva m\xE1s poderosa! \xA1Es el ataque m\xE1gico supremo! \xA1Explosion!\""
+    a su origen! \xA1La humanidad no conoce otra t\xE9cnica ofensiva m\xE1s poderosa!
+    \xA1Es el ataque m\xE1gico supremo! \xA1Explosion!\""
   data:
     Name: Espada Explosiva
-    Id: 104
-    buffs: []
+    Id: 113
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 5
+      value: 0
+      min: 0
+      max: 0

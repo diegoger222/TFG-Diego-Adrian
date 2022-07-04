@@ -15,8 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: 1873096151286671006, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "Es una espada, que lanza fuego... \xBFQue m\xE1s quieres?"
+  description: "Es una espada que posee la habilidad de lanzar bolas de fuego...
+    \xBFQue esperabas?"
   data:
     Name: Espada Fuego
-    Id: 101
+    Id: 102
     buffs: []

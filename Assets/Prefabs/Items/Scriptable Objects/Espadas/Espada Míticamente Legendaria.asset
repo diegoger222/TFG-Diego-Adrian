@@ -15,20 +15,21 @@ MonoBehaviour:
   uiDisplay: {fileID: 6965878254167625517, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "Espada M\xEDticamente Legendaria"
+  description: "Es una espada M\xEDticamente Legendaria, ojal\xE1... La verdad, as\xED
+    ya est\xE1 bastante bien..."
   data:
-    Name: "Espada M\xEDticamente Legendaria"
-    Id: 105
+    Name: Espada Miticamente Legendaria
+    Id: 120
     buffs:
     - attribute: 0
       value: 300
       min: 0
       max: 0
-    - attribute: 4
+    - attribute: 2
       value: 300
       min: 0
       max: 0
-    - attribute: 6
+    - attribute: 3
       value: 300
       min: 0
       max: 0

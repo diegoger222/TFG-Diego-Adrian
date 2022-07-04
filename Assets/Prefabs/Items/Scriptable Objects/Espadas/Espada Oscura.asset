@@ -10,13 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Espada de Luz
+  m_Name: Espada Oscura
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 2933853297612255782, guid: 4d3afd1d8eb5a8a45a8ae2dab3927d62, type: 3}
+  uiDisplay: {fileID: -8473241989307565735, guid: 4d3afd1d8eb5a8a45a8ae2dab3927d62, type: 3}
   stackable: 0
   type: 2
-  description: Es una espada que posee la habilidad de lanzar proyectiles de luz
+  description: Es una espada que posee la habilidad de invocar a los seres de la
+    noche
   data:
-    Name: Espada Luz
-    Id: 104
-    buffs: []
+    Name: Espada Oscura
+    Id: 121
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0

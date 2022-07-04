@@ -15,10 +15,10 @@ MonoBehaviour:
   uiDisplay: {fileID: 3941353571591471554, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "Un gran espad\xF3n que otorga a su portador una gran defensa f\xEDsica"
+  description: "Es un espad\xF3n que otorga a su portador una gran defensa f\xEDsica"
   data:
     Name: "Espad\xF3n Defensivo"
-    Id: 104
+    Id: 127
     buffs:
     - attribute: 0
       value: 10

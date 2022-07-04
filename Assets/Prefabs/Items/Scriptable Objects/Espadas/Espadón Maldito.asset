@@ -15,8 +15,21 @@ MonoBehaviour:
   uiDisplay: {fileID: -6185063432896164276, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "Espad\xF3n capaz de invocar las almas del subsuelo"
+  description: "Es un espad\xF3n que posee la habilidad de invocar las almas malditas
+    del subsuelo"
   data:
-    Name: "Espad\xF3n Oscuro"
-    Id: -1
-    buffs: []
+    Name: "Espad\xF3n Maldito"
+    Id: 129
+    buffs:
+    - attribute: 0
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 1
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0
