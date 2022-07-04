@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 0
   type: 2
   description: Es una espada fabricada con la pata de un insecto gigante que posee
-    la habilidad de expulsar el veneno del insecto
+    la habilidad de expulsar veneno
   data:
     Name: Espada Insecto
     Id: 114

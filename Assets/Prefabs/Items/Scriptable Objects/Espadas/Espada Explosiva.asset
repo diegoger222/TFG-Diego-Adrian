@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: -1964625377520818251, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "\xA1Una fuerza destructiva sin igual! \xA1Env\xEDa toda la creaci\xF3n
+  description: "\"\xA1Una fuerza destructiva sin igual! \xA1Env\xEDa toda la creaci\xF3n
     a su origen! \xA1La humanidad no conoce otra t\xE9cnica ofensiva m\xE1s poderosa!
     \xA1Es el ataque m\xE1gico supremo! \xA1Explosion!\""
   data:

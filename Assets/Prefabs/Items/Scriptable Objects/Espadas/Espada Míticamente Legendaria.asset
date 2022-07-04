@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 6965878254167625517, guid: ab20dadf25b70704e964ea2814e3571c, type: 3}
   stackable: 0
   type: 2
-  description: "Es una espada M\xEDticamente Legendaria, ojal\xE1... La verdad, as\xED
-    ya est\xE1 bastante bien..."
+  description: "Es la \"Espada M\xEDticamente Legendaria\", ojal\xE1... La verdad,
+    as\xED ya est\xE1 bastante bien..."
   data:
     Name: Espada Miticamente Legendaria
     Id: 120

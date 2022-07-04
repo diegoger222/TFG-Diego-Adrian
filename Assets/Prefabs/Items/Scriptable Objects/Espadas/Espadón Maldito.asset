@@ -25,10 +25,6 @@ MonoBehaviour:
       value: 0
       min: 0
       max: 0
-    - attribute: 1
-      value: 0
-      min: 0
-      max: 0
     - attribute: 6
       value: 0
       min: 0
