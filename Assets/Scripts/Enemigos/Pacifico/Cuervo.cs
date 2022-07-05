@@ -11,6 +11,8 @@ public class Cuervo : MonoBehaviour
     public Vector3 puntoInicial;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private float tiempoAccion = 10;
+    private float tiempoAcccionAux;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,7 @@ public class Cuervo : MonoBehaviour
         puntoInicial = transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        tiempoAcccionAux = tiempoAccion;
     }
 
     // Update is called once per frame
@@ -25,6 +28,12 @@ public class Cuervo : MonoBehaviour
     {
         distancia = Vector2.Distance(transform.position, player.position);
         animator.SetFloat("Distancia", distancia);
+        tiempoAcccionAux -= Time.deltaTime;
+        if(tiempoAcccionAux< 0)
+        {
+            animator.SetTrigger("Gritar");
+            tiempoAcccionAux = tiempoAccion;
+        }
     }
     public void Girar(Vector3 objetivo)
     {

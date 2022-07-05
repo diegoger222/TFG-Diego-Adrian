@@ -21,7 +21,15 @@ public class CuervoVuelo : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.transform.position = Vector2.MoveTowards(animator.transform.position, player.position, velocidadMovimiento * Time.deltaTime);
+        
+        if (animator.GetFloat("Distancia") > 2)
+        {
+            animator.transform.position = Vector2.MoveTowards(animator.transform.position, player.position, velocidadMovimiento * Time.deltaTime);
+        }
+        else
+        {
+            animator.transform.position = Vector2.MoveTowards(animator.transform.position, player.position, 0 * Time.deltaTime);
+        }
         cuervo.Girar(player.position);
         tiempoSeguir -= Time.deltaTime;
         if(tiempoSeguir <= 0)
