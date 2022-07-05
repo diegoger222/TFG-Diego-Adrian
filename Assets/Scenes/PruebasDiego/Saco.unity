@@ -25102,6 +25102,7 @@ GameObject:
   - component: {fileID: 1712007496}
   - component: {fileID: 1712007495}
   - component: {fileID: 1712007498}
+  - component: {fileID: 1712007499}
   m_Layer: 0
   m_Name: ArbolE
   m_TagString: Untagged
@@ -25267,6 +25268,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8216308c42756d641bdbb7e0c7abdf79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1712007499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712007491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4fc9750c369044a9914cdcd637c984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: {fileID: 4499506290756033415, guid: 9cd8446d7f5676e428b4fd8e1ba4d5fd, type: 3}
 --- !u!1001 &1725736233
 PrefabInstance:
   m_ObjectHideFlags: 0

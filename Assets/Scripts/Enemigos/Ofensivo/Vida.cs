@@ -46,6 +46,7 @@ public class Vida : MonoBehaviour
 
     public void RecibirDano(int cantidad)
     {
+        this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(cantidad);
         vida_Act -= cantidad;
         if(vida_Act <= 0)
         {
