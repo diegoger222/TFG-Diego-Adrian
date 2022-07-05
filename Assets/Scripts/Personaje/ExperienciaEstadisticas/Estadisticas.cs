@@ -444,4 +444,9 @@ public class Estadisticas : MonoBehaviour
         }
 
     }
+
+    public float  GetFuerza()
+    {
+        return danyoFisicoTotal;
+    }
 }

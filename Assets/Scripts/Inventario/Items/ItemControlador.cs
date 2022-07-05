@@ -6,6 +6,13 @@ public class ItemControlador : MonoBehaviour
 {
     public ItemObject item;
 
+    public void Start()
+    {
+        if (!item.stackable)
+        {
+           // item.data.buffs.
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
