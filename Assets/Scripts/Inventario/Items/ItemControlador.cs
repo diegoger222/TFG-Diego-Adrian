@@ -10,7 +10,7 @@ public class ItemControlador : MonoBehaviour
     {
         if (!item.stackable)
         {
-           // item.data.buffs.
+            item.data = item.CreateItem();
         }
     }
 

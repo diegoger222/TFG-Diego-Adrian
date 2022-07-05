@@ -17,18 +17,18 @@ MonoBehaviour:
   type: 2
   description: Navaja de asalto que se uso para matar a su hermano
   data:
-    Name: Navaja de popu
+    Name: Espada
     Id: 2
     buffs:
     - attribute: 0
-      value: 5
+      value: 7
       min: 4
-      max: 10
+      max: 100
     - attribute: 2
-      value: 140
+      value: 92
       min: 4
       max: 500
     - attribute: 1
-      value: 50
+      value: 57
       min: 4
       max: 500
