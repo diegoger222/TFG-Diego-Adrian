@@ -22,6 +22,7 @@ public class ArbolCont : MonoBehaviour
     private float tiempoParadaAux;
     private bool objetivo = false;
     public Vector3 target;
+    public bool miraDerecha = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,11 +60,29 @@ public class ArbolCont : MonoBehaviour
     {
         if (transform.position.x < objetivo.x)
         {
-            spriteRenderer.flipX = false;
+            if (miraDerecha) 
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, -180, 0);
+            }
+            //spriteRenderer.flipX = false;
+           // transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else
         {
-            spriteRenderer.flipX = true;
+            // spriteRenderer.flipX = true;
+            // transform.rotation = Quaternion.Euler(0, -180, 0);
+            if (miraDerecha)
+            {
+                transform.rotation = Quaternion.Euler(0, -180, 0);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
         }
     }
 

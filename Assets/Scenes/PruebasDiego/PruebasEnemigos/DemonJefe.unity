@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 1288284403}
   - component: {fileID: 1288284402}
   m_Layer: 0
-  m_Name: demon_idle_1
+  m_Name: demonio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
