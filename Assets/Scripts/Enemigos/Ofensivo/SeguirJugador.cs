@@ -21,7 +21,7 @@ public class SeguirJugador : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         arbol.Girar(player.transform.position);
-        if (animator.GetFloat("Distancia") > 2)
+        if (animator.GetFloat("Distancia") > distanciaAtaque)
         {
             animator.transform.position = Vector2.MoveTowards(animator.transform.position, player.position, velocidadMovimiento * Time.deltaTime);
         }
