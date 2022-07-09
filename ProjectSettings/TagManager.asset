@@ -10,6 +10,7 @@ TagManager:
   - Inventario
   - InformacionE
   - EfectoArma
+  - Enemigo
   layers:
   - Default
   - TransparentFX
