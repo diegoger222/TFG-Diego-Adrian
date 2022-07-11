@@ -100,14 +100,14 @@ public class ArbolCont : MonoBehaviour
 
     public void LlegadaPuntos()
     {
-        if(target == puntoInicial)
+        if(target.x == puntoInicial.x)
         {
             
             camina = false;
             target = puntoFinal;
             animator.SetTrigger("Caminar");
         }
-        else if(target == puntoFinal)
+        else if(target.x == puntoFinal.x)
         {
           
             camina = false;

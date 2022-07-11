@@ -7,11 +7,13 @@ public class MovimientoCenti : StateMachineBehaviour
     [SerializeField] private float velocidadMovimiento;
     public Vector3 target;
     private ArbolCont arbol;
+    private bool aux;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         target = animator.gameObject.GetComponent<ArbolCont>().target;
         arbol = animator.gameObject.GetComponent<ArbolCont>();
+        aux = true;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -20,8 +22,9 @@ public class MovimientoCenti : StateMachineBehaviour
 
         animator.transform.position = Vector2.MoveTowards(animator.transform.position,  target, velocidadMovimiento * Time.deltaTime);       
         arbol.Girar(target);
-        if (animator.transform.position == target)
+        if (animator.transform.position == target && aux)
         {
+            aux = false;
             animator.SetTrigger("Parar");
         }
     }
