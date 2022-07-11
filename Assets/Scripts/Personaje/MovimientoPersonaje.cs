@@ -262,6 +262,10 @@ public class MovimientoPersonaje : MonoBehaviour
     {
         e_dialogo = a;
     }
+    public float Direccion()
+    {
+        return m_direccionMirando;
+    }
 
     
 }
