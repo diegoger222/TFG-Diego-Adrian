@@ -249,8 +249,8 @@ public class MovimientoPersonaje : MonoBehaviour
     {
         int nEspada = espada.GetComponent<SlotEquipo>().itemO.Id;
         tiempoSiguienteAtaque = tiempoEntreAtaques;
-        //popo aqui
         m_animator.SetTrigger("AtaqueE");
+        GetComponent<AtaqueEspecial>().Efecto(nEspada);
     }
 
 

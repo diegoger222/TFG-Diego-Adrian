@@ -32,6 +32,7 @@ public class LanzarEfecto : MonoBehaviour
     {
         if (other.CompareTag("Enemigo"))
         {
+            rb2d.bodyType = RigidbodyType2D.Static;
             anim.SetTrigger("Hit");
         }
     }
