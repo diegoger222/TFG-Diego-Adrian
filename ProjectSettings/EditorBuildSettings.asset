@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa/Taberna/Tab.unity
     guid: 743d07bbe480a9849b5c80a739230883
   - enabled: 1
+    path: Assets/Scenes/Mapa/Peleas/Jefe1.unity
+    guid: b284f46fad79475418df76594e2f93d6
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -42,7 +42,7 @@ public class MovimientoPersonaje : MonoBehaviour
     private bool m_atacando = false;
     private float m_direccionMirando = 1;
     private float inputX = 0;
-
+    [SerializeField] public GameObject espada;
 
     private bool aux_caida = false;
     void Start()
@@ -91,7 +91,7 @@ public class MovimientoPersonaje : MonoBehaviour
             }
             if (Input.GetKeyDown("q"))
             {
-                m_animator.SetTrigger("AtaqueE");
+                AtaqueE();
             }
             if (Input.GetKeyDown("e"))
             {
@@ -192,6 +192,8 @@ public class MovimientoPersonaje : MonoBehaviour
 
     public void Saltar()
     {
+
+       
         m_animator.SetTrigger("Saltar");
         m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_fuerzaSalto);
         
@@ -242,6 +244,13 @@ public class MovimientoPersonaje : MonoBehaviour
             e_cuentaAtaque = 0;
             m_animator.SetTrigger("Ataque2");
         }
+    }
+    public void AtaqueE()
+    {
+        int nEspada = espada.GetComponent<SlotEquipo>().itemO.Id;
+        tiempoSiguienteAtaque = tiempoEntreAtaques;
+        //popo aqui
+        m_animator.SetTrigger("AtaqueE");
     }
 
 
