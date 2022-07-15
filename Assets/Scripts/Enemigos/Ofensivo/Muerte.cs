@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Muerte : StateMachineBehaviour
 {
+    public int experiencia = 0;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -19,6 +20,7 @@ public class Muerte : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Experiencia>().GanarExperiencia(experiencia);
         animator.gameObject.SetActive(false);
     }
 

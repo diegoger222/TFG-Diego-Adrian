@@ -39,6 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6746e81a307e0d4890c03c53554eeb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  experiencia: 20
 --- !u!1101 &-8689156672433334281
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

@@ -48,6 +48,11 @@ public class Experiencia : MonoBehaviour
         if (menuEstadisticas.activeSelf)
         {
             barra_exp.fillAmount = exp_acumul / experienciaNecesaria;
+            
+        }
+        if((exp_nivel + var_nivel * (act_nivel - 1)) < exp_acumul)
+        {
+            ExperienciaPermanente();
         }
        // skillpoints = GameObject.FindGameObjectWithTag("Statsm");
     }

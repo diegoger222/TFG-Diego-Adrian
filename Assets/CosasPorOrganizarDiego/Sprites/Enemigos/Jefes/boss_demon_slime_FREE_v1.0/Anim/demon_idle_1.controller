@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6746e81a307e0d4890c03c53554eeb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  experiencia: 20
 --- !u!114 &-410355430957915130
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -57,7 +57,7 @@ public class Vida : MonoBehaviour
         {
             m_animator.SetTrigger("Muerte");
            // deathSound.Play();
-            Invoke("Muerte", 2f);
+           // Invoke("Muerte", 2f);
         }
         else
         {
