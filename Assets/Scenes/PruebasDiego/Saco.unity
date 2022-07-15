@@ -17864,7 +17864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbdb4ccfc319eb049ad540ef97cbbe23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaIR: Jefe1
+  escenaIR: Jefe2
   nombreSalida: P
 --- !u!1 &1159262913
 GameObject:

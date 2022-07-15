@@ -10,7 +10,7 @@ public class Vida : MonoBehaviour
     private Animator m_animator;
     private Rigidbody2D m_body2d;
     public Image vida;
-    private float vida_Max;
+    public  float vida_Max = 100;
     private float vida_Act;
     private bool vivo;
     private int armadura;
@@ -25,8 +25,8 @@ public class Vida : MonoBehaviour
         m_body2d.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
 
         vivo = true;
-        vida_Max = 100;
-        vida_Act = 80;
+       
+        vida_Act = vida_Max;
 
        // Debug.Log(gameObject.name);
         armadura = gameObject.GetComponent<EstadisticasEnemigo>().armadura;
