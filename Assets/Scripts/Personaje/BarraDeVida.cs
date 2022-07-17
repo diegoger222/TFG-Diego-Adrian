@@ -87,7 +87,12 @@ public class BarraDeVida : MonoBehaviour
     public void RestarVida(float cantidad)
     {
         //damage = cantidad;
-        if (!invencible && vidaActual > 0 && !escudo)
+        if (escudo)
+        {
+            this.gameObject.GetComponent<DanyoVisible>().BlockDa();
+            escudo = false;
+        }
+        else if (!invencible && vidaActual > 0)
         {
      
 
@@ -119,7 +124,12 @@ public class BarraDeVida : MonoBehaviour
     public void RestarVidaFisica(float cantidad)
     {
         //damage = cantidad;
-        if (!invencible && vidaActual > 0 && !escudo)
+        if (escudo)
+        {
+            this.gameObject.GetComponent<DanyoVisible>().BlockDa();
+            escudo = false;
+        }
+        else if (!invencible && vidaActual > 0)
         {
             float cantidadAux = Calculoarmadura((int)cantidad);
 
@@ -140,7 +150,12 @@ public class BarraDeVida : MonoBehaviour
     public void RestarVidaMG(float cantidad)
     {
         //damage = cantidad;
-        if (!invencible && vidaActual > 0 && !escudo)
+        if (escudo)
+        {
+            this.gameObject.GetComponent<DanyoVisible>().BlockDa();
+            escudo = false;
+        }
+        else if(!invencible && vidaActual > 0 && !escudo)
         {
             float cantidadAux = CalculoResistenciaMG((int)cantidad);
 

@@ -20,7 +20,17 @@ public class DanyoVisible : MonoBehaviour
     public void MostrarDanyo(float danyo)
     {
         GameObject textOb = Instantiate(texto, transform.position + Random.onUnitSphere, Quaternion.identity);
+        textOb.GetComponent<TextMeshPro>().fontSize = 7;
         textOb.GetComponent<TextMeshPro>().SetText(danyo.ToString());
+
+        //StartCoroutine(MoverTexto(textOb));
+
+    }
+    public void BlockDa()
+    {
+        GameObject textOb = Instantiate(texto, transform.position + Random.onUnitSphere, Quaternion.identity);
+        textOb.GetComponent<TextMeshPro>().fontSize = 2;
+        textOb.GetComponent<TextMeshPro>().SetText("BLOCK");
 
         //StartCoroutine(MoverTexto(textOb));
 
