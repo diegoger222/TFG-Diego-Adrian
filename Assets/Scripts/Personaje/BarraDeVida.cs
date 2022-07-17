@@ -173,6 +173,15 @@ public class BarraDeVida : MonoBehaviour
             }
         }
     }
+
+    public void sumarVidaPoti(float cantidad)
+    {
+        vidaActual += cantidad;
+        if (vidaActual > vidaMaxima)
+        {
+            vidaActual = vidaMaxima;
+        }
+    }
     public void ActivarInmune()
     {
        // tiempoInmuneaux = tiempoInmune;

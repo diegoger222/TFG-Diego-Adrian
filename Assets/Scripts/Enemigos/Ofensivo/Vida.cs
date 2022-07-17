@@ -61,7 +61,7 @@ public class Vida : MonoBehaviour
         }
         else
         {
-            m_animator.SetTrigger("Dayno");
+            m_animator.SetTrigger("Danyo");
             
         }
     }

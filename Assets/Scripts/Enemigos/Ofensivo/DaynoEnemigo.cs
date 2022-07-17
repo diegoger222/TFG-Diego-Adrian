@@ -14,7 +14,7 @@ public class DaynoEnemigo : MonoBehaviour
             // float danyo = player.GetComponent<Estadisticas>().GetFuerza();
 
             // this.gameObject.transform.parent.gameObject.GetComponent<EstadisticasEnemigo>().dayno;
-            collision.gameObject.GetComponent<BarraDeVida>().RestarVida(this.gameObject.transform.parent.gameObject.GetComponent<EstadisticasEnemigo>().dayno);
+            collision.gameObject.GetComponent<BarraDeVida>().RestarVidaFisica(this.gameObject.transform.parent.gameObject.GetComponent<EstadisticasEnemigo>().dayno);
         }
     }
 }
