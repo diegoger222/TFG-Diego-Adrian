@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8531486433891057519}
   - component: {fileID: 8531486433891057512}
   - component: {fileID: 8531486433891057513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ataque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 8531486434322201022}
   - component: {fileID: 8531486434322201023}
   - component: {fileID: 8531486434322201016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Esqueleto
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
@@ -295,6 +295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8531486434322201010}
     m_Modifications:
+    - target: {fileID: 233506714092433585, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 233506715031645780, guid: b1c0350613791f24790caceb51189844, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -394,6 +398,14 @@ PrefabInstance:
     - target: {fileID: 233506715031645787, guid: b1c0350613791f24790caceb51189844, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 233506715031645787, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 233506715249509196, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1c0350613791f24790caceb51189844, type: 3}

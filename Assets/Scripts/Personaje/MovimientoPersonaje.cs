@@ -16,10 +16,10 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] private float tiempoEscudoEnfriamiento = 15f;
 
 
-    [SerializeField] private float tiempoSiguienteAtaque;
-    [SerializeField] private float tiempoRodarAux; 
-    [SerializeField] private float tiempoEscudoActivadoAux;
-    [SerializeField] private float tiempoEscudoEnfriamientoAux;
+    [SerializeField] private float tiempoSiguienteAtaque =0;
+    [SerializeField] private float tiempoRodarAux = 0; 
+    [SerializeField] private float tiempoEscudoActivadoAux =0;
+    [SerializeField] private float tiempoEscudoEnfriamientoAux =0;
 
     public Transform comprobadorSuelo;
     public GameObject escudo;
@@ -43,6 +43,8 @@ public class MovimientoPersonaje : MonoBehaviour
     private float m_direccionMirando = 1;
     private float inputX = 0;
     [SerializeField] public GameObject espada;
+    public AudioSource rodar;
+    public AudioSource ataqueSonido;
 
     private bool aux_caida = false;
     void Start()
@@ -171,7 +173,7 @@ public class MovimientoPersonaje : MonoBehaviour
         {
             m_body2d.velocity = new Vector2(inputX * m_velocidadCorriendo, m_body2d.velocity.y);
             m_animator.SetBool("Correr", true);
-            if (Input.GetKeyDown("h"))
+            if (Input.GetKeyDown("h") &&tiempoRodarAux<=0)
             {
                 Rodar();
             }
@@ -238,6 +240,7 @@ public class MovimientoPersonaje : MonoBehaviour
     {
 
         tiempoSiguienteAtaque = tiempoEntreAtaques;
+        ataqueSonido.Play();
         if (e_cuentaAtaque == 0)
         {
             e_cuentaAtaque = 1;
@@ -261,6 +264,7 @@ public class MovimientoPersonaje : MonoBehaviour
     public void Rodar()
     {
         //Aqui ira estamina
+        rodar.Play();
         m_animator.SetTrigger("Rodar");
         tiempoRodarAux = tiempoRodar;
         m_body2d.velocity = new Vector2(m_direccionMirando * m_fuerzaRodar, m_body2d.velocity.y);

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1596011265193045032}
   - component: {fileID: 1596011265193045039}
   - component: {fileID: 1596011265193045038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ataque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 1596011265852910329}
   - component: {fileID: 1596011265852910328}
   - component: {fileID: 1596011265852910335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ArbolE
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: {fileID: 1521019120171340446}
+  vida_Max: 100
   deathSound: {fileID: 0}
 --- !u!114 &1596011265852910329
 MonoBehaviour:
@@ -258,6 +259,7 @@ MonoBehaviour:
   distanciaSegundoPunto: 2
   camina: 1
   target: {x: 0, y: 0, z: 0}
+  miraDerecha: 1
 --- !u!114 &1596011265852910328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1596011265852910325}
     m_Modifications:
+    - target: {fileID: 233506714092433585, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 233506715031645780, guid: b1c0350613791f24790caceb51189844, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -392,6 +398,14 @@ PrefabInstance:
     - target: {fileID: 233506715031645787, guid: b1c0350613791f24790caceb51189844, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 233506715031645787, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 233506715249509196, guid: b1c0350613791f24790caceb51189844, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1c0350613791f24790caceb51189844, type: 3}
