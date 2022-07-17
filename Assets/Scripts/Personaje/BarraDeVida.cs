@@ -92,8 +92,9 @@ public class BarraDeVida : MonoBehaviour
      
 
             vidaActual -= cantidad;
+            this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(cantidad);
             // StartCoroutine(FrenarNasus());
-          //  m_animator.SetTrigger("Hurt");
+            m_animator.SetTrigger("Danyo");
             if (vidaActual  <= 0)
             {
                 //sonidoJugador.StopPlayAllSounds();
@@ -115,7 +116,48 @@ public class BarraDeVida : MonoBehaviour
         }
     }
     //parte de las potis
+    public void RestarVidaFisica(float cantidad)
+    {
+        //damage = cantidad;
+        if (!invencible && vidaActual > 0 && !escudo)
+        {
+            float cantidadAux = Calculoarmadura((int)cantidad);
 
+            vidaActual -= cantidadAux;
+            // StartCoroutine(FrenarNasus());
+            m_animator.SetTrigger("Danyo");
+            this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(cantidadAux);
+            if (vidaActual <= 0)
+            {
+                Debug.Log("Has muerto");
+            }
+            if (vidaActual > vidaMaxima)
+            {
+                vidaActual = vidaMaxima;
+            }
+        }
+    }
+    public void RestarVidaMG(float cantidad)
+    {
+        //damage = cantidad;
+        if (!invencible && vidaActual > 0 && !escudo)
+        {
+            float cantidadAux = CalculoResistenciaMG((int)cantidad);
+
+            vidaActual -= cantidadAux;
+            // StartCoroutine(FrenarNasus());
+             m_animator.SetTrigger("Danyo");
+            this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(cantidadAux);
+            if (vidaActual <= 0)
+            {
+                Debug.Log("Has muerto");
+            }
+            if (vidaActual > vidaMaxima)
+            {
+                vidaActual = vidaMaxima;
+            }
+        }
+    }
     public void ActivarInmune()
     {
        // tiempoInmuneaux = tiempoInmune;
@@ -185,7 +227,20 @@ public class BarraDeVida : MonoBehaviour
         float a = puntos;
         vidaMaxima += a;
     }
-
+    private int Calculoarmadura(int cantidad)
+    {
+        float armaduraAux = this.gameObject.GetComponent<Estadisticas>().GetArmadura();
+        float daynoAux = (float)cantidad;
+        float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        return (int)daynototal;
+    }
+    private int CalculoResistenciaMG(int cantidad)
+    {
+        float rMG= this.gameObject.GetComponent<Estadisticas>().GetResistenciaMG();
+        float daynoAux = (float)cantidad;
+        float daynototal = daynoAux * (rMG/(100+rMG));
+        return (int)daynototal;
+    }
     public void SumarPuntosDefensa(int puntos)
     {
         ndefensa += puntos;

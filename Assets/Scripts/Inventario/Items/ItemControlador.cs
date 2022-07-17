@@ -28,9 +28,13 @@ public class ItemControlador : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("PATATA");
+            
             bool patata = GameObject.FindGameObjectWithTag("Inventario").GetComponent<Inventory>().AnyadirItem(item);
-            Debug.Log(patata);
+            //Patata 
+            if (patata)
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }

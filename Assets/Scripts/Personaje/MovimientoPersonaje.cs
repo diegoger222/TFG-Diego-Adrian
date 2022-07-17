@@ -79,6 +79,7 @@ public class MovimientoPersonaje : MonoBehaviour
             if (Input.GetButtonDown("Saltar") && e_suelo){
                 Saltar();
             }
+            //revisar
             if (Input.GetButtonDown("Fire1") && (e_espada || !e_suelo) && tiempoSiguienteAtaque <= 0)
             {
                 Ataque();
@@ -89,7 +90,7 @@ public class MovimientoPersonaje : MonoBehaviour
                 tiempoEscudoActivadoAux = tiempoEscudoActivado;
                 e_escudo = true;
             }
-            if (Input.GetKeyDown("q"))
+            if (Input.GetKeyDown("q") && (e_espada && e_suelo) && tiempoSiguienteAtaque <= 0)
             {
                 AtaqueE();
             }

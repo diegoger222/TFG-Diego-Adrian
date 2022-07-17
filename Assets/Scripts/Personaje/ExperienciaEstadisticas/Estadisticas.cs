@@ -42,7 +42,7 @@ public class Estadisticas : MonoBehaviour
     private float danyoFisicoBase = 0;
     private float danyoMagicoBase = 0;
     private float manaBase = 0;
-    private float vitalidadBase = 0;
+    private float vitalidadBase = 100;
     private float suerteBase = 0;
 
 
@@ -448,5 +448,30 @@ public class Estadisticas : MonoBehaviour
     public float  GetFuerza()
     {
         return danyoFisicoTotal;
+    }
+    public float GetInteligencia()
+    {
+        return danyoMagicoTotal;
+    }
+    public float GetArmadura()
+    {
+        return defensaFisicaTotal;
+    }
+    public float GetResistenciaMG()
+    {
+        return defensaMagicaTotal;
+    }
+
+    public float GetVitalidad()
+    {
+        return vitalidadTotal;
+    }
+    public float GetMana()
+    {
+        return manaTotal;
+    }
+    public float GetSuerte()
+    {
+        return suerteTotal;
     }
 }

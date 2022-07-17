@@ -56,7 +56,7 @@ public class VidaJefe : MonoBehaviour
         }
         else
         {
-            m_animator.SetTrigger("Dayno");
+            m_animator.SetTrigger("Danyo");
             vidaText.text = vidaActual.ToString() + "/" + vida_Max.ToString();
         }
     }
