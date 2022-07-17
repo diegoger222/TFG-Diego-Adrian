@@ -4872,6 +4872,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2124350342876368970, guid: cc4afcb097a1c7a4986c405e97fb4df4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.29778764
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124350342876368970, guid: cc4afcb097a1c7a4986c405e97fb4df4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.026568487
+      objectReference: {fileID: 0}
     - target: {fileID: 2124350342876368971, guid: cc4afcb097a1c7a4986c405e97fb4df4, type: 3}
       propertyPath: espada
       value: 
@@ -10639,7 +10647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bf73494df97fe46a8a34e20579ad21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 0350d8a0414a7d94ea3b60a38a57b5b4, type: 2}
+  item: {fileID: 11400000, guid: f7e87e6e4d70e6c48b20531dfb3f9912, type: 2}
 --- !u!58 &669941921
 CircleCollider2D:
   m_ObjectHideFlags: 0
