@@ -12,6 +12,7 @@ TagManager:
   - EfectoArma
   - Enemigo
   - Suelo
+  - Trampa
   layers:
   - Default
   - TransparentFX
