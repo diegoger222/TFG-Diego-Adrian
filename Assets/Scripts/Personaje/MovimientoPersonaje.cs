@@ -145,12 +145,12 @@ public class MovimientoPersonaje : MonoBehaviour
     //Este metodo cambia el renderizado del sprite del personaje para que mire hacia el lado en el que se mueve el personaje
     public void DireccionMirando()
     {
-        if(inputX > 0 && !m_atacando)
+        if(inputX > 0 && !m_atacando &&  !m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll"))
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         //    GetComponent<SpriteRenderer>().flipX = false;
             m_direccionMirando = 1;
-        }else if(inputX < 0 && !m_atacando)
+        }else if(inputX < 0 && !m_atacando && !m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll"))
         {
             transform.rotation = Quaternion.Euler(0, -180, 0);
            // GetComponent<SpriteRenderer>().flipX = true;
@@ -166,11 +166,14 @@ public class MovimientoPersonaje : MonoBehaviour
 
     public void MoverseCorriendo()
     {
-        m_body2d.velocity = new Vector2(inputX * m_velocidadCorriendo, m_body2d.velocity.y);
-        m_animator.SetBool("Correr", true);
-        if (Input.GetKeyDown("h"))
+        if (!m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll"))
         {
-            Rodar();
+            m_body2d.velocity = new Vector2(inputX * m_velocidadCorriendo, m_body2d.velocity.y);
+            m_animator.SetBool("Correr", true);
+            if (Input.GetKeyDown("h"))
+            {
+                Rodar();
+            }
         }
     }
 
