@@ -1217,6 +1217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VidaBossHUD
       objectReference: {fileID: 0}
+    - target: {fileID: 5717883408847432555, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
+      propertyPath: m_Text
+      value: huesitos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
 --- !u!114 &276243355 stripped
