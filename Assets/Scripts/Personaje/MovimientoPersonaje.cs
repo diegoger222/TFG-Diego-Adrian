@@ -43,9 +43,10 @@ public class MovimientoPersonaje : MonoBehaviour
     private float m_direccionMirando = 1;
     private float inputX = 0;
     [SerializeField] public GameObject espada;
+    private bool e_atacando = false;
     public AudioSource rodar;
     public AudioSource ataqueSonido;
-
+   
     private bool aux_caida = false;
     void Start()
     {
@@ -69,12 +70,13 @@ public class MovimientoPersonaje : MonoBehaviour
           
             DireccionMirando();
             EstadoAireSuelo();
-            if (inputX == 0)
+            if (inputX == 0 )
             {
                 m_animator.SetBool("Correr", false);
             }
             else
             {
+
                 MoverseCorriendo();
             }
 
@@ -169,11 +171,11 @@ public class MovimientoPersonaje : MonoBehaviour
 
     public void MoverseCorriendo()
     {
-        if (!m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll"))
+        if (!m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll") && !e_atacando)
         {
             m_body2d.velocity = new Vector2(inputX * m_velocidadCorriendo, m_body2d.velocity.y);
             m_animator.SetBool("Correr", true);
-            if (Input.GetKeyDown("h") &&tiempoRodarAux<=0)
+            if (Input.GetKeyDown(KeyCode.LeftShift) &&tiempoRodarAux<=0 && e_suelo)
             {
                 Rodar();
             }
@@ -240,10 +242,12 @@ public class MovimientoPersonaje : MonoBehaviour
     {
 
         tiempoSiguienteAtaque = tiempoEntreAtaques;
+        m_animator.SetBool("Correr", false);
         ataqueSonido.Play();
         if (e_cuentaAtaque == 0)
         {
             e_cuentaAtaque = 1;
+           
             m_animator.SetTrigger("Ataque1");
         }
         else
@@ -289,6 +293,11 @@ public class MovimientoPersonaje : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public void SetAtacando(bool _aux)
+    {
+        e_atacando = _aux;
     }
 
     
