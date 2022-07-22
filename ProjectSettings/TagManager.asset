@@ -13,6 +13,7 @@ TagManager:
   - Enemigo
   - Suelo
   - Trampa
+  - Sonidos
   layers:
   - Default
   - TransparentFX
