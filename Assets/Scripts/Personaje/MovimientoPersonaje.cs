@@ -80,23 +80,29 @@ public class MovimientoPersonaje : MonoBehaviour
                 MoverseCorriendo();
             }
 
-            if (Input.GetButtonDown("Saltar") && e_suelo){
+            if (Input.GetButtonDown("Saltar") && e_suelo && !e_atacando)
+            {
                 Saltar();
             }
             //revisar
-            if (Input.GetButtonDown("Fire1") && (e_espada || !e_suelo) && tiempoSiguienteAtaque <= 0)
+            if (Input.GetButtonDown("Fire1") && (e_espada || !e_suelo) && tiempoSiguienteAtaque <= 0 && !e_atacando)
             {
                 Ataque();
             }
-            if (Input.GetButtonDown("Fire2") && (e_suelo) && tiempoEscudoEnfriamientoAux <= 0 && tiempoEscudoActivadoAux <=0)
+            if (Input.GetButtonDown("Fire2") && (e_suelo) && tiempoEscudoEnfriamientoAux <= 0 && tiempoEscudoActivadoAux <=0 && !e_atacando)
             {
                 escudo.SetActive(true);           
                 tiempoEscudoActivadoAux = tiempoEscudoActivado;
                 e_escudo = true;
             }
-            if (Input.GetKeyDown("q") && (e_espada && e_suelo) && tiempoSiguienteAtaque <= 0)
+            if (Input.GetKeyDown("q") && (e_espada && e_suelo) && tiempoSiguienteAtaque <= 0 && !e_atacando)
             {
                 AtaqueE();
+            }
+            if(Input.GetKeyDown("q") && (e_espada && !e_suelo) && tiempoSiguienteAtaque <= 0 && !e_atacando)
+            {
+                m_animator.SetTrigger("Ataque3");
+                tiempoSiguienteAtaque = tiempoEntreAtaques;
             }
             if (Input.GetKeyDown("e"))
             {
@@ -110,6 +116,11 @@ public class MovimientoPersonaje : MonoBehaviour
             if (e_suelo)
             {
                 aux_caida = false;
+                m_animator.SetBool("Suelo", true);
+            }
+            else
+            {
+                m_animator.SetBool("Suelo", false);
             }
             if (e_escudo)
             {
