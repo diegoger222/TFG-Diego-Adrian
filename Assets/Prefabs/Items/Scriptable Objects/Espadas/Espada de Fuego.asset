@@ -18,6 +18,6 @@ MonoBehaviour:
   description: "Es una espada que posee la habilidad de lanzar bolas de fuego...
     \xBFQue esperabas?"
   data:
-    Name: Espada Fuego
+    Name: Espada de Fuego
     Id: 102
     buffs: []

@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar fragmentos de hielo
   data:
-    Name: Espada Hielo
+    Name: Espada de Hielo
     Id: 103
     buffs: []

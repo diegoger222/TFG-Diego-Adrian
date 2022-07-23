@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de levantar la tierra del suelo
   data:
-    Name: Espada Tierra
+    Name: Espada de Tierra
     Id: 108
     buffs: []

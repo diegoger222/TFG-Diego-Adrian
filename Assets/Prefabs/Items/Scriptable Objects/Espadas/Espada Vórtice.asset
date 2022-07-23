@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: "Es una espada que posee la habilidad de crear un v\xF3rtice de agua"
   data:
-    Name: Espada Vortice
+    Name: "Espada V\xF3rtice"
     Id: 126
     buffs: []

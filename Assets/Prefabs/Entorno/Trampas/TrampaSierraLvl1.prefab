@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6017388789690371361}
   - component: {fileID: 6017388789690371360}
+  - component: {fileID: 6528318491410321585}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Trampa
@@ -57,6 +58,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 0.22}
   m_EdgeRadius: 0
+--- !u!114 &6528318491410321585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6017388789690371374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d83c69b7f9ad3479b22cdb3bd6ef22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  danyo: 10
 --- !u!1 &6017388790199508122
 GameObject:
   m_ObjectHideFlags: 0

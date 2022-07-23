@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Es la \"Espada M\xEDticamente Legendaria\", ojal\xE1... La verdad,
     as\xED ya est\xE1 bastante bien..."
   data:
-    Name: Espada Miticamente Legendaria
+    Name: "Espada M\xEDticamente Legendaria"
     Id: 120
     buffs:
     - attribute: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
+  m_Name: Zapatos Heroe
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: -5664549632021263040, guid: 28270013adb3e1546ab112df057def67, type: 3}
+  stackable: 0
+  type: 6
+  description: 
+  data:
+    Name: "Zapatos del H\xE9roe"
+    Id: -1
+    buffs:
+    - attribute: 2
+      value: 0
+      min: 0
+      max: 0
+    - attribute: 6
+      value: 0
+      min: 0
+      max: 0

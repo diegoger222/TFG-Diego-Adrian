@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 2
   description: "Es un espad\xF3n que posee una gran sed de sangre"
   data:
-    Name: Espadon Sangriento
+    Name: "Espad\xF3n Sangriento"
     Id: 131
     buffs:
     - attribute: 0

@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar bolas de veneno
   data:
-    Name: Espada Veneno
+    Name: Espada de Veneno
     Id: 110
     buffs: []

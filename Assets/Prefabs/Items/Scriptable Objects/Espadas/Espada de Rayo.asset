@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada cargada con rayos que posee la habilidad de lanzarlos
   data:
-    Name: Espada Rayo
+    Name: Espada de Rayo
     Id: 106
     buffs: []

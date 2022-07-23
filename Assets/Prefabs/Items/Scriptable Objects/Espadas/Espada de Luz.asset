@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar proyectiles de luz
   data:
-    Name: Espada Luz
+    Name: Espada de Luz
     Id: 104
     buffs: []

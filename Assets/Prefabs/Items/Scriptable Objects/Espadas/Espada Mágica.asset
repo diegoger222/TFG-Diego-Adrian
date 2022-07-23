@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Es una espada que posee la capacidad de hacer da\xF1o m\xE1gico en
     lugar de da\xF1o f\xEDsico"
   data:
-    Name: Espada Magica
+    Name: "Espada M\xE1gica"
     Id: 118
     buffs:
     - attribute: 1

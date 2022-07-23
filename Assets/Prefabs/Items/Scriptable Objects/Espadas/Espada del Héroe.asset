@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Es la espada que perteneci\xF3 al anterior h\xE9roe, ahora que est\xE1
     muerto no creo que le importe que la uses t\xFA \xBFverdad?"
   data:
-    Name: Espada Heroe
+    Name: "Espada del H\xE9roe"
     Id: 112
     buffs:
     - attribute: 4

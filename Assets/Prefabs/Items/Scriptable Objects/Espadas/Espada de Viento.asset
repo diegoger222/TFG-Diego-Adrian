@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar rafagas de viento
   data:
-    Name: Espada Viento
+    Name: Espada de Viento
     Id: 111
     buffs: []

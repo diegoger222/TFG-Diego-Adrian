@@ -18,6 +18,6 @@ MonoBehaviour:
   description: Es una espada de madera que posee la habilidad de lanzar troncos de
     madera
   data:
-    Name: Espada Madera
+    Name: Espada de Madera
     Id: 105
     buffs: []

@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de invocar truenos
   data:
-    Name: Espada Trueno
+    Name: Espada de Trueno
     Id: 109
     buffs: []

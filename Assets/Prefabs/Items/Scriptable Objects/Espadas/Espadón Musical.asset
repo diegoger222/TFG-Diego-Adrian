@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 2
   description: "Es un espad\xF3n que posee la capacidad de hacer un sonido al golpear"
   data:
-    Name: Espadon Musical
+    Name: "Espad\xF3n Musical"
     Id: 130
     buffs:
     - attribute: 0

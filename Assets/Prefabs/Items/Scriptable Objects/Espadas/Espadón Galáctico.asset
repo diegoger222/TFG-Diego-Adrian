@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Es un espad\xF3n que posee la habilidad de lanzar peque\xF1as galaxias
     en miniatura. \xA1Mente Galaxia!"
   data:
-    Name: Espadon Galactico
+    Name: "Espad\xF3n Gal\xE1ctico"
     Id: 128
     buffs:
     - attribute: 1

@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar fragmentos de roca
   data:
-    Name: Espada Roca
+    Name: Espada de Roca
     Id: 107
     buffs: []

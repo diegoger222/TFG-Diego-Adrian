@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 2
   description: "Es una espada m\xEDtica, ojal\xE1 fuera legendaria..."
   data:
-    Name: Espada Mitica
+    Name: "Espada M\xEDtica"
     Id: 119
     buffs:
     - attribute: 0

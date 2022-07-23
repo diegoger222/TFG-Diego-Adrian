@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 2
   description: Es una espada que posee la habilidad de lanzar proyectiles de agua
   data:
-    Name: Espada Agua
+    Name: Espada de Agua
     Id: 101
     buffs: []
