@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Pechera de Plata
-    Id: -1
+    Id: 190
     buffs:
     - attribute: 2
       value: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Casco de Cuero Niv3
-    Id: -1
+    Id: 168
     buffs:
     - attribute: 2
       value: 0

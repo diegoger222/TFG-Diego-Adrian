@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Casco de Novato
-    Id: -1
+    Id: 156
     buffs:
     - attribute: 6
       value: 0

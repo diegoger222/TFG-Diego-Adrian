@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Casco de Oro
-    Id: -1
+    Id: 192
     buffs:
     - attribute: 2
       value: 0

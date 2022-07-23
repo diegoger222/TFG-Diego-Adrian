@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: "Zapatos del H\xE9roe"
-    Id: -1
+    Id: 207
     buffs:
     - attribute: 2
       value: 0

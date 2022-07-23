@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Pechera de Cuero Niv1
-    Id: -1
+    Id: 162
     buffs:
     - attribute: 2
       value: 0

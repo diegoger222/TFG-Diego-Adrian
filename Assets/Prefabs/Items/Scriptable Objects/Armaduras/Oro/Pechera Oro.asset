@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Pechera de Oro
-    Id: -1
+    Id: 194
     buffs:
     - attribute: 2
       value: 0

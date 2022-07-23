@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: "Zapatos M\xE1gicos"
-    Id: -1
+    Id: 187
     buffs:
     - attribute: 2
       value: 0

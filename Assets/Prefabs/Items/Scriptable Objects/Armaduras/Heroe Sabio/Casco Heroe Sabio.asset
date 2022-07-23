@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: "Casco del H\xE9roe Sabio"
-    Id: -1
+    Id: 208
     buffs:
     - attribute: 2
       value: 0

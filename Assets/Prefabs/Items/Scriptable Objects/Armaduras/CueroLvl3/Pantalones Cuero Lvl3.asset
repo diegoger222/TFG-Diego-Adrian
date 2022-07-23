@@ -18,7 +18,7 @@ MonoBehaviour:
   description: 
   data:
     Name: Pantalones de Cuero Niv 3
-    Id: -1
+    Id: 169
     buffs:
     - attribute: 2
       value: 0
