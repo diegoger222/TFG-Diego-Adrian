@@ -904,34 +904,34 @@ TextureImporter:
     second: EquipmentIconsSheet_299
   - first:
       213: -3386125435943039934
-    second: EquipmentIconsSheet_300
+    second: PocionVidaLvl1
   - first:
       213: -2026877622124756369
-    second: EquipmentIconsSheet_301
+    second: PocionVidaLvl2
   - first:
       213: 5209350413357399588
-    second: EquipmentIconsSheet_302
+    second: PocionVidaLvl3
   - first:
       213: 4211184736196311644
-    second: EquipmentIconsSheet_303
+    second: PocionVidaLvl5
   - first:
       213: -5206813570768456972
-    second: EquipmentIconsSheet_304
+    second: PocionVidaLvl4
   - first:
       213: 2580162336600598591
-    second: EquipmentIconsSheet_305
+    second: PocionManaLvl1
   - first:
       213: -3995273895796115616
-    second: EquipmentIconsSheet_306
+    second: PocionManaLvl2
   - first:
       213: 4625724025688020916
-    second: EquipmentIconsSheet_307
+    second: PocionManaLvl3
   - first:
       213: 3314762703924849230
-    second: EquipmentIconsSheet_308
+    second: PocionManaLvl5
   - first:
       213: 1500609315248965814
-    second: EquipmentIconsSheet_309
+    second: PocionManaLvl4
   - first:
       213: -3414552695184921949
     second: EquipmentIconsSheet_310
@@ -7591,7 +7591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_300
+      name: PocionVidaLvl1
       rect:
         serializedVersion: 2
         x: 0
@@ -7612,7 +7612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_301
+      name: PocionVidaLvl2
       rect:
         serializedVersion: 2
         x: 32
@@ -7633,7 +7633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_302
+      name: PocionVidaLvl3
       rect:
         serializedVersion: 2
         x: 64
@@ -7654,7 +7654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_303
+      name: PocionVidaLvl5
       rect:
         serializedVersion: 2
         x: 96
@@ -7675,7 +7675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_304
+      name: PocionVidaLvl4
       rect:
         serializedVersion: 2
         x: 128
@@ -7696,7 +7696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_305
+      name: PocionManaLvl1
       rect:
         serializedVersion: 2
         x: 160
@@ -7717,7 +7717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_306
+      name: PocionManaLvl2
       rect:
         serializedVersion: 2
         x: 192
@@ -7738,7 +7738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_307
+      name: PocionManaLvl3
       rect:
         serializedVersion: 2
         x: 224
@@ -7759,7 +7759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_308
+      name: PocionManaLvl5
       rect:
         serializedVersion: 2
         x: 256
@@ -7780,7 +7780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_309
+      name: PocionManaLvl4
       rect:
         serializedVersion: 2
         x: 288
