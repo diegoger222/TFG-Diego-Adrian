@@ -20,4 +20,8 @@ MonoBehaviour:
   data:
     Name: Espada de Fuego
     Id: 102
-    buffs: []
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100

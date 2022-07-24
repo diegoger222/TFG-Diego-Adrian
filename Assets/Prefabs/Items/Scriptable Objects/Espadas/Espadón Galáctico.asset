@@ -21,11 +21,11 @@ MonoBehaviour:
     Name: "Espad\xF3n Gal\xE1ctico"
     Id: 128
     buffs:
-    - attribute: 1
-      value: 0
-      min: 0
-      max: 0
     - attribute: 0
       value: 0
-      min: 0
-      max: 0
+      min: 10
+      max: 30
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100

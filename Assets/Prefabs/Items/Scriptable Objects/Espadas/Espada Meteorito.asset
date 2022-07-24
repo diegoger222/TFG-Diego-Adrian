@@ -20,4 +20,8 @@ MonoBehaviour:
   data:
     Name: Espada Meteorito
     Id: 117
-    buffs: []
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100

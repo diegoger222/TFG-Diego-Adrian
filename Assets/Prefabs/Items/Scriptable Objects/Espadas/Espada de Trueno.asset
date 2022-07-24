@@ -19,4 +19,8 @@ MonoBehaviour:
   data:
     Name: Espada de Trueno
     Id: 109
-    buffs: []
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100

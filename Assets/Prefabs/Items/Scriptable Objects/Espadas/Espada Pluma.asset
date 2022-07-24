@@ -20,7 +20,11 @@ MonoBehaviour:
     Name: Espada Pluma
     Id: 124
     buffs:
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100
     - attribute: 0
       value: 0
-      min: 0
+      min: -20
       max: 0

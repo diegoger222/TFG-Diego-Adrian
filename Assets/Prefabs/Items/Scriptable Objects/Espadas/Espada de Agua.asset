@@ -19,4 +19,8 @@ MonoBehaviour:
   data:
     Name: Espada de Agua
     Id: 101
-    buffs: []
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 30
+      max: 100

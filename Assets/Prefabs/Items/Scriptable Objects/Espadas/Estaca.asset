@@ -23,5 +23,5 @@ MonoBehaviour:
     buffs:
     - attribute: 0
       value: 0
-      min: 0
+      min: -20
       max: 0

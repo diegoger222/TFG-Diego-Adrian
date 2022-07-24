@@ -22,14 +22,14 @@ MonoBehaviour:
     Id: 120
     buffs:
     - attribute: 0
-      value: 300
-      min: 0
-      max: 0
+      value: 0
+      min: 190
+      max: 200
     - attribute: 2
-      value: 300
-      min: 0
-      max: 0
+      value: 0
+      min: 190
+      max: 200
     - attribute: 3
-      value: 300
-      min: 0
-      max: 0
+      value: 0
+      min: 190
+      max: 200

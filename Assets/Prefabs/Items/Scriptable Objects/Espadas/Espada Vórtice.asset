@@ -19,4 +19,8 @@ MonoBehaviour:
   data:
     Name: "Espada V\xF3rtice"
     Id: 126
-    buffs: []
+    buffs:
+    - attribute: 1
+      value: 0
+      min: 50
+      max: 100
