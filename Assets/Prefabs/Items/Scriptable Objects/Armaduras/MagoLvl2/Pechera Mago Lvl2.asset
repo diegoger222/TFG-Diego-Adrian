@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 8836354737855581006, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de hierro que perteneci\xF3 a un mago muy poderoso. Proporciona
+    a su portador mucha defensa f\xEDsica y much\xEDsima inteligencia"
   data:
     Name: Pechera de Mago Niv2
     Id: 202

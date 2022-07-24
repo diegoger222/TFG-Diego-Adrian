@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -3763250128467677223, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de plata que proporcionan a su portador much\xEDsima
+    defensa f\xEDsica y mucha defensa m\xE1gica"
   data:
     Name: Pantalones de Plata
     Id: 189

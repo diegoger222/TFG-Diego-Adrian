@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -1168788125523839370, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de hierro que proporcionan a su portador mucha defensa
+    f\xEDsica"
   data:
     Name: Pantalones de Hierro Niv3
     Id: 181

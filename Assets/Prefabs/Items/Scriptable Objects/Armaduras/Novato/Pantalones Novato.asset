@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 749468246442296874, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Los pantalones de novato, son bastante comodos. Proporcionan un m\xEDnimo
+    de vitalidad a su portador."
   data:
     Name: Pantalones de Novato
     Id: 157

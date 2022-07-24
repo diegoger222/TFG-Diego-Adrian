@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 2793229064918803260, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de hierro que pertenecieron a un antiguo h\xE9roe.
+    Proporcionan a su portador una defensa f\xEDsica y una vitalidad perfectas"
   data:
     Name: "Pantalones del H\xE9roe"
     Id: 205

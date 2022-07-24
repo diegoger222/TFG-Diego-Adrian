@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -3647514598670316530, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de plata que proporciona a su portador much\xEDsima defensa
+    f\xEDsica y mucha defensa m\xE1gica"
   data:
     Name: Pechera de Plata
     Id: 190

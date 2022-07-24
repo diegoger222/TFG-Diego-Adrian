@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -7279777939106105400, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de oro que proporcionan a su portador mucha defensa
+    f\xEDsica y much\xEDsima defensa m\xE1gica"
   data:
     Name: Pantalones de Oro
     Id: 193

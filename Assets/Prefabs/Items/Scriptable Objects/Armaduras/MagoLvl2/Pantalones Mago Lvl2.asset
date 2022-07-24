@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -6460942136591885171, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de hierro que pertenecieron a un mago muy poderoso.
+    Proporcionan a su portador mucha defensa f\xEDsica y much\xEDsima inteligencia"
   data:
     Name: Pantalones de Mago Niv2
     Id: 201

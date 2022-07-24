@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 1108403566748800204, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de cuero que proporcionan a su portador muy poca defensa
+    f\xEDsica y m\xE1gica"
   data:
     Name: Zapatos de Cuero Niv 3
     Id: 171

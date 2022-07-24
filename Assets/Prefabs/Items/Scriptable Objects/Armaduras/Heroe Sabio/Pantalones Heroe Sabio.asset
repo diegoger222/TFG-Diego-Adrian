@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: 5794458501716754062, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de hierro que pertenecieron a un antiguo h\xE9roe
+    muy sabio. Proporcionan a su portador una defensa f\xEDsica, una vitalidad y
+    una defensa m\xE1gica sobrenaturales."
   data:
     Name: "Pantalones del H\xE9roe Sabio"
     Id: 209

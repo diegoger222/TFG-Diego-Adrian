@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -3825390474820383674, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Los zapatos de novato, no hacen mucho, pero al menos no vas descalzo.
+    Proporcionan un m\xEDnimo de vitalidad a su portador"
   data:
     Name: Zapatos de Novato
     Id: 159

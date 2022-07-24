@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -1891831656369161787, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "El \"casco\" de novato, es un gorro, que no te tomen por tonto. Proporciona
+    un m\xEDnimo de vitalidad a su portador"
   data:
     Name: Casco de Novato
     Id: 156

@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: -5318058518018151559, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de hierro que pertenecieron a un antiguo h\xE9roe muy
+    sabio. Proporciona a su portador una defensa f\xEDsica, una vitalidad y una defensa
+    m\xE1gica sobrenaturales."
   data:
     Name: "Zapatos del H\xE9roe Sabio"
     Id: 211

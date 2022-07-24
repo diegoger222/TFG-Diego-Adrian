@@ -30,7 +30,7 @@ public class LanzarEfecto : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemigo"))
+        if (other.CompareTag("Enemigo") || other.CompareTag("Suelo"))
         {
             rb2d.bodyType = RigidbodyType2D.Static;
             anim.SetTrigger("Hit");

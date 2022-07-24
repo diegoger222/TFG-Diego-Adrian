@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -5499502951170471033, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de hierro que proporciona a su portador poca defensa
+    f\xEDsica"
   data:
     Name: Pechera de Hierro Niv1
     Id: 174

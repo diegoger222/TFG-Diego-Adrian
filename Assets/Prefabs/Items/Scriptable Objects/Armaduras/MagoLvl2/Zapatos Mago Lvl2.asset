@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -6409686185720867201, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de hierro que pertenecieron a un mago muy poderoso.
+    Proporcionan a su portador mucha defensa f\xEDsica y much\xEDsima inteligencia"
   data:
     Name: Zapatos de Mago Niv2
     Id: 203

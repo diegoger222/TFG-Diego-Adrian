@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 775595756956090747, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de oro que proporciona a su portador mucha defensa f\xEDsica
+    y much\xEDsima defensa m\xE1gica"
   data:
     Name: Pechera de Oro
     Id: 194

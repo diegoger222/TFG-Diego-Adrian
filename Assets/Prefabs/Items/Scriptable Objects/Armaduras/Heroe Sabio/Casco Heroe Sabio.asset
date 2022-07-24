@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: -2690384157179700652, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "Un casco de hierro que perteneci\xF3 a un antiguo h\xE9roe muy sabio.
+    Proporciona a su portador una defensa f\xEDsica, una vitalidad y una defensa
+    m\xE1gica sobrenaturales."
   data:
     Name: "Casco del H\xE9roe Sabio"
     Id: 208

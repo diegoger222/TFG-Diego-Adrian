@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: 4830654610789629436, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "Un casco de hierro que proporciona a su portador poca defensa f\xEDsica"
   data:
     Name: Casco de Hierro Niv1
     Id: 172

@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 3703651953587149879, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "Un casco de cuero que proporciona a su portador muy poca defensa
+    f\xEDsica y m\xE1gica"
   data:
     Name: Casco de Cuero Niv3
     Id: 168

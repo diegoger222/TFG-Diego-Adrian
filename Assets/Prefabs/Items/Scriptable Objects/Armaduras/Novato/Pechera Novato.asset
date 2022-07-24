@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 7319412412589762627, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "La \"pechera\" de novato, m\xE1s que una armadura es una \"armablanda\".
+    Proporciona un m\xEDnimo de vitalidad a su portador"
   data:
     Name: Pechera de Novato
     Id: 158

@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: 281768395554141897, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "Un casco de hierro con una gema m\xE1gica. Proporciona a su portador
+    bastante defensa f\xEDsica y much\xEDsima defensa m\xE1gica gracias al poder
+    de su gema."
   data:
     Name: "Casco M\xE1gico"
     Id: 184

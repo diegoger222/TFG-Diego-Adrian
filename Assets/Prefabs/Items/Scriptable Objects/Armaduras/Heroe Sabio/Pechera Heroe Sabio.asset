@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: -5246394793332632774, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de hierro que perteneci\xF3 a un antiguo h\xE9roe muy
+    sabio. Proporciona a su portador una defensa f\xEDsica, una vitalidad y una defensa
+    m\xE1gica sobrenaturales."
   data:
     Name: "Pechera del H\xE9roe Sabio"
     Id: 210

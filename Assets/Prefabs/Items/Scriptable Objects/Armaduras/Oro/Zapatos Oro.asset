@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -9047028616310986999, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de oro que proporcionan a su portador mucha defensa
+    f\xEDsica y much\xEDsima defensa m\xE1gica"
   data:
     Name: Zapatos de Oro
     Id: 195

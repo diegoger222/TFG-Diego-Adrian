@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 4616272989462002049, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de plata que proporcionan a su portador much\xEDsima
+    defensa f\xEDsica y mucha defensa m\xE1gica"
   data:
     Name: Zapatos de Plata
     Id: 191

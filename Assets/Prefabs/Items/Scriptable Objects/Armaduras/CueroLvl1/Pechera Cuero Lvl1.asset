@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -3499862512994599241, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de cuero que proporciona a su portador un m\xEDnimo de
+    defensa f\xEDsica y m\xE1gica"
   data:
     Name: Pechera de Cuero Niv1
     Id: 162

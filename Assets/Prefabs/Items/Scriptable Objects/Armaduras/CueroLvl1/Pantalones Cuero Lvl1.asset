@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 4827798979308694706, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 5
-  description: 
+  description: "Unos pantalones de cuero que proporcionan a su portador un m\xEDnimo
+    de defensa f\xEDsica y m\xE1gica"
   data:
     Name: Pantalones de Cuero Niv1
     Id: 161

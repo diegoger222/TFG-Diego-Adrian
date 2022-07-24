@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 1011589311341433046, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 6
-  description: 
+  description: "Unos zapatos de hierro que proporcionan a su portador bastante defensa
+    f\xEDsica"
   data:
     Name: Zapatos de Hierro Niv2
     Id: 179

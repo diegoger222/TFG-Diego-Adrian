@@ -15,7 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 8320179689184927525, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 3
-  description: 
+  description: "Un casco de plata que proporciona a su portador much\xEDsima defensa
+    f\xEDsica y mucha defensa m\xE1gica"
   data:
     Name: Casco de Plata
     Id: 188

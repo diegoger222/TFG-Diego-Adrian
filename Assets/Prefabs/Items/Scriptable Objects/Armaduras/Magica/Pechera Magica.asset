@@ -15,7 +15,9 @@ MonoBehaviour:
   uiDisplay: {fileID: 2476858630174000027, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
   type: 4
-  description: 
+  description: "Una pechera de hierro con una gema m\xE1gica. Proporciona a su portador
+    bastante defensa f\xEDsica y much\xEDsima defensa m\xE1gica gracias al poder
+    de su gema."
   data:
     Name: "Pechera M\xE1gica"
     Id: 186
