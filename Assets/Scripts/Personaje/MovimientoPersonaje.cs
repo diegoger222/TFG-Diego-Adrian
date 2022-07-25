@@ -95,7 +95,7 @@ public class MovimientoPersonaje : MonoBehaviour
                 tiempoEscudoActivadoAux = tiempoEscudoActivado;
                 e_escudo = true;
             }
-            if (Input.GetKeyDown("q") && (e_espada && e_suelo) && tiempoSiguienteAtaque <= 0 && !e_atacando)
+            if (Input.GetKeyDown("q") && (e_espada && e_suelo) && tiempoSiguienteAtaque <= 0 && !e_atacando && this.gameObject.GetComponent<Mana>().ReturnMana() > 10)
             {
                 AtaqueE();
             }
@@ -269,6 +269,7 @@ public class MovimientoPersonaje : MonoBehaviour
     }
     public void AtaqueE()
     {
+        this.gameObject.GetComponent<Mana>().UsarMana(10f);
         int nEspada = espada.GetComponent<SlotEquipo>().itemO.Id;
         tiempoSiguienteAtaque = tiempoEntreAtaques;
         m_animator.SetTrigger("AtaqueE");

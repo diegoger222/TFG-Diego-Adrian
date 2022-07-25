@@ -14,7 +14,7 @@ public class Vida : MonoBehaviour
     private float vida_Act;
     private bool vivo;
     private int armadura;
-    
+    private float resistenciaMagica;
     public AudioSource deathSound;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +30,8 @@ public class Vida : MonoBehaviour
 
        // Debug.Log(gameObject.name);
         armadura = gameObject.GetComponent<EstadisticasEnemigo>().armadura;
+        resistenciaMagica = gameObject.GetComponent<EstadisticasEnemigo>().resistenciaMagica;
+
     }
 
     // Update is called once per frame
@@ -65,20 +67,66 @@ public class Vida : MonoBehaviour
             
         }
     }
+    public void RecibirDanoFisico(int cantidad)
+    {
 
+
+        int daynoT = calculoarmadura(cantidad);
+        this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
+        vida_Act -= daynoT;
+        if (vida_Act <= 0)
+        {
+            m_animator.SetTrigger("Muerte");
+            // deathSound.Play();
+            // Invoke("Muerte", 2f);
+        }
+        else
+        {
+            m_animator.SetTrigger("Danyo");
+
+        }
+    }
+    public void RecibirDanoMagico(int cantidad)
+    {
+
+
+        int daynoT = CalculoResistenciaMG(cantidad);
+        this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
+        vida_Act -= daynoT;
+        if (vida_Act <= 0)
+        {
+            m_animator.SetTrigger("Muerte");
+            // deathSound.Play();
+            // Invoke("Muerte", 2f);
+        }
+        else
+        {
+            m_animator.SetTrigger("Danyo");
+
+        }
+    }
     private void Muerte()
     {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Experiencia>().GanarExperiencia(20);
         this.gameObject.SetActive(false);
     }
 
+
     private int calculoarmadura(int cantidad)
     {
         float armaduraAux = (float)armadura;
         float daynoAux = (float)cantidad;
-        float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        // float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        float daynototal = daynoAux *(1- (armaduraAux/ ((100+ armaduraAux ))));
         return (int)daynototal;
     }
-   
+
+    private int CalculoResistenciaMG(int cantidad)
+    {
+        float rMG = (float)resistenciaMagica;
+        float daynoAux = (float)cantidad;
+        float daynototal = daynoAux *(1- (rMG / (100 + rMG)));
+        return (int)daynototal;
+    }
 
 }

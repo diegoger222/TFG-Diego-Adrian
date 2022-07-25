@@ -16,11 +16,14 @@ public class VidaJefe : MonoBehaviour
 
     private float vidaActual;
     private int armadura;
+    private float resistenciaMagica;
     void Start()
     {
         vidaActual = vida_Max;
         vidaText.text = vidaActual.ToString() + "/" + vida_Max.ToString();
         armadura = gameObject.GetComponent<EstadisticasEnemigo>().armadura;
+        resistenciaMagica = gameObject.GetComponent<EstadisticasEnemigo>().resistenciaMagica;
+
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_collider = GetComponent<BoxCollider2D>();
@@ -61,6 +64,49 @@ public class VidaJefe : MonoBehaviour
         }
     }
 
+    public void RecibirDanoFisico(int cantidad)
+    {
+        int daynoT = calculoarmadura(cantidad);
+        this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
+        vidaActual -= daynoT;
+
+        if (vidaActual <= 0)
+        {
+            m_animator.SetTrigger("Muerte");
+            Invoke("DesactivarHudVida", 3);
+            Invoke("Muerte", 2f);
+            // this.GetComponent<Combate>().Muerto();
+            vidaText.text = "0" + "/" + vida_Max.ToString();
+            //deathSound.Play();
+        }
+        else
+        {
+            m_animator.SetTrigger("Danyo");
+            vidaText.text = vidaActual.ToString() + "/" + vida_Max.ToString();
+        }
+    }
+    public void RecibirDanoMagico(int cantidad)
+    {
+        int daynoT = CalculoResistenciaMG(cantidad);
+        this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
+        vidaActual -= daynoT;
+
+        if (vidaActual <= 0)
+        {
+            m_animator.SetTrigger("Muerte");
+            Invoke("DesactivarHudVida", 3);
+            Invoke("Muerte", 2f);
+            // this.GetComponent<Combate>().Muerto();
+            vidaText.text = "0" + "/" + vida_Max.ToString();
+            //deathSound.Play();
+        }
+        else
+        {
+            m_animator.SetTrigger("Danyo");
+            vidaText.text = vidaActual.ToString() + "/" + vida_Max.ToString();
+        }
+    }
+
     private void Muerte()
     {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Experiencia>().GanarExperiencia(20);
@@ -71,7 +117,16 @@ public class VidaJefe : MonoBehaviour
     {
         float armaduraAux = (float)armadura;
         float daynoAux = (float)cantidad;
-        float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        // float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        float daynototal = daynoAux * (1 - (armaduraAux / ((100 + armaduraAux))));
+        return (int)daynototal;
+    }
+
+    private int CalculoResistenciaMG(int cantidad)
+    {
+        float rMG = (float)resistenciaMagica;
+        float daynoAux = (float)cantidad;
+        float daynototal = daynoAux * (1 - (rMG / (100 + rMG)));
         return (int)daynototal;
     }
     public void ActivarHudVida()
