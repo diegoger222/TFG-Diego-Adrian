@@ -19,6 +19,11 @@ public class ActivadorSonidos : MonoBehaviour
     [Header("Raros")]
     public AudioSource ayaya;
 
+    [Header("Efectos")]
+    public AudioSource Re;
+    public AudioSource Sol;
+    public AudioSource Si;
+
     void Start()
     {
         
@@ -43,7 +48,12 @@ public class ActivadorSonidos : MonoBehaviour
                 break;
             case "enm_ataque2": enm_ataque2.Play();
                 break;
-
+            case "Re": Re.Play();
+                break;
+            case "Sol": Sol.Play();
+                break;
+            case "Si": Si.Play();
+                break;
 
 
 

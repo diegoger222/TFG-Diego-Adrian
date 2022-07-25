@@ -205,6 +205,17 @@ public class AtaqueEspecial : MonoBehaviour
                 efectos.transform.GetChild(11).gameObject.SetActive(false);
                 break;
             case 130: //Espadón Musical
+                int random = Random.Range(1, 4);
+                    if (random == 1)
+                {
+                    GameObject.FindGameObjectWithTag("Sonidos").GetComponent<ActivadorSonidos>().ActivarSonido("Re");
+                } else if (random == 2)
+                {
+                    GameObject.FindGameObjectWithTag("Sonidos").GetComponent<ActivadorSonidos>().ActivarSonido("Sol");
+                } else if (random == 3)
+                {
+                    GameObject.FindGameObjectWithTag("Sonidos").GetComponent<ActivadorSonidos>().ActivarSonido("Si");
+                }
                 break;
             case 131: //Espadón Sangriento
                 efectos.transform.GetChild(21).gameObject.SetActive(false);
