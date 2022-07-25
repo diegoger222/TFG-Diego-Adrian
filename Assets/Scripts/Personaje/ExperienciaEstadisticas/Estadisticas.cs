@@ -37,11 +37,11 @@ public class Estadisticas : MonoBehaviour
     public GameObject subirEstadisticas;
     public GameObject inventarioAct;
 
-    private float defensaFisicaBase = 0;
-    private float defensaMagicaBase = 0;
-    private float danyoFisicoBase = 0;
-    private float danyoMagicoBase = 0;
-    private float manaBase = 0;
+    private float defensaFisicaBase = 35;
+    private float defensaMagicaBase = 20;
+    private float danyoFisicoBase = 5;
+    private float danyoMagicoBase = 5;
+    private float manaBase = 100;
     private float vitalidadBase = 100;
     private float suerteBase = 0;
 

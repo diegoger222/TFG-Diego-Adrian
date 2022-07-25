@@ -94,13 +94,13 @@ public class ArbolCont : MonoBehaviour
 
             float danyo = player.GetComponent<Estadisticas>().GetFuerza();
 
-            this.GetComponent<Vida>().RecibirDano(((int)danyo));
+            this.GetComponent<Vida>().RecibirDanoFisico(((int)danyo));
         }
         if(collision.gameObject.tag == "EfectoArma")
         {
             float danyo = player.GetComponent<Estadisticas>().GetInteligencia();
 
-            this.GetComponent<Vida>().RecibirDano(((int)danyo));
+            this.GetComponent<Vida>().RecibirDanoMagico(((int)danyo));
         }
     }
 

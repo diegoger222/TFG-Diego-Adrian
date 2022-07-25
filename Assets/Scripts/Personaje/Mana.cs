@@ -7,7 +7,8 @@ public class Mana : MonoBehaviour
 {
     // Start is called before the first frame update
     public Image manaBar;
-
+    private float maxManaBase = 100;
+    public float manaVar = 0;
     private float maxMana = 100;
     private float currentMana = 80;
 
@@ -20,7 +21,7 @@ public class Mana : MonoBehaviour
 
     public void Awake()
     {
-        instance = this;
+       instance = this;
     }
     void Start()
     {
@@ -31,11 +32,13 @@ public class Mana : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        manaBar.fillAmount = currentMana / maxMana;
+        manaVar = this.gameObject.GetComponent<Estadisticas>().GetMana();
+        maxMana = manaVar;
+      manaBar.fillAmount = currentMana / maxMana;
 
     }
 
-    public void RestarMana(int cantidad)
+    public void RestarMana(float cantidad)
     {
         currentMana -= cantidad;
 
@@ -65,7 +68,7 @@ public class Mana : MonoBehaviour
                 StopCoroutine(regen);
             }
 
-            regen = StartCoroutine(RegenMana());
+           // regen = StartCoroutine(RegenMana());
         }
     }
 

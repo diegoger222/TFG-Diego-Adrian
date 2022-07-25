@@ -11,6 +11,7 @@ public class BarraDeVida : MonoBehaviour
     public float vidaActual = 50;
     public GameObject pantallaMuerte;
     public float vidaMaxima = 100;
+    private float vidaVar;
     public bool invencible = false;
     public GameObject puntorevivir;
     private float damage;
@@ -21,11 +22,6 @@ public class BarraDeVida : MonoBehaviour
     public Image im_poti;
     [SerializeField] bool m_noBlood = false;
     //imagenfull poti a menos llena
-    public Sprite b1;
-    public Sprite b2;
-    public Sprite b3;
-    public Sprite b4;
-    public Sprite b5;
     private float auxt;
    // [SerializeField] private float tiempoInmune;
   //  private float tiempoInmuneaux;
@@ -34,6 +30,8 @@ public class BarraDeVida : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        vidaVar = this.gameObject.GetComponent<Estadisticas>().GetVitalidad();
+        vidaMaxima = vidaVar; 
         barraVida.fillAmount = vidaActual / vidaMaxima;
         
         if (Input.GetKeyDown("g"))
@@ -197,14 +195,15 @@ public class BarraDeVida : MonoBehaviour
         n_poti += numero;
         m_poti += numero;
         text_poti.text = n_poti.ToString();
-        ActualizarImagenPoti();
+       // ActualizarImagenPoti();
     }
     public void RecuperarPotis()
     {
         n_poti = m_poti;
-        ActualizarImagenPoti();
+      //  ActualizarImagenPoti();
     }
 
+    /*
     public void ActualizarImagenPoti()
     {
         float a_n = n_poti;
@@ -227,6 +226,7 @@ public class BarraDeVida : MonoBehaviour
             im_poti.sprite = b5;
         }
     }
+    */
 
 
     
@@ -255,14 +255,14 @@ public class BarraDeVida : MonoBehaviour
     {
         float armaduraAux = this.gameObject.GetComponent<Estadisticas>().GetArmadura();
         float daynoAux = (float)cantidad;
-        float daynototal = daynoAux * (1 / (1 + (armaduraAux / 300)));
+        float daynototal = daynoAux * (1 - (armaduraAux / ((100 + armaduraAux))));
         return (int)daynototal;
     }
     private int CalculoResistenciaMG(int cantidad)
     {
         float rMG= this.gameObject.GetComponent<Estadisticas>().GetResistenciaMG();
         float daynoAux = (float)cantidad;
-        float daynototal = daynoAux * (rMG/(100+rMG));
+        float daynototal = daynoAux * (1 - (rMG / (100 + rMG)));
         return (int)daynototal;
     }
     public void SumarPuntosDefensa(int puntos)
