@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "me que cagado en mis pantalones , \xBFpuedo entrar en estos?"
   data:
     Name: pantas
-    Id: 13
+    Id: 52
     buffs:
     - attribute: 1
       value: 0

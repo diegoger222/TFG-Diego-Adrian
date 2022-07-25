@@ -10,25 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Pechera1
+  m_Name: Pocion Mana Lvl4
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 21300000, guid: bb74215d2cff90d4a99c59b7bd3f8725, type: 3}
-  stackable: 0
-  type: 4
-  description: Patata
+  uiDisplay: {fileID: 1500609315248965814, guid: 28270013adb3e1546ab112df057def67, type: 3}
+  stackable: 1
+  type: 1
+  description: "Poci\xF3n que recupera 40 puntos de mana"
   data:
-    Name: Pechera
-    Id: 53
-    buffs:
-    - attribute: 3
-      value: 40
-      min: 10
-      max: 60
-    - attribute: 6
-      value: 20
-      min: 10
-      max: 60
-    - attribute: 4
-      value: 1
-      min: 1
-      max: 60
+    Name: "Poci\xF3n de Mana Niv4"
+    Id: 19
+    buffs: []

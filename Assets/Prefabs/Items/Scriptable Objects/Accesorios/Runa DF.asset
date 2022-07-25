@@ -10,25 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Zapas
+  m_Name: Runa DF
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 21300000, guid: 3b3c862b5b6350048ab1c5fcafda95d6, type: 3}
+  uiDisplay: {fileID: -4567861882779087299, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0
-  type: 6
-  description: dame las zapas empollon
+  type: 10
+  description: "Una runa que proporciona un poco de defensa f\xEDsica extra a su
+    portador"
   data:
-    Name: zapas
-    Id: 54
+    Name: "Runa de Defensa F\xEDsica"
+    Id: 21
     buffs:
-    - attribute: 6
-      value: 100
-      min: 43
-      max: 344
-    - attribute: 4
-      value: 1
-      min: 34
-      max: 3434
     - attribute: 2
-      value: 34
-      min: 34
-      max: 343
+      value: 0
+      min: 1
+      max: 10

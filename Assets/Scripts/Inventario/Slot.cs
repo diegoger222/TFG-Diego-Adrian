@@ -168,6 +168,126 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
                 break;
             case 2:
                 break;
+            case 11:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(10);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(10);
+                }
+                break;
+            case 12:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(20);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(20);
+                }
+                break;
+            case 13:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(30);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(30);
+                }
+                break;
+            case 14:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(40);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(40);
+                }
+                break;
+            case 15:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(50);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(50);
+                }
+                break;
+            case 16:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(10);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(10);
+                }
+                break;
+            case 17:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(20);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(20);
+                }
+                break;
+            case 18:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(30);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(30);
+                }
+                break;
+            case 19:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(40);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(40);
+                }
+                break;
+            case 20:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(50);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(50);
+                }
+                break;
             default:
                 break;
         }

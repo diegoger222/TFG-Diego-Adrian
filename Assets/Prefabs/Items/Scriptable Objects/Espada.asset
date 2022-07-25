@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Navaja de asalto que se uso para matar a su hermano
   data:
     Name: Espada
-    Id: 2
+    Id: 51
     buffs:
     - attribute: 0
       value: 7

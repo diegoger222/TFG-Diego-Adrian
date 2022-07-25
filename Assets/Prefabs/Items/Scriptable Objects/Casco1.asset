@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Cascos que se utilizaban en la altiguedad para ver a Rubius
   data:
     Name: Casco del otako
-    Id: 11
+    Id: 50
     buffs:
     - attribute: 1
       value: 30

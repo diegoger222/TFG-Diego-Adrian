@@ -784,28 +784,28 @@ TextureImporter:
     second: CollarPlatinoMagico
   - first:
       213: 5434445362688287679
-    second: EquipmentIconsSheet_260
+    second: Runa Vida
   - first:
       213: -4149278759111095212
-    second: EquipmentIconsSheet_261
+    second: Runa Mana
   - first:
       213: -8644162344795516073
-    second: EquipmentIconsSheet_262
+    second: Runa Int
   - first:
       213: -4567861882779087299
-    second: EquipmentIconsSheet_263
+    second: Runa DF
   - first:
       213: 4066100496510901216
     second: EquipmentIconsSheet_264
   - first:
       213: -3499829159851182624
-    second: EquipmentIconsSheet_265
+    second: Runa Suerte
   - first:
       213: 216938829349898130
-    second: EquipmentIconsSheet_266
+    second: Runa Fuerza
   - first:
       213: -5736163091757549674
-    second: EquipmentIconsSheet_267
+    second: Runa DF
   - first:
       213: 6589106288284609964
     second: EquipmentIconsSheet_268
@@ -6751,7 +6751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_260
+      name: Runa Vida
       rect:
         serializedVersion: 2
         x: 0
@@ -6772,7 +6772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_261
+      name: Runa Mana
       rect:
         serializedVersion: 2
         x: 32
@@ -6793,7 +6793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_262
+      name: Runa Int
       rect:
         serializedVersion: 2
         x: 64
@@ -6814,7 +6814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_263
+      name: Runa DM
       rect:
         serializedVersion: 2
         x: 96
@@ -6856,7 +6856,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_265
+      name: Runa Suerte
       rect:
         serializedVersion: 2
         x: 160
@@ -6877,7 +6877,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_266
+      name: Runa Fuerza
       rect:
         serializedVersion: 2
         x: 192
@@ -6898,7 +6898,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EquipmentIconsSheet_267
+      name: Runa DF
       rect:
         serializedVersion: 2
         x: 224

@@ -10,25 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Zapas
+  m_Name: Amatista
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 21300000, guid: 3b3c862b5b6350048ab1c5fcafda95d6, type: 3}
+  uiDisplay: {fileID: 21300000, guid: 3b83f515d9d2e6642adc580b019c68b4, type: 3}
   stackable: 0
-  type: 6
-  description: dame las zapas empollon
+  type: 11
+  description: Amatista
   data:
-    Name: zapas
-    Id: 54
-    buffs:
-    - attribute: 6
-      value: 100
-      min: 43
-      max: 344
-    - attribute: 4
-      value: 1
-      min: 34
-      max: 3434
-    - attribute: 2
-      value: 34
-      min: 34
-      max: 343
+    Name: Amatista
+    Id: 1
+    buffs: []

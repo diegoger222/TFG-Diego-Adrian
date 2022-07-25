@@ -16,7 +16,8 @@ public enum ItemType
     Anillo,
     Collar,
     Escudo,
-    Patata
+    Patata,
+    Gema
 
 }
 
