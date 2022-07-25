@@ -40,6 +40,14 @@ public class Mana : MonoBehaviour
         currentMana -= cantidad;
 
     }
+    public void SumarPoti(float cantidad)
+    {
+        currentMana += cantidad;
+        if(currentMana > maxMana)
+        {
+            currentMana = maxMana;
+        }
+    }
 
     public float ReturnMana()
     {
