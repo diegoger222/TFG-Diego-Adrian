@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 1
   description: "Poci\xF3n que recupera 40 puntos de vitalidad"
   data:
-    Name: "Poci\xF3n de Vida Niv4"
+    Name: "Poci\xF3n de Vitalidad Niv4"
     Id: 14
     buffs: []

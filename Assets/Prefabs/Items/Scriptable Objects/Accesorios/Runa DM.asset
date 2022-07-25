@@ -19,7 +19,7 @@ MonoBehaviour:
     portador"
   data:
     Name: "Runa de Defensa M\xE1gica"
-    Id: 22
+    Id: 32
     buffs:
     - attribute: 3
       value: 0

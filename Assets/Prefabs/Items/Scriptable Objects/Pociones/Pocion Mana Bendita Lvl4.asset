@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Pocion Vida Lvl1
+  m_Name: Pocion Mana Bendita Lvl4
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: -3386125435943039934, guid: 28270013adb3e1546ab112df057def67, type: 3}
+  uiDisplay: {fileID: -4691518521789121688, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 1
   type: 1
-  description: "La poci\xF3n m\xE1s simple que existe, recupera 10 puntos de vitalidad"
+  description: "Poci\xF3n que recupera un 40% del mana m\xE1ximo"
   data:
-    Name: "Poci\xF3n de Vitalidad Niv1"
-    Id: 11
+    Name: "Poci\xF3n Bendita de Mana Niv4"
+    Id: 29
     buffs: []

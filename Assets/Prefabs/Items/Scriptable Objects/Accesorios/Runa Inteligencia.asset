@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Una runa que proporciona un poco de inteligencia extra a su portador
   data:
     Name: Runa de Inteligencia
-    Id: 24
+    Id: 34
     buffs:
     - attribute: 1
       value: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Una runa que proporciona un poco de mana extra a su portador
   data:
     Name: Runa de Mana
-    Id: 25
+    Id: 35
     buffs:
     - attribute: 5
       value: 0

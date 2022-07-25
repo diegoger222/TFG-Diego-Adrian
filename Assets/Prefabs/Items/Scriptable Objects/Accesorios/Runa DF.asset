@@ -19,7 +19,7 @@ MonoBehaviour:
     portador"
   data:
     Name: "Runa de Defensa F\xEDsica"
-    Id: 21
+    Id: 31
     buffs:
     - attribute: 2
       value: 0

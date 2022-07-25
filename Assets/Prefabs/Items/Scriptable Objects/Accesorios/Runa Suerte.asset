@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Una runa que proporciona un poco de suerte extra a su portador
   data:
     Name: Runa de la Suerte
-    Id: 26
+    Id: 36
     buffs:
     - attribute: 4
       value: 0

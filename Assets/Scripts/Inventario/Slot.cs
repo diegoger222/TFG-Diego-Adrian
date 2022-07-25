@@ -152,6 +152,8 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
    
     public void UsarItem() 
     {
+        float maxMana = GameObject.FindGameObjectWithTag("Player").GetComponent<Estadisticas>().GetMana();
+        float maxVida = GameObject.FindGameObjectWithTag("Player").GetComponent<Estadisticas>().GetVitalidad();
         switch (item.data.Id)
         {
             case 11:
@@ -272,6 +274,126 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
                 {
                     cantidad--;
                     GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(50);
+                }
+                break;
+            case 21:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.1f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.1f);
+                }
+                break;
+            case 22:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.2f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.2f);
+                }
+                break;
+            case 23:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.3f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.3f);
+                }
+                break;
+            case 24:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.4f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.4f);
+                }
+                break;
+            case 25:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.5f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(maxVida * 0.5f);
+                }
+                break;
+            case 26:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.1f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.1f);
+                }
+                break;
+            case 27:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.2f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.2f);
+                }
+                break;
+            case 28:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.3f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.3f);
+                }
+                break;
+            case 29:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.4f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.4f);
+                }
+                break;
+            case 30:
+                if ((cantidad - 1) <= 0)
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.5f);
+                    EliminarObjeto();
+                }
+                else
+                {
+                    cantidad--;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<Mana>().SumarPoti(maxMana * 0.5f);
                 }
                 break;
             default:

@@ -17,6 +17,6 @@ MonoBehaviour:
   type: 1
   description: "Poci\xF3n que recupera 20 puntos de vitalidad"
   data:
-    Name: "Poci\xF3n de Vida Niv2"
+    Name: "Poci\xF3n de Vitalidad Niv2"
     Id: 12
     buffs: []

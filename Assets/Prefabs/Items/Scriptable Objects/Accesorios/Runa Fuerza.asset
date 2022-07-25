@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Una runa que proporciona un poco de fuerza extra a su portador
   data:
     Name: Runa de Fuerza
-    Id: 23
+    Id: 33
     buffs:
     - attribute: 0
       value: 0
