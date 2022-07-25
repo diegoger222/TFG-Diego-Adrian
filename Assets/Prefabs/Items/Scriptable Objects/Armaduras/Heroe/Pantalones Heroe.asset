@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c521518f1d8b0b4c92298cf15f3fd13, type: 3}
-  m_Name: Pantaloes Heroe
+  m_Name: Pantalones Heroe
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 2793229064918803260, guid: 28270013adb3e1546ab112df057def67, type: 3}
   stackable: 0

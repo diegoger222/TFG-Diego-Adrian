@@ -154,20 +154,6 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
     {
         switch (item.data.Id)
         {
-            case 1:
-                if((cantidad - 1) <=0)
-                {
-                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(30);
-                    EliminarObjeto();
-                }
-                else
-                {
-                    cantidad--;
-                    GameObject.FindGameObjectWithTag("Player").GetComponent<BarraDeVida>().sumarVidaPoti(30);
-                }
-                break;
-            case 2:
-                break;
             case 11:
                 if ((cantidad - 1) <= 0)
                 {
