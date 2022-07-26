@@ -13,6 +13,7 @@ public class PersonajeInteractuable : MonoBehaviour
     private bool interactuar = false;
     private GameObject personaje;
     public GameObject bocadillo;
+    public bool terminado = false;
 
     public void Start()
     {
@@ -20,17 +21,21 @@ public class PersonajeInteractuable : MonoBehaviour
     }
     private void Update()
     {
-        if (interactuar && Input.GetKeyDown("r"))
+        if (interactuar && Input.GetKeyDown("f"))
         {
             personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(true);
-            objetivos = objetivos % dialogos.Length;
-            FindObjectOfType<ControlDialogos>().ActivarDialogo(dialogos[objetivos], imagenCara, prota);
             interactuar = false;
+            FindObjectOfType<ControlDialogos>().ActivarDialogo(dialogos[objetivos], dialogos[objetivos].soltar, imagenCara, prota);
+            objetivos++;
+            if(objetivos == dialogos.Length)
+            {
+                terminado = true;
+            }
         }
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player") && !terminado)
         {
             bocadillo.SetActive(true);
             interactuar = true;
@@ -38,7 +43,7 @@ public class PersonajeInteractuable : MonoBehaviour
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             bocadillo.SetActive(false);
             interactuar = false;

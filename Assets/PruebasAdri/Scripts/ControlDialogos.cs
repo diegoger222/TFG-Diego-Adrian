@@ -15,6 +15,7 @@ public class ControlDialogos : MonoBehaviour
     [SerializeField] Image imagenCara;
     [SerializeField] TextMeshProUGUI textoPantalla;
     private GameObject personaje;
+    private GameObject soltar;
 
     public void Start()
     {
@@ -23,7 +24,7 @@ public class ControlDialogos : MonoBehaviour
         colaDialogos = new Queue<string>();
         personaje = GameObject.FindGameObjectWithTag("Player");
     }
-    public void ActivarDialogo (Textos dialogo, Sprite imagenCara, Sprite prota)
+    public void ActivarDialogo (Textos dialogo, GameObject soltar, Sprite imagenCara, Sprite prota)
     {
         textoPantalla.text = "";
         this.imagenCara.sprite = imagenCara;
@@ -32,6 +33,7 @@ public class ControlDialogos : MonoBehaviour
         animacion = true;
         anim.SetBool("Dialogo", true);
         this.dialogo = dialogo;
+        this.soltar = soltar;
     }
 
     public void ActivaFrase()
@@ -53,7 +55,7 @@ public class ControlDialogos : MonoBehaviour
         textoPantalla.text = "";
         if (colaDialogos.Count == 0)
         {
-            CerrarDialogo();
+            CerrarDialogo(this.soltar);
             return;
         }
         if (!dialogo.monologo)
@@ -70,11 +72,13 @@ public class ControlDialogos : MonoBehaviour
         string fraseActual = colaDialogos.Dequeue();
         StartCoroutine(MostrarCaracteres(fraseActual));
     }
-    public void CerrarDialogo()
+    public void CerrarDialogo(GameObject soltar)
     {
         textoPantalla.text = "";
         anim.SetBool("Dialogo", false);
         personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
+        Instantiate(soltar, personaje.gameObject.transform.position, Quaternion.identity);
+        this.soltar = null;
     }
 
     IEnumerator MostrarCaracteres (string fraseAmostrar)
@@ -90,7 +94,7 @@ public class ControlDialogos : MonoBehaviour
     {
         if (!animacion)
         {
-            if (Input.GetKeyDown("r"))
+            if (Input.GetKeyDown("f"))
             {
                 SiguienteFrase();
             }
