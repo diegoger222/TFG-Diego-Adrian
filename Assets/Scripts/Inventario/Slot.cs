@@ -156,6 +156,9 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerExitHandler
         float maxVida = GameObject.FindGameObjectWithTag("Player").GetComponent<Estadisticas>().GetVitalidad();
         switch (item.data.Id)
         {
+            case 0:
+                FindObjectOfType<ManualAventurero>().ActivarManual();
+                break;
             case 11:
                 if ((cantidad - 1) <= 0)
                 {
