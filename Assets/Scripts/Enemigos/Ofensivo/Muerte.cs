@@ -28,12 +28,15 @@ public class Muerte : StateMachineBehaviour
            for(int i = 0; i < drops.Length; i++)
             {
                 GameObject textOb = Instantiate(drops[i], animator.gameObject.transform.position + Random.onUnitSphere, Quaternion.identity);
+                if (salida != null)
+                {
+                    salida.GetComponent<SalidaJefes>().ActivarSalida();
+                }
+
             }
+
         }
-        if (salida != null)
-        {
-            salida.GetComponent<SalidaJefes>().ActivarSalida();
-        }
+       
         GameObject.FindGameObjectWithTag("Player").GetComponent<Experiencia>().GanarExperiencia(experiencia);
         animator.gameObject.SetActive(false);
     }
