@@ -14,6 +14,7 @@ TagManager:
   - Suelo
   - Trampa
   - Sonidos
+  - Salida
   layers:
   - Default
   - TransparentFX

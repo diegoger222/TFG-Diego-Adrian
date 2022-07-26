@@ -5,11 +5,13 @@ using UnityEngine;
 public class Muerte : StateMachineBehaviour
 {
     public int experiencia = 0;
+    public GameObject[] drops = null;
+    private GameObject salida;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        salida = GameObject.FindGameObjectWithTag("Salida");
+    }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -20,6 +22,18 @@ public class Muerte : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        
+        if(drops != null)
+        {
+           for(int i = 0; i < drops.Length; i++)
+            {
+                GameObject textOb = Instantiate(drops[i], animator.gameObject.transform.position + Random.onUnitSphere, Quaternion.identity);
+            }
+        }
+        if (salida != null)
+        {
+            salida.GetComponent<SalidaJefes>().ActivarSalida();
+        }
         GameObject.FindGameObjectWithTag("Player").GetComponent<Experiencia>().GanarExperiencia(experiencia);
         animator.gameObject.SetActive(false);
     }

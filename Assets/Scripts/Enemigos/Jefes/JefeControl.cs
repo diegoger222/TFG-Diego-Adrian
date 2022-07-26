@@ -44,6 +44,12 @@ public class JefeControl : MonoBehaviour
 
             this.GetComponent<VidaJefe>().RecibirDano(((int)danyo));
         }
+        if (collision.gameObject.tag == "EfectoArma")
+        {
+            float danyo = player.GetComponent<Estadisticas>().GetInteligencia();
+
+            this.GetComponent<VidaJefe>().RecibirDanoMagico(((int)danyo));
+        }
     }
 
 }

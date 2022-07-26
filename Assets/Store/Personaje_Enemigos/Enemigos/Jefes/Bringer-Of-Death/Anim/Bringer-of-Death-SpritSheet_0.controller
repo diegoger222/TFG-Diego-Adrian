@@ -37,6 +37,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74f11f7c80972b438c5a5b58dfe21aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numR: 2
 --- !u!1101 &-6168331727497109753
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -122,6 +123,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   experiencia: 250
+  drops:
+  - {fileID: 6968712705336497276, guid: d83bef3682fbb96429cb788db7f5174f, type: 3}
+  - {fileID: 9020278340005061882, guid: 94150773d7951f64b83c3dab346b68c5, type: 3}
 --- !u!114 &-4212404839772699861
 MonoBehaviour:
   m_ObjectHideFlags: 1
