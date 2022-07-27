@@ -11835,6 +11835,7 @@ MonoBehaviour:
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 898241643}
   terminado: 0
+  comprobador: tutorial
 --- !u!61 &1992117487
 BoxCollider2D:
   m_ObjectHideFlags: 0

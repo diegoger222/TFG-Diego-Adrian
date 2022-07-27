@@ -14,10 +14,15 @@ public class PersonajeInteractuable : MonoBehaviour
     private GameObject personaje;
     public GameObject bocadillo;
     public bool terminado = false;
+    public string comprobador;
 
     public void Start()
     {
         personaje = GameObject.FindGameObjectWithTag("Player");
+        if(comprobador != null)
+        {
+            terminado = FindObjectOfType<ComprobadorMision>().GetVariable(comprobador);
+        }
     }
     private void Update()
     {
@@ -30,6 +35,10 @@ public class PersonajeInteractuable : MonoBehaviour
             if(objetivos == dialogos.Length)
             {
                 terminado = true;
+                if (comprobador != null)
+                {
+                    FindObjectOfType<ComprobadorMision>().MisionTerminada(comprobador);
+                }
             }
         }
     }

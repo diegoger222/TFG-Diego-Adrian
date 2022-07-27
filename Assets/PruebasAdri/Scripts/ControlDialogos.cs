@@ -77,7 +77,10 @@ public class ControlDialogos : MonoBehaviour
         textoPantalla.text = "";
         anim.SetBool("Dialogo", false);
         personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
-        Instantiate(soltar, personaje.gameObject.transform.position, Quaternion.identity);
+        if (soltar != null)
+        {
+            Instantiate(soltar, personaje.gameObject.transform.position, Quaternion.identity);
+        }
         this.soltar = null;
     }
 
