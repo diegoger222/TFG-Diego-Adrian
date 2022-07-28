@@ -5276,6 +5276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rey: 0
+  tutorial: 0
+  cocinero: 0
 --- !u!114 &305244500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26473,8 +26475,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1158600832}
   - component: {fileID: 1158600831}
-  - component: {fileID: 1158600830}
   - component: {fileID: 1158600833}
+  - component: {fileID: 1158600830}
   m_Layer: 0
   m_Name: Salida (1)
   m_TagString: Untagged
