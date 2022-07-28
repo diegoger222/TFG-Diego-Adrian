@@ -72157,6 +72157,23 @@ MonoBehaviour:
       ver\xE1s que emoci\xF3n."
     monologo: 1
     soltar: {fileID: 0}
+  - arrayTextos:
+    - 'Venid y escuchad esta pesima historia,
+
+      pues yo el juglar os la voy
+      a contar.
+
+      De esto trata la tercera si no me falla la memoria,
+
+      de
+      una persona estupida que no queria estudiar.'
+    - "El villano m\xE1s horrible hace su aparici\xF3n,\nle pon\xEDa muchas ganas
+      pero no atenci\xF3n.\nSe iba al gimnasio y a bailar a un sal\xF3n,\ndespu\xE9s
+      al cine y de cena se pegaba un atrac\xF3n."
+    - "Hasta aqu\xED la tercera,\ny \xFAltima de esta funci\xF3n.\nYa est\xE1 todo
+      contado,\ngracias por su humilde atenci\xF3n."
+    monologo: 1
+    soltar: {fileID: 0}
   objetivos: 0
   imagenCara: {fileID: 21300000, guid: 22c6cbdf4c064e749b2fc35fd01f68dc, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
