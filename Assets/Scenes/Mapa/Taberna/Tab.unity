@@ -71039,8 +71039,7 @@ MonoBehaviour:
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... la calidad de los accesorios como anillos y collares
-      depende de su material? De peor a mejor s\xF3n Hierro, Bronce, Plata, Oro y
-      Platino."
+      depende de su material? De peor a mejor son Hierro, Bronce, Plata, Oro y Platino."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:

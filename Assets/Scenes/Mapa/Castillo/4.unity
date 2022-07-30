@@ -11791,12 +11791,8 @@ MonoBehaviour:
       de tu entrenamiento inicial."
     - "Hola Manuel, no se muy bien que hago aqu\xED, pero estoy preparado para aprender."
     - "Voy a ense\xF1arte todo lo necesario para que puedas sobrevivir m\xE1s all\xE1
-      del pasillo de este castillo, y si, eso tambi\xE9n incluye la ciudad, que desde
-      que el rey subi\xF3 los impuestos para tener un excusado m\xE1s grandioso hay
-      mucho bandido suelto."
-    - "\xBFSi tan mal est\xE1 el reino no deber\xEDamos hacer elecciones y cambiar
-      de rey?"
-    - "Eehhh\u2026 Bueno, empecemos por lo b\xE1sico, toma esta espada y equipatela."
+      del pasillo de este castillo. Bueno, empecemos por lo b\xE1sico, toma esta
+      espada y equipatela."
     - "\xBFComo que \"equipatela\"?"
     - "Mira, con la \"tecla I\" puedes abrir tu inventario. Una vez abierto el inventario,
       puedes hacer clic para consumir alguna poci\xF3n o equiparte alg\xFAn arma
@@ -11834,8 +11830,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: 654117405a9f7e34b9f0181134eb6fbc, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 898241643}
-  terminado: 0
   comprobador: tutorial
+  repetible: 0
+  aleatorio: 0
 --- !u!61 &1992117487
 BoxCollider2D:
   m_ObjectHideFlags: 0
