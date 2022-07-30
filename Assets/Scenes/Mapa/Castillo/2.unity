@@ -25968,6 +25968,7 @@ MonoBehaviour:
   bocadillo: {fileID: 1867425123}
   terminado: 0
   comprobador: 
+  repetible: 1
 --- !u!61 &1380543410
 BoxCollider2D:
   m_ObjectHideFlags: 0

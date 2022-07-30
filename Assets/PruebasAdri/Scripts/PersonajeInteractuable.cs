@@ -15,6 +15,7 @@ public class PersonajeInteractuable : MonoBehaviour
     public GameObject bocadillo;
     public bool terminado = false;
     public string comprobador;
+    public bool repetible;
 
     public void Start()
     {
@@ -32,12 +33,16 @@ public class PersonajeInteractuable : MonoBehaviour
             interactuar = false;
             FindObjectOfType<ControlDialogos>().ActivarDialogo(dialogos[objetivos], dialogos[objetivos].soltar, imagenCara, prota);
             objetivos++;
+            objetivos %= dialogos.Length;
             if(objetivos == dialogos.Length)
             {
-                terminado = true;
                 if (comprobador != null)
                 {
                     FindObjectOfType<ComprobadorMision>().MisionTerminada(comprobador);
+                }
+                if (!repetible)
+                {
+                    terminado = true;
                 }
             }
         }

@@ -6,6 +6,7 @@ public class ControlIUPortales : MonoBehaviour
 {
 
     public GameObject iuPortal;
+    private bool interactuar = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +16,7 @@ public class ControlIUPortales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (Input.GetKeyDown("t"))
+        if (interactuar && Input.GetKeyDown("f"))
         {
             iuPortal.SetActive(true);
         }
@@ -28,5 +24,26 @@ public class ControlIUPortales : MonoBehaviour
         {
             iuPortal.SetActive(false);
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            interactuar = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            interactuar = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        interactuar = false;
     }
 }

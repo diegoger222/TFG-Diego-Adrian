@@ -2396,6 +2396,7 @@ MonoBehaviour:
   bocadillo: {fileID: 270174785}
   terminado: 0
   comprobador: 
+  repetible: 1
 --- !u!61 &1094311950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3061,6 +3062,7 @@ MonoBehaviour:
   bocadillo: {fileID: 107865988}
   terminado: 0
   comprobador: rey
+  repetible: 0
 --- !u!61 &1749581238
 BoxCollider2D:
   m_ObjectHideFlags: 0
