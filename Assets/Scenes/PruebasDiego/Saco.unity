@@ -26477,6 +26477,7 @@ GameObject:
   - component: {fileID: 1158600831}
   - component: {fileID: 1158600833}
   - component: {fileID: 1158600830}
+  - component: {fileID: 1158600834}
   m_Layer: 0
   m_Name: Salida (1)
   m_TagString: Untagged
@@ -26551,6 +26552,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaIR: Jefe2
+  nombreSalida: P
+--- !u!114 &1158600834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158600829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdb4ccfc319eb049ad540ef97cbbe23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escenaIR: 8
   nombreSalida: P
 --- !u!1 &1159262913
 GameObject:
