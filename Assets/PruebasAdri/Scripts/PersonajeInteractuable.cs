@@ -13,9 +13,10 @@ public class PersonajeInteractuable : MonoBehaviour
     private bool interactuar = false;
     private GameObject personaje;
     public GameObject bocadillo;
-    public bool terminado = false;
+    private bool terminado = false;
     public string comprobador;
     public bool repetible;
+    public bool aleatorio;
 
     public void Start()
     {
@@ -32,17 +33,25 @@ public class PersonajeInteractuable : MonoBehaviour
             personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(true);
             interactuar = false;
             FindObjectOfType<ControlDialogos>().ActivarDialogo(dialogos[objetivos], dialogos[objetivos].soltar, imagenCara, prota);
-            objetivos++;
-            objetivos %= dialogos.Length;
-            if(objetivos == dialogos.Length)
+            if (aleatorio)
             {
-                if (comprobador != null)
+                int random = Random.Range(1, dialogos.Length + 1);
+                objetivos = random;
+            }
+            else
+            {
+                objetivos++;
+                objetivos %= dialogos.Length;
+                if (objetivos == dialogos.Length)
                 {
-                    FindObjectOfType<ComprobadorMision>().MisionTerminada(comprobador);
-                }
-                if (!repetible)
-                {
-                    terminado = true;
+                    if (comprobador != null)
+                    {
+                        FindObjectOfType<ComprobadorMision>().MisionTerminada(comprobador);
+                    }
+                    if (!repetible)
+                    {
+                        terminado = true;
+                    }
                 }
             }
         }

@@ -1015,9 +1015,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: 9bfd78a79d0a1e249bf2a21627145710, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 918527612}
-  terminado: 0
   comprobador: 
   repetible: 1
+  aleatorio: 0
 --- !u!61 &133952510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68774,9 +68774,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: 2deaab3560783c8458c0861bad696658, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 298691582}
-  terminado: 0
   comprobador: 
   repetible: 1
+  aleatorio: 0
 --- !u!61 &1315522786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70927,6 +70927,7 @@ GameObject:
   - component: {fileID: 1511083787}
   - component: {fileID: 1511083786}
   - component: {fileID: 1511083789}
+  - component: {fileID: 1511083790}
   m_Layer: 0
   m_Name: Herrero
   m_TagString: Untagged
@@ -71012,7 +71013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511083785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.23, y: -4.23, z: 20}
+  m_LocalPosition: {x: 9.23, y: -4.23, z: 21}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 1750674746}
@@ -71031,14 +71032,135 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc1704fb0bfbd5542a6b593455aeebdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogos: []
+  dialogos:
+  - arrayTextos:
+    - "\xBFQuieres escuchar algunos consejos y curiosidades?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... la calidad de los accesorios como anillos y collares
+      depende de su material? De peor a mejor s\xF3n Hierro, Bronce, Plata, Oro y
+      Platino."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... las armaduras de cuero, de hierro y de mago tienen distinos
+      niveles? Las de cuero y hierro tienen tres niveles, mientras que la de mago
+      tiene dos."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... existen pociones normales y pociones benditas? Las normales
+      recuperan una cantidad fija de vida o mana minetras que las benditas recuperan
+      un porcentaje de vida o mana."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... existen pociones de distinto nivel? Cuanto m\xE1s alto
+      sea el nivel mejor ser\xE1 el efecto de la poci\xF3n, van desde el nivel uno
+      hasta el nivel cinco."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... existen dos tipos de anillos? Los normales otorgan fuerza
+      y los m\xE1gicos otorgan inteligencia"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... existen dos tipos de collares? Los normales otorgan defensa
+      f\xEDsica y los m\xE1gicos otorgan defensa m\xE1gica"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... \xA1Auch! Me he dado un golpe con el martillo."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... cuenta la m\xEDtica leyenda que existe una espada m\xEDticamente
+      legendaria? Se dice que posee las mejores estad\xEDsticas, eso s\xED, a parte
+      de eso no tiene nada de especial..."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... hay nueve espadas elementales b\xE1sicas? Son las espadas
+      de Agua, Fuego, Hielo, Luz, Madera, Rayo, Roca, Veneno y Viento."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... hay cuatro espadas que pueden reducir tu vida m\xE1xima?
+      Son las siguientes: Espada Maldita, Espada Oscura, Espad\xF3n Maldito y Espad\xF3n
+      Sangriento."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... la descripci\xF3n de la espada explosiva es una referencia?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... el espad\xF3n musical reproduce tres sonidos diferentes
+      cuando lo utilizas?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... la descripci\xF3n de la motosierra es una referencia?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... las estad\xEDsticas de los objetos son variables? Es
+      decir, te puedes encontrar el mismo objeto con estad\xEDsticas diferentes.
+      Esto NO ocurre con las pociones."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... el juglar cuenta tres historias? Cada historia hace referencia
+      a una de las tres im\xE1genes que hay en los cuadros, la primera al cuadro
+      de la izquierda, la segunda al cuadro del medio y la tercera al cuadro de la
+      derecha."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... el apellido de Manu Lairotut significa tutorial al rev\xE9s?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... los sprites y las imagenes de los di\xE1logos son de
+      assets diferentes? Los creadores del juego se esforzaron en que se parecieran,
+      algunos se parecen bastante y otros.... Bueno, se parecen menos...."
+    monologo: 1
+    soltar: {fileID: 0}
   objetivos: 0
   imagenCara: {fileID: 21300000, guid: 5c7368a992bffeb46b58dbad12bcbd0b, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 1750674745}
-  terminado: 0
   comprobador: 
   repetible: 0
+  aleatorio: 1
+--- !u!61 &1511083790
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511083785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.34}
+    newSize: {x: 0.34, y: 0.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.34}
+  m_EdgeRadius: 0
 --- !u!1 &1513965530
 GameObject:
   m_ObjectHideFlags: 0
@@ -71708,9 +71830,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: fad81682ab773bf48946cbd3f84af838, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 2079504962}
-  terminado: 0
   comprobador: 
   repetible: 1
+  aleatorio: 0
 --- !u!1 &1685748732
 GameObject:
   m_ObjectHideFlags: 0
@@ -72367,9 +72489,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: 22c6cbdf4c064e749b2fc35fd01f68dc, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 2050148566}
-  terminado: 0
   comprobador: 
   repetible: 1
+  aleatorio: 0
 --- !u!61 &1812735418
 BoxCollider2D:
   m_ObjectHideFlags: 0
