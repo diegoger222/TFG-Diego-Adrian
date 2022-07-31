@@ -40,8 +40,7 @@ public class PersonajeInteractuable : MonoBehaviour
             }
             else
             {
-                objetivos++;
-                objetivos %= dialogos.Length;
+                objetivos++; 
                 if (objetivos == dialogos.Length)
                 {
                     if (comprobador != null)
@@ -52,6 +51,7 @@ public class PersonajeInteractuable : MonoBehaviour
                     {
                         terminado = true;
                     }
+                    objetivos %= dialogos.Length;
                 }
             }
         }

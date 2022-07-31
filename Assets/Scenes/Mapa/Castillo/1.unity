@@ -2394,9 +2394,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: 654117405a9f7e34b9f0181134eb6fbc, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 270174785}
-  terminado: 0
   comprobador: 
   repetible: 1
+  aleatorio: 0
 --- !u!61 &1094311950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3060,9 +3060,9 @@ MonoBehaviour:
   imagenCara: {fileID: 21300000, guid: c9f00eaec7d651747a5cfce580a0b192, type: 3}
   prota: {fileID: 21300000, guid: 1c8eab65bc5994e48a9d5decd461d871, type: 3}
   bocadillo: {fileID: 107865988}
-  terminado: 0
   comprobador: rey
   repetible: 0
+  aleatorio: 0
 --- !u!61 &1749581238
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -12492,6 +12492,40 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -399.99994
       objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textIzq.arrayTextos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textDcho.arrayTextos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textIzq.arrayTextos.Array.data[0]
+      value: "Este manual contiene todo lo que necesitas saber sobre los controles
+        b\xE1sicos.\n\n- Moverse a la izquierda: Tecla A\n- Moverse a la derecha:
+        Tecla D\n- Saltar: Tecla Espacio\n- Enfundar/Desenfundar Arma: Tecla E\n-
+        Ataque: Click Izquierdo\n- Ataque Especial: (En el suelo) Tecla Q\n- Ataque
+        Descendente: (En el aire) Tecla Q\n- Escudo: Click Derecho"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textIzq.arrayTextos.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textIzq.arrayTextos.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438478080361845417, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
+      propertyPath: textDcho.arrayTextos.Array.data[0]
+      value: "- Rodar/Esquivar: Tecla Shift\n- Interactuar con NPCs: Tecla F\n- Avanzar
+        Dialogos: Tecla F\n- Abrir/Cerrar Inventario: Tecla I\n- Ver descripci\xF3n:
+        (En el inventario) Click derecho sobre el objeto\n- Equipar/Usar objeto:
+        (En el inventario) Click izquierdo sobre el objeto\n- Ocultar/Mostrar Inventario:
+        (En el inventario) Presionar Bot\xF3n I\n- Ocultar/Mostrar Subir Estadisticas:
+        (En el inventario) Presionar Bot\xF3n +\n- Cerrar Men\xFAs: Tecla Esc\n-
+        Cerrar Manual: Tecla Esc"
+      objectReference: {fileID: 0}
     - target: {fileID: 6438478080361845422, guid: b2b1b1aecca2dcf4cbf6bd0ae03874b2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
