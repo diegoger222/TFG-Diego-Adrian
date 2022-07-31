@@ -1,21 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour
 {
-    public Animator anim;
-    public AudioSource audio;
+    private Animator anim;
+    private AudioSource audio;
+    public GameObject settings;
 
     public void Start()
     {
         anim = this.GetComponent<Animator>();
         audio = this.GetComponent<AudioSource>();
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            settings.SetActive(false);
+        }
+    }
+
     public void IniciarJuego()
     {
         anim.SetTrigger("FadeOut");
         audio.Stop();
+        SceneManager.LoadScene("Saco");
+    }
+
+    public void Opciones()
+    {
+        settings.SetActive(true);
     }
 
     public void CerrarJuego()
