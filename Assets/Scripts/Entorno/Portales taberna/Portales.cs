@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Portales : MonoBehaviour
 {
@@ -52,5 +54,39 @@ public class Portales : MonoBehaviour
         anim.SetTrigger("Reset");
         anim.SetInteger("NumPortal", 5);
         NumPortal = 5;
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+
+
+            float a = NumPortal;
+            switch (a)
+            {
+                case 0:
+                    break;
+                case 1://caso de ir al pueblo
+                    CargarEscena("7");
+                    break;
+                case 2: //casoCastilloVampiro
+                    CargarEscena("8");
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+
+            }
+        }
+    }
+
+    private void CargarEscena(string _escena)
+    {
+        SceneManager.LoadScene(_escena);
     }
 }
