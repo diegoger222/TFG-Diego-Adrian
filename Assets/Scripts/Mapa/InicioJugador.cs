@@ -21,6 +21,7 @@ public class InicioJugador : MonoBehaviour
             Instantiate(ControladorPersonaje.Instance.gameObject, transform.position, Quaternion.identity);
             Vector3 a = ControladorPersonaje.Instance.puntoRevivir;
             ControladorPersonaje.Instance.gameObject.transform.position = a;
+            ControladorPersonaje.Instance.gameObject.GetComponent<BarraDeVida>().CuraTotal();
         } else {
             for (int i = 0; i < puntosAsociados.Count; i++)
             {

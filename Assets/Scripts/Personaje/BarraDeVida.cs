@@ -310,5 +310,10 @@ public class BarraDeVida : MonoBehaviour
         }
     }
 
+    public void CuraTotal()
+    {
+        vidaActual = vidaMaxima;
+    }
+
    
 }
