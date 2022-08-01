@@ -4237,7 +4237,7 @@ AudioSource:
   m_GameObject: {fileID: 253915326}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 3a32b1ebb53513546869aa0e433f537e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -6481,7 +6481,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &364021650
 MonoBehaviour:
@@ -9386,7 +9386,7 @@ AudioSource:
   m_GameObject: {fileID: 543606365}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 3ec87b958b2fcf84ea4d6a4a7dbd3fef, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -12534,7 +12534,7 @@ Transform:
   - {fileID: 1117448017}
   - {fileID: 2025139419}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &784752500
 PrefabInstance:
@@ -16551,7 +16551,7 @@ AudioSource:
   m_GameObject: {fileID: 1059395641}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 82b94a317047c284fab54793e099534d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -26259,7 +26259,7 @@ AudioSource:
   m_GameObject: {fileID: 1152529021}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1a49c1be59bf800448bd247c3b3ac122, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -26630,7 +26630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1158600833
 MonoBehaviour:
@@ -31331,7 +31331,7 @@ AudioSource:
   m_GameObject: {fileID: 1486246192}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: d40d24899677a0349b0683b026707a6f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -32261,7 +32261,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1530429840
 MonoBehaviour:
@@ -33472,7 +33472,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1649218444
 MonoBehaviour:
@@ -33980,7 +33980,7 @@ AudioSource:
   m_GameObject: {fileID: 1686338407}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9e3095e2d0fc7fc4ebecb997bb603285, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -38736,7 +38736,7 @@ AudioSource:
   m_GameObject: {fileID: 1999919843}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: e923b567ed407aa4494da8beb7e10582, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -39194,7 +39194,7 @@ AudioSource:
   m_GameObject: {fileID: 2016772934}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d92c1dba93dff8c46be83d8b250332ef, type: 2}
   m_audioClip: {fileID: 8300000, guid: 41e7803af72fa3d409ae7aa09f8ee51e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

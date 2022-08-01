@@ -13,6 +13,7 @@ public class MostrarNumero : MonoBehaviour
 
     public void TextUpdate(float number)
     {
-        numero.text = (int)number + "";
+        int aux = (int) number + 80;
+        numero.text = aux + "";
     }
 }
