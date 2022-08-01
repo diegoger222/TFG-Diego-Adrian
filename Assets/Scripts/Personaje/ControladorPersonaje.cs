@@ -7,6 +7,7 @@ public class ControladorPersonaje : MonoBehaviour
     // Start is called before the first frame update
 
     public static ControladorPersonaje Instance;
+    public Vector3 puntoRevivir;
     public string salidaJugador;
 
     private void Awake()

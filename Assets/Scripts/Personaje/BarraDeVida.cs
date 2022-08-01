@@ -11,9 +11,10 @@ public class BarraDeVida : MonoBehaviour
     public float vidaActual = 50;
     public GameObject pantallaMuerte;
     public float vidaMaxima = 100;
-    private float vidaVar;
+    private float vidaVar =100;
     public bool invencible = false;
-    public GameObject puntorevivir;
+    public Vector3 puntorevivir;
+    public string escenaRevivir;
     private float damage;
     public Text text_poti;
     private int n_poti; //Potis actuales
@@ -31,23 +32,23 @@ public class BarraDeVida : MonoBehaviour
     void Update()
     {
         vidaVar = this.gameObject.GetComponent<Estadisticas>().GetVitalidad();
-        vidaMaxima = vidaVar; 
+        vidaMaxima = vidaVar;
         barraVida.fillAmount = vidaActual / vidaMaxima;
-        
-        if (Input.GetKeyDown("g"))
-        {
-            
-            RestarVida(10);
-            
-        }
-        /*
-        if (Input.GetKeyDown("2"))
-        {
+        /* 
+         if (Input.GetKeyDown("g"))
+         {
 
-            MorePotis(1);
+             RestarVida(10);
 
-        }
-        */
+         }
+         /*
+         if (Input.GetKeyDown("2"))
+         {
+
+             MorePotis(1);
+
+         }
+         */
         //Curarse "frasco estus" (mando)
         /*
         if (Input.GetButtonDown("Curarse"))
@@ -77,9 +78,8 @@ public class BarraDeVida : MonoBehaviour
         m_animator = GetComponent<Animator>();
        // n_poti = 4;
        // m_poti = 4;
-        ndefensa = 0;
-       // text_poti.text = n_poti.ToString();
-     //   ActualizarImagenPoti();
+       
+
     }
 
     public void RestarVida(float cantidad)
@@ -90,7 +90,7 @@ public class BarraDeVida : MonoBehaviour
             this.gameObject.GetComponent<DanyoVisible>().BlockDa();
             escudo = false;
         }
-        else if (!invencible && vidaActual > 0)
+        else if (!invencible )// && vidaActual > 0
         {
      
 
@@ -108,7 +108,7 @@ public class BarraDeVida : MonoBehaviour
                 
               
                 Debug.Log("Has muerto");
-              
+                Muerte();
 
 
             }
@@ -138,6 +138,7 @@ public class BarraDeVida : MonoBehaviour
             if (vidaActual <= 0)
             {
                 Debug.Log("Has muerto");
+                Muerte();
             }
             if (vidaActual > vidaMaxima)
             {
@@ -164,6 +165,7 @@ public class BarraDeVida : MonoBehaviour
             if (vidaActual <= 0)
             {
                 Debug.Log("Has muerto");
+                Muerte();
             }
             if (vidaActual > vidaMaxima)
             {
@@ -230,12 +232,13 @@ public class BarraDeVida : MonoBehaviour
 
 
     
-    private void Muerte()
+  /*  private void Muerte()
     {
         auxt = Time.timeScale;
        // Time.timeScale = 0;
         Invoke("Teletrans", 2f);
     }
+  */
 
     private void Teletrans()
     {
@@ -270,6 +273,14 @@ public class BarraDeVida : MonoBehaviour
         ndefensa += puntos;
     }
 
+    public void SetSpawn(GameObject _spawn)
+    {
+      
+        puntorevivir  = new Vector3(_spawn.transform.position.x, _spawn.transform.position.y + 2, this.gameObject.transform.position.z);
+        ControladorPersonaje.Instance.puntoRevivir = puntorevivir;
+        escenaRevivir = SceneManager.GetActiveScene().name;
+    }
+
 
     IEnumerator FrenarNasus() {
         invencible = true;
@@ -277,8 +288,27 @@ public class BarraDeVida : MonoBehaviour
         invencible = false;
     }
 
-   
+   public void Muerte()
+    {
+        // this.gameObject.GetComponent<MovimientoPersonaje>().SetVivo(false);
+        MuerteTP();
+    }
 
+
+    public void MuerteTP()
+    {
+        if(SceneManager.GetActiveScene().name == escenaRevivir)
+        {
+            this.gameObject.transform.position = puntorevivir;
+            vidaActual = vidaMaxima;
+            this.gameObject.GetComponent<MovimientoPersonaje>().SetVivo(true);
+        }
+        else
+        {
+            ControladorPersonaje.Instance.salidaJugador = "Muerto";
+            SceneManager.LoadScene(escenaRevivir);
+        }
+    }
 
    
 }

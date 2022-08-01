@@ -312,5 +312,10 @@ public class MovimientoPersonaje : MonoBehaviour
         e_atacando = _aux;
     }
 
+
+    public void SetVivo(bool _vivo)
+    {
+        e_vivo = _vivo;
+    }
     
 }
