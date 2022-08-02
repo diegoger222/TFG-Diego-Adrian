@@ -13,10 +13,10 @@ public class Cofres : MonoBehaviour
         Diamante
     }
     public TipoCofre tipo;
-    [Header("Bronce")]
-    public GameObject[] bronce;
     [Header("Hierro")]
     public GameObject[] hierro;
+    [Header("Bronce")]
+    public GameObject[] bronce;
     [Header("Oro")]
     public GameObject[] oro;
     [Header("Platino")]
