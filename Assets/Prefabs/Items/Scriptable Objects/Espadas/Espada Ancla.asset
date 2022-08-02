@@ -23,7 +23,7 @@ MonoBehaviour:
     buffs:
     - attribute: 0
       value: 0
-      min: 20
+      min: 10
       max: 30
     - attribute: 1
       value: 0

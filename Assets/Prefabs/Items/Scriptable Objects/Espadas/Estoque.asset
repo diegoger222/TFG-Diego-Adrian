@@ -31,5 +31,5 @@ MonoBehaviour:
       max: 70
     - attribute: 1
       value: 0
-      min: 10
-      max: 70
+      min: 50
+      max: 100
