@@ -41,39 +41,36 @@ public class Cofres : MonoBehaviour
         int numRandom = Random.Range(1, 101);
 
 
-        if (numRandom < 80)
+        if (numRandom <= 70)
+        {
+            DropHierro();
+        }
+        else if(numRandom <= 90)
         {
             DropBronce();
-        }else if(numRandom <90){
-            DropHierro();
-        }else if(numRandom < 99)
+        }
+        else if(numRandom <= 100)
         {
             DropOro();
-        }else if(numRandom == 100)
-        {
-            DropPlatino();
         }
-
-        
-        //switch ()
     }
 
     public void CofreHierro()
     {
         int numRandom = Random.Range(1, 101);
-        if (numRandom < 60)
-        {
-            DropBronce();
-        }
-        else if (numRandom < 70)
+        if (numRandom <= 50)
         {
             DropHierro();
         }
-        else if (numRandom < 96)
+        else if (numRandom <= 80)
+        {
+            DropBronce();
+        }
+        else if (numRandom <= 95)
         {
             DropOro();
         }
-        else if (numRandom < 101)
+        else if (numRandom <= 100)
         {
             DropPlatino();
         }
@@ -82,25 +79,27 @@ public class Cofres : MonoBehaviour
     public void CofreOro()
     {
         int numRandom = Random.Range(1, 101);
-        if (numRandom < 20)
-        {
-            DropBronce();
-        }
-        else if (numRandom < 45)
+        if (numRandom <= 30)
         {
             DropHierro();
         }
-        else if (numRandom < 75)
+        else if (numRandom <= 55)
+        {
+            DropBronce();
+        }
+        else if (numRandom <= 75)
         {
             DropOro();
         }
-        else if (numRandom < 90)
+        else if (numRandom <= 90)
         {
             DropPlatino();
-        }else if(numRandom < 99)
+        }
+        else if(numRandom <= 97)
         {
             DropLegendario();
-        }else if(numRandom < 101)
+        }
+        else if(numRandom <= 100)
         {
             DropReliquia();
         }
@@ -108,41 +107,37 @@ public class Cofres : MonoBehaviour
     public void CofreDiamante()
     {
         int numRandom = Random.Range(1, 101);
-        if (numRandom < 2)
+        if (numRandom <= 10)
         {
             DropBronce();
         }
-        else if (numRandom < 10)
-        {
-            DropHierro();
-        }
-        else if (numRandom < 20)
+        else if (numRandom <= 25)
         {
             DropOro();
         }
-        else if (numRandom < 40)
+        else if (numRandom <= 55)
         {
             DropPlatino();
         }
-        else if (numRandom < 80)
+        else if (numRandom <= 80)
         {
             DropLegendario();
         }
-        else if(numRandom < 101)
+        else if(numRandom <= 100)
         {
             DropReliquia();
         }
     }
 
+    public void DropHierro()
+    {
+        int numRandom = Random.Range(0, hierro.Length);
+    }
     public void DropBronce()
     {
         int numRandom = Random.Range(0, bronce.Length );
         
 
-    }
-    public void DropHierro()
-    {
-        int numRandom = Random.Range(0, hierro.Length );
     }
     public void DropOro()
     {
