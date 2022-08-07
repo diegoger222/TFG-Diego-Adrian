@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 7348205314060577432}
   - component: {fileID: 7348205314060577433}
   - component: {fileID: 7348205314060577434}
+  - component: {fileID: 28665133934324633}
   m_Layer: 0
   m_Name: TrampaLanzallamasLvl1
   m_TagString: Untagged
@@ -202,3 +203,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.28, y: 0.26}
   m_EdgeRadius: 0
+--- !u!114 &28665133934324633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348205314060577446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6890b209be6ff1428dda565881c0c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

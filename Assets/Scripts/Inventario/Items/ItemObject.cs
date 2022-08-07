@@ -48,11 +48,27 @@ public class ItemObject : ScriptableObject
         Item newItem = new Item(this);
         return newItem;
     }
-
-
-    // Update is called once per frame
-
    
+    public ItemObject getCopyItemObject()
+    {
+        ItemObject copy = new ItemObject();
+        copy.uiDisplay = this.uiDisplay;
+        copy.stackable = this.stackable;
+        copy.type = this.type;
+        copy.description = this.description;
+        copy.data.Name = this.data.Name;
+        copy.data.Id = this.data.Id;
+        copy.data.buffs = new ItemBuff[this.data.buffs.Length];
+        for (int i = 0; i < copy.data.buffs.Length; i++)
+        {
+            copy.data.buffs[i] = new ItemBuff(this.data.buffs[i].min, this.data.buffs[i].max)
+            {
+                attribute = this.data.buffs[i].attribute
+            };
+        }
+        return copy;
+    }
+
 }
 
 [System.Serializable]

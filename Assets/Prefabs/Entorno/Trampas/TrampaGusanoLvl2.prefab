@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 285652244513767631}
   - component: {fileID: 285652244513767666}
   - component: {fileID: 2136208241102543239}
+  - component: {fileID: 3825198488132315378}
   m_Layer: 0
   m_Name: TrampaGusanoLvl2
   m_TagString: Trampa
@@ -143,3 +144,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   danyo: 10
+  danyoMagico: 0
+--- !u!114 &3825198488132315378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285652244513767630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6890b209be6ff1428dda565881c0c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

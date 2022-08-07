@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7858049711459525961}
   - component: {fileID: 7858049711459525962}
   - component: {fileID: 7858049711459525967}
+  - component: {fileID: -6344551533765467895}
   m_Layer: 0
   m_Name: TrampaLanza
   m_TagString: Untagged
@@ -130,6 +131,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.09, y: 0.15}
   m_EdgeRadius: 0
+--- !u!114 &-6344551533765467895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7858049711459525963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6890b209be6ff1428dda565881c0c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7858049712560321608
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,3 +214,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   danyo: 10
+  danyoMagico: 0
