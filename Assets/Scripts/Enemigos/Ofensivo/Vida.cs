@@ -41,8 +41,6 @@ public class Vida : MonoBehaviour
 
         if(vida_Act <= 0)
         {
-           
-            
             m_body2d.constraints = RigidbodyConstraints2D.FreezePositionY;
             m_collider.enabled = false;
         }
@@ -50,8 +48,6 @@ public class Vida : MonoBehaviour
 
     public void RecibirDano(int cantidad)
     {
-        
-        
         int daynoT = calculoarmadura(cantidad);
         this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
         vida_Act -= daynoT;
@@ -64,7 +60,6 @@ public class Vida : MonoBehaviour
         else
         {
             m_animator.SetTrigger("Danyo");
-            
         }
     }
     public void RecibirDanoFisico(int cantidad)
@@ -83,13 +78,10 @@ public class Vida : MonoBehaviour
         else
         {
             m_animator.SetTrigger("Danyo");
-
         }
     }
     public void RecibirDanoMagico(int cantidad)
     {
-
-
         int daynoT = CalculoResistenciaMG(cantidad);
         this.gameObject.GetComponent<DanyoVisible>().MostrarDanyo(daynoT);
         vida_Act -= daynoT;
@@ -102,7 +94,6 @@ public class Vida : MonoBehaviour
         else
         {
             m_animator.SetTrigger("Danyo");
-
         }
     }
     private void Muerte()

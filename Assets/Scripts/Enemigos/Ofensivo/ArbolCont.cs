@@ -16,11 +16,9 @@ public class ArbolCont : MonoBehaviour
     
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    private float tiempoAccion = 10;
     private float tiempoAcccionAux;
     private float tiempoParada = 3;
     private float tiempoParadaAux;
-    private bool objetivo = false;
     public Vector3 target;
     public bool miraDerecha = true;
     // Start is called before the first frame update

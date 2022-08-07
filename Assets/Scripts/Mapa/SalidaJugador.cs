@@ -8,7 +8,7 @@ public class SalidaJugador : MonoBehaviour
     // Start is called before the first frame update
     public string escenaIR;
     public string nombreSalida;
-    
+
     void Start()
     {
         
@@ -32,6 +32,5 @@ public class SalidaJugador : MonoBehaviour
     public void CambiarEscena()
     {
         SceneManager.LoadScene(escenaIR);
-    
     }
 }

@@ -21,8 +21,6 @@ public class BarraDeVida : MonoBehaviour
     private int m_poti; //maximo potis
     private int ndefensa;
     public Image im_poti;
-    [SerializeField] bool m_noBlood = false;
-    //imagenfull poti a menos llena
     private float auxt;
    // [SerializeField] private float tiempoInmune;
   //  private float tiempoInmuneaux;
@@ -76,10 +74,6 @@ public class BarraDeVida : MonoBehaviour
     private void Start()
     {
         m_animator = GetComponent<Animator>();
-       // n_poti = 4;
-       // m_poti = 4;
-       
-
     }
 
     public void RestarVida(float cantidad)
@@ -105,12 +99,8 @@ public class BarraDeVida : MonoBehaviour
                // m_animator.SetTrigger("Death");
              //   this.GetComponent<HeroKnight_Modi>().MuerteP(false);
              //   Invoke("Muerte", 2f);
-                
-              
                 Debug.Log("Has muerto");
                 Muerte();
-
-
             }
             if (vidaActual > vidaMaxima)
             {

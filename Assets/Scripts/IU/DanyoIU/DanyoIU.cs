@@ -7,9 +7,10 @@ public class DanyoIU : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject texto;
+    private GameObject player;
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -20,10 +21,10 @@ public class DanyoIU : MonoBehaviour
 
     public void MostrarDanyo(float danyo) {
         GameObject textOb = Instantiate(texto, transform.position +Random.onUnitSphere, Quaternion.identity);
+        textOb.GetComponent<TextMeshPro>().fontSize = 7;
         textOb.GetComponent<TextMeshPro>().SetText(danyo.ToString());
 
         //StartCoroutine(MoverTexto(textOb));
-    
     }
 
     IEnumerator MoverTexto(GameObject ob)
@@ -43,9 +44,15 @@ public class DanyoIU : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Arma")
+        if (collision.gameObject.CompareTag("Arma"))
         {
-            MostrarDanyo(20);
+            float danyo = player.GetComponent<Estadisticas>().GetFuerza();
+            MostrarDanyo(danyo);
+        }
+        if (collision.gameObject.CompareTag("EfectoArma"))
+        {
+            float danyo = player.GetComponent<Estadisticas>().GetInteligencia();
+            MostrarDanyo(danyo);
         }
     }
 

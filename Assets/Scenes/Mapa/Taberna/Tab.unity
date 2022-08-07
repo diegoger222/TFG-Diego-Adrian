@@ -68766,8 +68766,8 @@ MonoBehaviour:
   dialogos:
   - arrayTextos:
     - Disculpa pero ahora mismo estoy un poco ocupada, si buscas la salida habla
-      con la maga de los portales, se le reconoce facilmente por su bola de cristal
-      y sus ropas moradas.
+      con la maga dimensional, se le reconoce facilmente por su bola de cristal y
+      sus ropas moradas.
     monologo: 1
     soltar: {fileID: 0}
   objetivos: 0
@@ -71125,6 +71125,42 @@ MonoBehaviour:
     - "\xBFSab\xEDas que... los sprites y las imagenes de los di\xE1logos son de
       assets diferentes? Los creadores del juego se esforzaron en que se parecieran,
       algunos se parecen bastante y otros.... Bueno, se parecen menos...."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... hay algunas espadas que pueden bajar tu fuerza? Si llegas
+      a tener fuerza negativa tus ataques b\xE1sicos curar\xE1n al enemigo en vez
+      de hacerle da\xF1o."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... estas en la taberna dimensional del juego?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... la magia dimensional fue creada para que el primer rey
+      de Plotkonia pudiera ir al ba\xF1o m\xE1s r\xE1pido? Despu\xE9s se empezo a
+      aplicar para cosas un poco m\xE1s \xFAtiles."
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... para salir de la taberna tienes que hablar con la maga
+      dimensional?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... existen cofres ocultos en pasadizos secretos?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... este juego en realidad es un gachap\xF3n dentro de un
+      gachap\xF3n?"
+    monologo: 1
+    soltar: {fileID: 0}
+  - arrayTextos:
+    - "\xBFSab\xEDas que... las trampas se suelen activar por proximidad? Una vez
+      activadas por primera vez se repite su activaci\xF3n hasta que te alejas lo
+      suficiente."
     monologo: 1
     soltar: {fileID: 0}
   objetivos: 0

@@ -27,6 +27,8 @@ public class Cofres : MonoBehaviour
     public GameObject[] reliquia;
     private bool dropDisponible = true;
     private Animator anim;
+    public GameObject bocadillo;
+    private bool interactuar = false;
     void Start()
     {
         anim = this.gameObject.GetComponent<Animator>();
@@ -35,7 +37,10 @@ public class Cofres : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(interactuar && Input.GetKeyDown("f"))
+        {
+            AbrirCofre();
+        }
     }
 
     public void CofreMadera()
@@ -166,30 +171,42 @@ public class Cofres : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Arma")
+        if(collision.gameObject.CompareTag("Player"))
         {
-            if (dropDisponible)
+            bocadillo.SetActive(true);
+            interactuar = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            bocadillo.SetActive(false);
+            interactuar = false;
+        }
+    }
+
+    private void AbrirCofre()
+    {
+        if (dropDisponible)
+        {
+            dropDisponible = false;
+            anim.SetTrigger("Abrir");
+            switch (tipo.ToString())
             {
-                dropDisponible = false;
-                switch (tipo.ToString())
-                {
-                    case "Madera":
-                        CofreMadera();
-                        anim.SetTrigger("Abrir");
-                        break;
-                    case "Hierro":
-                        CofreHierro();
-                        anim.SetTrigger("Abrir");
-                        break;
-                    case "Oro":
-                        CofreOro();
-                        anim.SetTrigger("Abrir");
-                        break;
-                    case "Diamante":
-                        CofreDiamante();
-                        anim.SetTrigger("Abrir");
-                        break;
-                }
+                case "Madera":
+                    CofreMadera();
+                    break;
+                case "Hierro":
+                    CofreHierro();
+                    break;
+                case "Oro":
+                    CofreOro();
+                    break;
+                case "Diamante":
+                    CofreDiamante();
+                    break;
             }
         }
     }

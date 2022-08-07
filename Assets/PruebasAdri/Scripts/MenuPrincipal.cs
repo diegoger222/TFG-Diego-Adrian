@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuPrincipal : MonoBehaviour
 {
     private Animator anim;
-    private AudioSource audio;
+    private AudioSource audioSource;
     public GameObject settings;
 
     public void Start()
     {
         anim = this.GetComponent<Animator>();
-        audio = this.GetComponent<AudioSource>();
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     public void Update()
@@ -26,7 +26,7 @@ public class MenuPrincipal : MonoBehaviour
     public void IniciarJuego()
     {
         anim.SetTrigger("FadeOut");
-        audio.Stop();
+        audioSource.Stop();
         SceneManager.LoadScene("Saco");
     }
 
@@ -38,7 +38,7 @@ public class MenuPrincipal : MonoBehaviour
     public void CerrarJuego()
     {
         anim.SetTrigger("FadeOut");
-        audio.Stop();
+        audioSource.Stop();
         StartCoroutine(cerrar());
     }
 
