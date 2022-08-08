@@ -415,6 +415,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   experiencia: 1
+  drops: []
+  jefe: 0
 --- !u!1102 &3035006434497977570
 AnimatorState:
   serializedVersion: 6

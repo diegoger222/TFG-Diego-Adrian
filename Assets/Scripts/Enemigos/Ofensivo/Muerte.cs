@@ -7,10 +7,14 @@ public class Muerte : StateMachineBehaviour
     public int experiencia = 0;
     public GameObject[] drops = null;
     private GameObject salida;
+    public bool jefe = true;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        salida = GameObject.FindGameObjectWithTag("Salida");
+        if (jefe)
+        {
+            salida = GameObject.FindGameObjectWithTag("Salida");
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -28,7 +32,7 @@ public class Muerte : StateMachineBehaviour
            for(int i = 0; i < drops.Length; i++)
             {
                 GameObject textOb = Instantiate(drops[i], animator.gameObject.transform.position + Random.onUnitSphere, Quaternion.identity);
-                if (salida != null)
+                if (salida != null && jefe)
                 {
                     salida.GetComponent<SalidaJefes>().ActivarSalida();
                 }

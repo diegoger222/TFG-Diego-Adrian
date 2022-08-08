@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   experiencia: 20
+  drops: []
+  jefe: 0
 --- !u!1101 &-1874533050055208058
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

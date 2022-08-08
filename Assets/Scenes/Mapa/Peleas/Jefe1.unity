@@ -44461,12 +44461,12 @@ GameObject:
   - component: {fileID: 652347380}
   - component: {fileID: 652347379}
   - component: {fileID: 652347378}
+  - component: {fileID: 652347382}
+  - component: {fileID: 652347384}
   - component: {fileID: 652347377}
   - component: {fileID: 652347376}
   - component: {fileID: 652347381}
-  - component: {fileID: 652347382}
   - component: {fileID: 652347383}
-  - component: {fileID: 652347384}
   m_Layer: 8
   m_Name: Jefe1
   m_TagString: Enemigo
