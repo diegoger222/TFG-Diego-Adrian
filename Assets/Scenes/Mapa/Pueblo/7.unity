@@ -51229,6 +51229,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3282272283530535118, guid: 5391f353a508a1844b75bfce0c6d9b79, type: 3}
+      propertyPath: danyo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7636469516872215769, guid: 5391f353a508a1844b75bfce0c6d9b79, type: 3}
       propertyPath: m_RootOrder
       value: 1
