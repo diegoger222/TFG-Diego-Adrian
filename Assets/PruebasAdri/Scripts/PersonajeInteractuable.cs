@@ -64,6 +64,19 @@ public class PersonajeInteractuable : MonoBehaviour
             interactuar = true;
         }
     }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && !terminado)
+        {
+            bocadillo.SetActive(true);
+        }
+        else if(collision.CompareTag("Player") && terminado)
+        {
+            bocadillo.SetActive(false);
+            interactuar = false;
+        }
+    }
     public void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

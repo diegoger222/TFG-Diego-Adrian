@@ -173,8 +173,27 @@ public class Cofres : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            bocadillo.SetActive(true);
-            interactuar = true;
+            if (dropDisponible)
+            {
+                bocadillo.SetActive(true);
+                interactuar = true;
+            }
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (dropDisponible)
+            {
+                bocadillo.SetActive(true);
+            }
+            else
+            {
+                bocadillo.SetActive(false);
+                interactuar = false;
+            }
         }
     }
 
