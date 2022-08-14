@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7bc8b227dae3bb4aab50855d858d43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stop: Earth
 --- !u!1101 &-4297521831718273436
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
