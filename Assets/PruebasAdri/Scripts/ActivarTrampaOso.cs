@@ -11,9 +11,9 @@ public class ActivarTrampaOso : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    public void OnTriggerEnter2D(Collider other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             anim.SetTrigger("Trap");
         }
