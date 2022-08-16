@@ -14,6 +14,9 @@ public class ActivadorSonidos : MonoBehaviour
     [Header("Sonidos Enemigos")]
     public AudioSource enm_ataque1;
     public AudioSource enm_ataque2;
+    public AudioSource enm_ataque1d;
+    public AudioSource enm_ataque2d;
+    public AudioSource enm_danyo;
 
 
     [Header("Raros")]
@@ -68,6 +71,15 @@ public class ActivadorSonidos : MonoBehaviour
             case "enm_ataque1": enm_ataque1.Play();
                 break;
             case "enm_ataque2": enm_ataque2.Play();
+                break;
+            case "enm_ataque1d":
+                enm_ataque1d.Play();
+                break;
+            case "enm_ataque2d":
+                enm_ataque2d.Play();
+                break;
+            case "enm_danyo":
+                enm_danyo.Play();
                 break;
             case "Bat": Bat.Play();
                 break;
