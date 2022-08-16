@@ -25041,7 +25041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed82211e002fcf4f845fa1aa34b5c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armadura: 70
+  armadura: 125
   dayno: 15
   resistenciaMagica: 60
 --- !u!114 &516687830
@@ -27514,7 +27514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaIR: TAB
-  nombreSalida: tab
+  nombreSalida: TAB
 --- !u!95 &1652174696
 Animator:
   serializedVersion: 3
@@ -48272,6 +48272,10 @@ PrefabInstance:
     - target: {fileID: 3116346062342620233, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
       propertyPath: m_Name
       value: VidaBossHUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717883408847432555, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
+      propertyPath: m_Text
+      value: senob
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}

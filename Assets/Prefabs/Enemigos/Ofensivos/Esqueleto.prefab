@@ -286,8 +286,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   armadura: 50
-  dayno: 10
-  resistenciaMagica: 0
+  dayno: 5
+  resistenciaMagica: 50
 --- !u!1001 &8531486434345857385
 PrefabInstance:
   m_ObjectHideFlags: 0

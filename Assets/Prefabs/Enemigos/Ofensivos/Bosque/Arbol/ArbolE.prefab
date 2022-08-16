@@ -285,9 +285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed82211e002fcf4f845fa1aa34b5c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armadura: 50
-  dayno: 10
-  resistenciaMagica: 0
+  armadura: 54
+  dayno: 24
+  resistenciaMagica: 20
 --- !u!1001 &1596011265745363502
 PrefabInstance:
   m_ObjectHideFlags: 0

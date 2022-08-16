@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/PruebasAdri/Scenes/Menu Principal.unity
+    guid: b560cfc9d0e99c94fbc06708617a13ec
+  - enabled: 1
     path: Assets/Scenes/PruebasDiego/Saco.unity
     guid: 10ff9a4e3d73db34fba555821daa0e42
   - enabled: 1

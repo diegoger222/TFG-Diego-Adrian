@@ -458,6 +458,7 @@ MonoBehaviour:
   - {fileID: 4670473528516683382, guid: 717d4dae68e8bb345b7d5e298c93ce93, type: 3}
   - {fileID: 2370732698498009321, guid: 0a0837939b5014244b8f37cc7cf30e06, type: 3}
   jefe: 1
+  njefe: huesitos
 --- !u!114 &5098307301380629328
 MonoBehaviour:
   m_ObjectHideFlags: 1

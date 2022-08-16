@@ -39,7 +39,7 @@ public class Estadisticas : MonoBehaviour
 
     private float defensaFisicaBase = 35;
     private float defensaMagicaBase = 20;
-    private float danyoFisicoBase = 5;
+    private float danyoFisicoBase = 10;
     private float danyoMagicoBase = 5;
     private float manaBase = 100;
     private float vitalidadBase = 100;

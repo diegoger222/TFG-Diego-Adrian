@@ -1219,7 +1219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717883408847432555, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
       propertyPath: m_Text
-      value: huesitos
+      value: uyako
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33645261f7ce9d4185f0e3cbbc2a56a, type: 3}
@@ -44486,7 +44486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35cfdc07ae1697746899bd06f0f81987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida_Max: 200
+  vida_Max: 250
   vidaImagen: {fileID: 276243356}
   vidaText: {fileID: 276243355}
   generalVida: {fileID: 276243357}
@@ -44601,9 +44601,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed82211e002fcf4f845fa1aa34b5c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armadura: 100
+  armadura: 70
   dayno: 20
-  resistenciaMagica: 50
+  resistenciaMagica: 100
 --- !u!61 &652347382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45928,7 +45928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaIR: TAB
-  nombreSalida: tab
+  nombreSalida: TAB
 --- !u!1 &1705246904
 GameObject:
   m_ObjectHideFlags: 0

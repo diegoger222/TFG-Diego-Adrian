@@ -215,9 +215,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed82211e002fcf4f845fa1aa34b5c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armadura: 50
-  dayno: 10
-  resistenciaMagica: 0
+  armadura: 20
+  dayno: 30
+  resistenciaMagica: 100
 --- !u!1 &4068404223312039516
 GameObject:
   m_ObjectHideFlags: 0
