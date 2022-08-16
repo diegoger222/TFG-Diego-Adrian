@@ -17,7 +17,7 @@ public class ActivarTrampa : MonoBehaviour
     void Update()
     {
         distancia = Vector2.Distance(transform.position, personaje.transform.position);
-        if(distancia < 3)
+        if(distancia < 5)
         {
             anim.SetTrigger("Trap");
         }

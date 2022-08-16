@@ -29,3 +29,7 @@ MonoBehaviour:
       value: 0
       min: 10
       max: 30
+    - attribute: 0
+      value: 0
+      min: 10
+      max: 30

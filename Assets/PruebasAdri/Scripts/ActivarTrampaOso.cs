@@ -11,7 +11,7 @@ public class ActivarTrampaOso : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider other)
     {
         if (other.CompareTag("Player"))
         {
