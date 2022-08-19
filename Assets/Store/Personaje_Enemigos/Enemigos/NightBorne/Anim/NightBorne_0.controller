@@ -554,6 +554,7 @@ MonoBehaviour:
   experiencia: 20
   drops: []
   jefe: 0
+  njefe: 
 --- !u!1101 &8589827202928645073
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
