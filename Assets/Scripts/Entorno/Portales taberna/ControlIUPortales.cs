@@ -16,11 +16,11 @@ public class ControlIUPortales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (interactuar && Input.GetKeyDown("f"))
+        if (interactuar && Input.GetKeyDown(KeyCode.F))
         {
             iuPortal.SetActive(true);
         }
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             iuPortal.SetActive(false);
         }
@@ -44,6 +44,9 @@ public class ControlIUPortales : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        interactuar = false;
+        if (collision.CompareTag("Player"))
+        {
+            interactuar = false;
+        }
     }
 }

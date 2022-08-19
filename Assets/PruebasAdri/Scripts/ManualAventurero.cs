@@ -25,7 +25,7 @@ public class ManualAventurero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (open && Input.GetKeyDown(KeyCode.Escape))
+        if (open && Input.GetKeyDown(KeyCode.I))
         {
             CerrarManual();
         }
@@ -75,7 +75,6 @@ public class ManualAventurero : MonoBehaviour
         contador = 0;
         textoDcho.text = "";
         textoIzq.text = "";
-        anim.SetTrigger("Exit");
         open = false;
         personaje.GetComponent<MovimientoPersonaje>().EstadoDialogo(false);
     }
