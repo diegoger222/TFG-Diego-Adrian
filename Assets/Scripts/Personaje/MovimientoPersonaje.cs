@@ -31,7 +31,7 @@ public class MovimientoPersonaje : MonoBehaviour
     private bool e_dialogo = false;
 
     public LayerMask mascaraSuelo;
-
+    // las varibles que al principio tengan e_ hacen referencia al estado de un elemento
     private int e_cuentaAtaque = 0;
     private bool e_vivo = true;
     private bool e_espada = false;
