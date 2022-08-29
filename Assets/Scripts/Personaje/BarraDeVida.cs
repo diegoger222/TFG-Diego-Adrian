@@ -291,11 +291,13 @@ public class BarraDeVida : MonoBehaviour
         {
             this.gameObject.transform.position = puntorevivir;
             vidaActual = vidaMaxima;
+            this.gameObject.GetComponent<Mana>().RestaurarMana();
             this.gameObject.GetComponent<MovimientoPersonaje>().SetVivo(true);
         }
         else
         {
             ControladorPersonaje.Instance.salidaJugador = "Muerto";
+            this.gameObject.GetComponent<Mana>().RestaurarMana();
             SceneManager.LoadScene(escenaRevivir);
         }
     }

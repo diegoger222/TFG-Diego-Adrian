@@ -71,6 +71,12 @@ public class Mana : MonoBehaviour
            // regen = StartCoroutine(RegenMana());
         }
     }
+    public void RestaurarMana()
+    {
+        currentMana = maxMana;
+        manaBar.fillAmount = currentMana / maxMana;
+        
+    }
 
     private IEnumerator RegenMana()
     {
