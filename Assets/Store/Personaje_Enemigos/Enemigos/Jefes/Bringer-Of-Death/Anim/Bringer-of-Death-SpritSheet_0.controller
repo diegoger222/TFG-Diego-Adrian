@@ -139,6 +139,7 @@ MonoBehaviour:
   drops:
   - {fileID: 6968712705336497276, guid: d83bef3682fbb96429cb788db7f5174f, type: 3}
   - {fileID: 9020278340005061882, guid: 94150773d7951f64b83c3dab346b68c5, type: 3}
+  - {fileID: 2487592689453900684, guid: 3364472c06085f841a661a4492bed5a9, type: 3}
   jefe: 1
   njefe: alfredito
 --- !u!114 &-4212404839772699861
