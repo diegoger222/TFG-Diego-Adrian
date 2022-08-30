@@ -5915,9 +5915,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1441626261}
   - component: {fileID: 1441626260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muro
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -22,6 +22,8 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] private float tiempoEscudoEnfriamientoAux =0;
 
     public Transform comprobadorSuelo;
+    public Transform comprobadorPared;
+    public Transform comprobadorPared2;
     public GameObject escudo;
 
     private Animator m_animator;
@@ -39,6 +41,8 @@ public class MovimientoPersonaje : MonoBehaviour
     public bool e_cayendo = false;
     private bool e_escudo = false;
     private bool e_suelo = true;
+    private bool e_pared = false;
+    private bool e_pared2 = false;
     private bool m_atacando = false;
     private float m_direccionMirando = 1;
     private float inputX = 0;
@@ -59,6 +63,8 @@ public class MovimientoPersonaje : MonoBehaviour
     private void FixedUpdate()
     {
         e_suelo = Physics2D.OverlapCircle(comprobadorSuelo.position, 0.07f, mascaraSuelo);
+        e_pared = Physics2D.OverlapCircle(comprobadorPared.position, 0.07f, mascaraSuelo);
+        e_pared2 = Physics2D.OverlapCircle(comprobadorPared2.position, 0.07f, mascaraSuelo);
     }
 
     // Update is called once per frame
@@ -182,7 +188,7 @@ public class MovimientoPersonaje : MonoBehaviour
 
     public void MoverseCorriendo()
     {
-        if (!m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll") && !e_atacando)
+        if (!m_animator.GetCurrentAnimatorStateInfo(0).IsName("roll") && !e_atacando && !e_pared && !e_pared2)
         {
             m_body2d.velocity = new Vector2(inputX * m_velocidadCorriendo, m_body2d.velocity.y);
             m_animator.SetBool("Correr", true);
