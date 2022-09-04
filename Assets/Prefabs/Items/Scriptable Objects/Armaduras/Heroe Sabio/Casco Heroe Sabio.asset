@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 3
   description: "Un casco de hierro que perteneci\xF3 a un antiguo h\xE9roe muy sabio.
     Proporciona a su portador una defensa f\xEDsica, una vitalidad y una defensa
-    m\xE1gica sobrenaturales."
+    m\xE1gica sobrenaturales"
   data:
     Name: "Casco del H\xE9roe Sabio"
     Id: 208

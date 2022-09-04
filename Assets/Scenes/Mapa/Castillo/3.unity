@@ -504,7 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - "Hola, tu debes de ser el nuevo h\xE9roe al que le han asignado la misi\xF3n
+    - "Hola, t\xFA debes de ser el nuevo h\xE9roe al que le han asignado la misi\xF3n
       de salvar el reino."
     - "Pues s\xED, me llamo Hugo \xBFSabes por donde tengo que ir para llegar al
       patio de armas?"

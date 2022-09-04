@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 4
   description: "Una pechera de hierro que perteneci\xF3 a un antiguo h\xE9roe muy
     sabio. Proporciona a su portador una defensa f\xEDsica, una vitalidad y una defensa
-    m\xE1gica sobrenaturales."
+    m\xE1gica sobrenaturales"
   data:
     Name: "Pechera del H\xE9roe Sabio"
     Id: 210

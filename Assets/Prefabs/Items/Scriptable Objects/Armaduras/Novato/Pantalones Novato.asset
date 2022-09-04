@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 0
   type: 5
   description: "Los pantalones de novato, son bastante comodos. Proporcionan un m\xEDnimo
-    de vitalidad a su portador."
+    de vitalidad a su portador"
   data:
     Name: Pantalones de Novato
     Id: 157

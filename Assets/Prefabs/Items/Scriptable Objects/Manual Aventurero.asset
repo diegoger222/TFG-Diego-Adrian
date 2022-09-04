@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -7022570758389391388, guid: 5e82fd126e3745d47bae088a3ec90a14, type: 3}
   stackable: 0
   type: 11
-  description: "Manual del Aventurero otorgado por Manu Lairotut. Contiene una gu\xEDa
-    sobre los \"controles\" b\xE1sicos"
+  description: "Manual del Aventurero otorgado por Manuel Lairotut. Contiene una
+    gu\xEDa sobre los \"controles\" b\xE1sicos"
   data:
     Name: Manual del Aventurero
     Id: 0

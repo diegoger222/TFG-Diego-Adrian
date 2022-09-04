@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 6
   description: "Unos zapatos de hierro con unas gemas m\xE1gicas. Proporcionan a
     su portador bastante defensa f\xEDsica y much\xEDsima defensa m\xE1gica gracias
-    al poder de sus gemas."
+    al poder de sus gemas"
   data:
     Name: "Zapatos M\xE1gicos"
     Id: 187

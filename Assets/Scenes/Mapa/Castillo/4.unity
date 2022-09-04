@@ -12284,18 +12284,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - "Hola, t\xFA debes de ser Hugo, mi nombre es Manu Lairotut, y soy el encargado
+    - "Hola, t\xFA debes de ser Hugo, mi nombre es Manuel Lairotut, y soy el encargado
       de tu entrenamiento inicial."
-    - "Hola Manuel, no se muy bien que hago aqu\xED, pero estoy preparado para aprender."
+    - "Hola Manuel, no s\xE9 muy bien que hago aqu\xED, pero estoy preparado para
+      aprender."
     - "Voy a ense\xF1arte todo lo necesario para que puedas sobrevivir m\xE1s all\xE1
       del pasillo de este castillo. Bueno, empecemos por lo b\xE1sico, toma esta
-      espada y equipatela."
-    - "\xBFComo que \"equipatela\"?"
+      espada y equ\xEDpatela."
+    - "\xBFComo que \"equ\xEDpatela\"?"
     - "Mira, con la \"tecla I\" puedes abrir tu inventario. Una vez abierto el inventario,
       puedes hacer clic para consumir alguna poci\xF3n o equiparte alg\xFAn arma
       o armadura. Por \xFAltimo si haces clic derecho podr\xE1s ver m\xE1s informaci\xF3n
       sobre el objeto."
-    - "Disculpa Manu pero... \xBFQue se supone que es una \"tecla I\"? \xBFY que
+    - "Disculpa Manuel pero... \xBFQue se supone que es una \"tecla I\"? \xBFY qu\xE9
       es eso de \"hacer clic\"?"
     - "T\xFA abre la mochila y coge la espada."
     monologo: 0

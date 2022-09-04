@@ -96807,9 +96807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - Disculpa pero ahora mismo estoy un poco ocupada, si buscas la salida habla
-      con la maga dimensional, se le reconoce facilmente por su bola de cristal y
-      sus ropas moradas.
+    - "Disculpa pero ahora mismo estoy un poco ocupada, si buscas la salida habla
+      con la maga dimensional, se le reconoce f\xE1cilmente por su bola de cristal
+      y sus ropas moradas."
     monologo: 1
     soltar: {fileID: 0}
   objetivos: 0
@@ -99085,14 +99085,14 @@ MonoBehaviour:
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
-    - "\xBFSab\xEDas que... las armaduras de cuero, de hierro y de mago tienen distinos
+    - "\xBFSab\xEDas que... las armaduras de cuero, de hierro y de mago tienen distintos
       niveles? Las de cuero y hierro tienen tres niveles, mientras que la de mago
       tiene dos."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... existen pociones normales y pociones benditas? Las normales
-      recuperan una cantidad fija de vida o mana minetras que las benditas recuperan
+      recuperan una cantidad fija de vida o mana mientras que las benditas recuperan
       un porcentaje de vida o mana."
     monologo: 1
     soltar: {fileID: 0}
@@ -99104,12 +99104,12 @@ MonoBehaviour:
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... existen dos tipos de anillos? Los normales otorgan fuerza
-      y los m\xE1gicos otorgan inteligencia"
+      y los m\xE1gicos otorgan inteligencia."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... existen dos tipos de collares? Los normales otorgan defensa
-      f\xEDsica y los m\xE1gicos otorgan defensa m\xE1gica"
+      f\xEDsica y los m\xE1gicos otorgan defensa m\xE1gica."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
@@ -99118,7 +99118,7 @@ MonoBehaviour:
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... cuenta la m\xEDtica leyenda que existe una espada m\xEDticamente
-      legendaria? Se dice que posee las mejores estad\xEDsticas, eso s\xED, a parte
+      legendaria? Se dice que posee las mejores estad\xEDsticas, eso s\xED, aparte
       de eso no tiene nada de especial..."
     monologo: 1
     soltar: {fileID: 0}
@@ -99164,8 +99164,8 @@ MonoBehaviour:
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
-    - "\xBFSab\xEDas que... los sprites y las imagenes de los di\xE1logos son de
-      assets diferentes? Los creadores del juego se esforzaron en que se parecieran,
+    - "\xBFSab\xEDas que... los sprites y las im\xE1genes de los di\xE1logos son
+      de assets diferentes? Los creadores del juego se esforzaron en que se parecieran,
       algunos se parecen bastante y otros.... Bueno, se parecen menos...."
     monologo: 1
     soltar: {fileID: 0}
@@ -99181,8 +99181,8 @@ MonoBehaviour:
     soltar: {fileID: 0}
   - arrayTextos:
     - "\xBFSab\xEDas que... la magia dimensional fue creada para que el primer rey
-      de Plotkonia pudiera ir al ba\xF1o m\xE1s r\xE1pido? Despu\xE9s se empezo a
-      aplicar para cosas un poco m\xE1s \xFAtiles."
+      de Plotkonia pudiera ir al ba\xF1o m\xE1s r\xE1pido? Despu\xE9s se empez\xF3
+      a aplicar para cosas un poco m\xE1s \xFAtiles."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
@@ -99922,10 +99922,11 @@ MonoBehaviour:
   dialogos:
   - arrayTextos:
     - "*hip* *hip* Hooolaa preesiosaaah *hip* \xBFSabeh *hip* que yooo *hip* fu\xED
-      candidatoo *hip* pah seh el fuuuturooo *hip* heeroeee *hip* del reinooo? *hip*"
+      candidatoo *hip* pah seh el fuuuturooo *hip* h\xE9rooeee *hip* del reinooo?
+      *hip*"
     - "No soy una mujer, espera, \xBFDe verdad hubo una fase de selecci\xF3n? Aunque
-      la verdad, viendo esto entiendo por que el rey Areg II pens\xF3 que yo era
-      su mejor opci\xF3n..."
+      la verdad, viendo esto entiendo porque el rey Areg II pens\xF3 que yo era su
+      mejor opci\xF3n..."
     - "*hip* *hip* Vayaaa monadaa *hip* \xBFConoseeeh al reyyy? *hip*"
     - ...
     monologo: 0
@@ -100547,7 +100548,7 @@ MonoBehaviour:
   - arrayTextos:
     - "Venid y escuchad esta gran historia,\npues yo el juglar os la voy a contar.\nDe
       esto trata la primera si no me falla la memoria,\nde una peque\xF1a persona
-      que queria estudiar."
+      que quer\xEDa estudiar."
     - "Se llen\xF3 de estr\xE9s y desesperaci\xF3n,\npero pas\xF3 las pruebas como
       un campe\xF3n.\nSe enfrent\xF3 a AIC y su mala organizaci\xF3n,\nque le dejo
       un trauma que dur\xF3 un e\xF3n."
@@ -100556,32 +100557,20 @@ MonoBehaviour:
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
-    - 'Venid y escuchad esta gran historia,
-
-      pues yo el juglar os la voy a
-      contar.
-
-      De esto trata la segunda si no me falla la memoria,
-
-      de
-      una persona que no queria estudiar.'
-    - "Durante el caluroso verano se convertia en girasol,\nhaciendo la fotos\xEDntesis
-      mientras tomaba el sol,\nDurante el frio invierno se convertia en ping\xFCino,\ndurmiendo
+    - "Venid y escuchad esta gran historia,\npues yo el juglar os la voy a contar.\nDe
+      esto trata la segunda si no me falla la memoria,\nde una persona que no quer\xEDa
+      estudiar."
+    - "Durante el caluroso verano se convert\xEDa en girasol,\nhaciendo la fotos\xEDntesis
+      mientras tomaba el sol.\nDurante el frio invierno se convert\xEDa en ping\xFCino,\ndurmiendo
       en su cama de suave lino."
     - "Hasta aqu\xED la segunda,\nvuelve en otra ocasi\xF3n.\nTe contar\xE9 la tercera,\ny
       ver\xE1s que emoci\xF3n."
     monologo: 1
     soltar: {fileID: 0}
   - arrayTextos:
-    - 'Venid y escuchad esta pesima historia,
-
-      pues yo el juglar os la voy
-      a contar.
-
-      De esto trata la tercera si no me falla la memoria,
-
-      de
-      una persona estupida que no queria estudiar.'
+    - "Venid y escuchad esta p\xE9sima historia,\npues yo el juglar os la voy a contar.\nDe
+      esto trata la tercera si no me falla la memoria,\nde una persona est\xFApida
+      que no quer\xEDa estudiar."
     - "El villano m\xE1s horrible hace su aparici\xF3n,\nle pon\xEDa muchas ganas
       pero no atenci\xF3n.\nSe iba al gimnasio y a bailar a un sal\xF3n,\ndespu\xE9s
       al cine y de cena se pegaba un atrac\xF3n."

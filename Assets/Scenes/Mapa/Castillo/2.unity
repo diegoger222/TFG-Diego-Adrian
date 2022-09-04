@@ -33052,8 +33052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - "\xA1Alto ah\xED! El suelo del pasillo esta recien fregado y no se puede pasar.
-      Por favor vuelve m\xE1s tarde."
+    - "\xA1Alto ah\xED! El suelo del pasillo esta reci\xE9n fregado y no se puede
+      pasar. Por favor vuelve m\xE1s tarde."
     monologo: 1
     soltar: {fileID: 0}
   objetivos: 0

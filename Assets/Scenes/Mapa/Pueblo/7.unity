@@ -12066,9 +12066,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - "Todos los jovenes han decidido abandonar el pueblo en busca de una vida m\xE1s
-      emocionante llena de aventuras... Ay, que tiempos aquellos en los que yo tambi\xE9n
-      pensaba como ellos y me bastaba con una mochila y una espada para sobrevivir..."
+    - "Todos los j\xF3venes han decidido abandonar el pueblo en busca de una vida
+      m\xE1s emocionante llena de aventuras... Ay, qu\xE9 tiempos aquellos en los
+      que yo tambi\xE9n pensaba como ellos y me bastaba con una mochila y una espada
+      para sobrevivir..."
     monologo: 1
     soltar: {fileID: 0}
   objetivos: 0

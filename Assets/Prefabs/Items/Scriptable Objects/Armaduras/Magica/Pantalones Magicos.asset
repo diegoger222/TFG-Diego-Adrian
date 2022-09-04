@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 5
   description: "Unos pantalones de hierro con una gema m\xE1gica. Proporcionan a
     su portador bastante defensa f\xEDsica y much\xEDsima defensa m\xE1gica gracias
-    al poder de su gema."
+    al poder de su gema"
   data:
     Name: "Pantalones M\xE1gicos"
     Id: 185

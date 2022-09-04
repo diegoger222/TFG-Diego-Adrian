@@ -36861,7 +36861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos:
   - arrayTextos:
-    - "Alomejor es un poco tarde, pero seg\xFAn las ordenes que me ha dado el rey
+    - "A lo mejor es un poco tarde, pero seg\xFAn las ordenes que me ha dado el rey
       he de informarte. Cuidado con las lanzas de la entrada."
     monologo: 1
     soltar: {fileID: 0}
